@@ -25,10 +25,47 @@ inject_css()
 
 render_hero("Import des données", "Chargez vos fichiers bruts (CSV/Excel) ou enregistrez un lien SharePoint.")
 
+st.markdown(
+    """
+    <div class='dqm-signature'>
+        <div class='dqm-signature-mark'></div>
+        <div>
+            <div class='dqm-signature-title'>Bouygues Travaux Publics · Import documentaire</div>
+            <div class='dqm-signature-sub'>Ingestion robuste, mapping intelligent, validation manuelle et dépôt prêt pour le pipeline.</div>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    """
+    <div class='dqm-stepper'>
+        <div class='dqm-step'><div class='dqm-step-label'>Étape 1</div><div class='dqm-step-value'>Import CSV / Excel</div></div>
+        <div class='dqm-step'><div class='dqm-step-label'>Étape 2</div><div class='dqm-step-value'>Détection & mapping</div></div>
+        <div class='dqm-step'><div class='dqm-step-label'>Étape 3</div><div class='dqm-step-value'>Validation humaine</div></div>
+        <div class='dqm-step'><div class='dqm-step-label'>Étape 4</div><div class='dqm-step-value'>Pipeline prêt</div></div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
 left, right = st.columns([1.2, 0.8], gap="large")
 
 with left:
-    st.markdown("### Upload CSV / Excel")
+    st.markdown(
+        """
+        <div class='dqm-panel'>
+            <div class='dqm-panel-title'>
+                <h3>Upload & detection</h3>
+                <span class='dqm-panel-tag'>Zone d'ingestion</span>
+            </div>
+            <p class='dqm-focus'>Le fichier source est lu avec tolérance aux formats réels d'entreprise.</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
     uploaded = st.file_uploader(
         "Déposez un fichier source",
         type=["csv", "xlsx", "xls"],
@@ -36,12 +73,23 @@ with left:
     )
 
     if uploaded is not None:
-        st.markdown("#### Étape 1 · Détection automatique")
+        st.markdown("#### Détection automatique")
         ok, message, payload = preview_uploaded_file(uploaded)
         if not ok:
             st.error(message)
         else:
-            st.info("Mapping automatique détecté. Vérifiez et corrigez si besoin avant validation.")
+            st.success("Mapping automatique détecté. Vérifiez et corrigez si besoin avant validation.")
+
+            st.markdown(
+                f"""
+                <div class='dqm-strip'>
+                    <span class='dqm-pill'>Colonnes reconnues: {len(payload.get('mapping_rows', []))}</span>
+                    <span class='dqm-pill'>Non reconnues: {len(payload.get('unmapped_source_columns', []))}</span>
+                    <span class='dqm-pill'>Manquantes: {len(payload.get('missing_standard_columns', []))}</span>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
 
             mapping_df = payload["mapping_rows"].copy()
             st.markdown("##### Aperçu des données détectées")
@@ -73,7 +121,7 @@ with left:
             if payload.get("unmapped_source_columns"):
                 st.warning("Colonnes non reconnues: " + ", ".join(payload["unmapped_source_columns"]))
 
-            st.markdown("#### Étape 2 · Validation & import")
+            st.markdown("#### Validation & import")
             if st.button("Valider import + mapping", type="primary", width="stretch"):
                 manual_mapping = {}
                 for _, row in edited_mapping_df.iterrows():
@@ -92,7 +140,18 @@ with left:
                     st.error(msg_save)
 
 with right:
-    st.markdown("### Lien SharePoint")
+    st.markdown(
+        """
+        <div class='dqm-panel'>
+            <div class='dqm-panel-title'>
+                <h3>Sources externes</h3>
+                <span class='dqm-panel-tag'>SharePoint</span>
+            </div>
+            <p class='dqm-focus'>Enregistrement des liens de partage ou d’export direct pour ingestion rapide.</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
     sp_link = st.text_input("URL SharePoint / fichier public")
     if st.button("Enregistrer le lien", width="stretch"):
         if not sp_link.strip():

@@ -29,6 +29,19 @@ stats = bundle["stats"]
 
 render_hero("Résultats de traitement", "Synthèse qualité issue des scripts existants.")
 
+st.markdown(
+    """
+    <div class='dqm-signature'>
+        <div class='dqm-signature-mark'></div>
+        <div>
+            <div class='dqm-signature-title'>Bouygues Travaux Publics · Lecture qualité</div>
+            <div class='dqm-signature-sub'>Vue synthétique des performances documentaires, anomalies et tendances détectées.</div>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
 c1, c2, c3, c4 = st.columns(4)
 with c1:
     render_kpi("Total documents", str(stats["total_documents"]))
@@ -45,9 +58,31 @@ if documents.empty:
 
 st.markdown("---")
 
+st.markdown(
+    """
+    <div class='dqm-stepper'>
+        <div class='dqm-step'><div class='dqm-step-label'>Santé globale</div><div class='dqm-step-value'>Conformité & score</div></div>
+        <div class='dqm-step'><div class='dqm-step-label'>Lecture métier</div><div class='dqm-step-value'>Statuts & risques</div></div>
+        <div class='dqm-step'><div class='dqm-step-label'>Qualité</div><div class='dqm-step-value'>Anomalies prioritaires</div></div>
+        <div class='dqm-step'><div class='dqm-step-label'>Diffusion</div><div class='dqm-step-value'>Exploitation dashboard</div></div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
 left, right = st.columns([1, 1], gap="large")
 with left:
-    st.markdown("### Répartition des statuts")
+    st.markdown(
+        """
+        <div class='dqm-panel'>
+            <div class='dqm-panel-title'>
+                <h3>Répartition des statuts</h3>
+                <span class='dqm-panel-tag'>Vue opérationnelle</span>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
     if "statut" in documents.columns:
         status_df = documents["statut"].fillna("N/A").value_counts().reset_index()
         status_df.columns = ["statut", "count"]
@@ -56,7 +91,17 @@ with left:
         st.plotly_chart(fig, width="stretch")
 
 with right:
-    st.markdown("### Top anomalies")
+    st.markdown(
+        """
+        <div class='dqm-panel'>
+            <div class='dqm-panel-title'>
+                <h3>Top anomalies</h3>
+                <span class='dqm-panel-tag'>Priorisation</span>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
     if anomalies.empty:
         st.info("Aucune anomalie détectée.")
     else:
@@ -67,7 +112,17 @@ with right:
         st.plotly_chart(fig, width="stretch")
 
 st.markdown("---")
-st.markdown("### Détail anomalies détectées")
+st.markdown(
+    """
+    <div class='dqm-panel'>
+        <div class='dqm-panel-title'>
+            <h3>Détail anomalies détectées</h3>
+            <span class='dqm-panel-tag'>Traçabilité</span>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 if anomalies.empty:
     st.info("Aucune anomalie disponible.")
 else:

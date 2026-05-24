@@ -23,6 +23,31 @@ if "refresh_token" not in st.session_state:
 
 render_hero("Exécution du pipeline", "Lance le pipeline existant et suit son exécution en temps réel simplifié.")
 
+st.markdown(
+    """
+    <div class='dqm-signature'>
+        <div class='dqm-signature-mark'></div>
+        <div>
+            <div class='dqm-signature-title'>Bouygues Travaux Publics · Orchestration pipeline</div>
+            <div class='dqm-signature-sub'>Une exécution lisible, suivie et industrialisable, avec supervision des sorties et des logs.</div>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    """
+    <div class='dqm-stepper'>
+        <div class='dqm-step'><div class='dqm-step-label'>Entrée</div><div class='dqm-step-value'>Données prêtes</div></div>
+        <div class='dqm-step'><div class='dqm-step-label'>Traitement</div><div class='dqm-step-value'>ETL + Qualité</div></div>
+        <div class='dqm-step'><div class='dqm-step-label'>Sorties</div><div class='dqm-step-value'>SQLite + rapports</div></div>
+        <div class='dqm-step'><div class='dqm-step-label'>Diffusion</div><div class='dqm-step-value'>Power BI ready</div></div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
 bundle = load_bundle(st.session_state.refresh_token)
 stats = bundle["stats"]
 
@@ -35,6 +60,19 @@ with k3:
     render_kpi("Base", bundle["db_path"], "Chemin SQLite")
 
 st.markdown("---")
+
+st.markdown(
+    """
+    <div class='dqm-panel'>
+        <div class='dqm-panel-title'>
+            <h3>Contrôle d'exécution</h3>
+            <span class='dqm-panel-tag'>Run monitor</span>
+        </div>
+        <p class='dqm-focus'>Le pipeline lance les scripts métier existants sans reconfiguration manuelle.</p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 status_box = st.empty()
 progress = st.progress(0)
