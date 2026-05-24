@@ -226,13 +226,13 @@ html, body, .stApp {
 
 [data-testid="stSidebar"] {
   background:
-    radial-gradient(circle at top, rgba(241, 90, 34, 0.12), transparent 24%),
-    linear-gradient(180deg, #ffffff 0%, #fff8f3 100%);
-  border-right: 1px solid rgba(241, 90, 34, 0.14);
+    radial-gradient(circle at top, rgba(255,255,255,0.18), transparent 24%),
+    linear-gradient(180deg, #f15a22 0%, #ff7a45 100%);
+  border-right: 1px solid rgba(255,255,255,0.18);
 }
 
 [data-testid="stSidebar"] * {
-  color: var(--dqm-ink) !important;
+  color: #ffffff !important;
 }
 
 [data-testid="stSidebar"] a {
@@ -240,7 +240,7 @@ html, body, .stApp {
 }
 
 [data-testid="stSidebar"] a:hover {
-  background: rgba(241, 90, 34, 0.12) !important;
+  background: rgba(255, 255, 255, 0.14) !important;
 }
 
 button[kind="primary"],
