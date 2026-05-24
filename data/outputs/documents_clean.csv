@@ -1,0 +1,521 @@
+doc_id,nom_document,version,statut,date_mise_a_jour,responsable,discipline,criticite,type_document,projet,conformite,nb_revisions,commentaire,statut_invalide,criticite_invalide,age_jours,annee_maj,mois_maj,conformite_score,classification
+BTP-2024-0001,Plan d'exécution Plomberie - A89 - Lot 1,B,Archivé,2026-04-06,Martin T.,Plomberie,Haute,Plan d'exécution,A89 Tunnel Est,Conforme,3,,True,False,48.0,2026.0,4.0,65,Non conforme
+BTP-2024-0002,CCTP CVC - A89 - Lot 1,E,Archivé,2026-04-27,UNKNOWN,CVC,Moyenne,CCTP,A89 Tunnel Est,Conforme,2,,True,False,27.0,2026.0,4.0,80,À améliorer
+BTP-2024-0003,Fiche de contrôle Plomberie - Stade - Lot 5,C,Archivé,2026-05-17,Durand K.,Plomberie,Haute,Fiche de contrôle,Stade Bordeaux,Conforme,0,,True,False,7.0,2026.0,5.0,80,À améliorer
+BTP-2024-0004,Fiche de contrôle Plomberie - A89 - Lot 1,N/A,Archivé,,Petit A.,Plomberie,Moyenne,Fiche de contrôle,A89 Tunnel Est,Non conforme,3,,True,False,,,,65,Non conforme
+BTP-2024-0005,PV de réception Façade - A89 - Lot 3,D,Draft,2026-05-06,Petit A.,Façade,Faible,PV de réception,A89 Tunnel Est,Conforme,1,,True,False,18.0,2026.0,5.0,80,À améliorer
+BTP-2024-0006,DOE CVC - Grand - Lot 1,D,Validé,2025-11-07,Martin T.,CVC,Haute,DOE,Grand Paris Ligne 16,Conforme,0,,False,False,198.0,2025.0,11.0,63,Non conforme
+BTP-2024-0007,PV de réception Façade - Viaduc - Lot 4,E,Validé,2025-10-15,Martin T.,Façade,Haute,PV de réception,Viaduc Saône,Conforme,4,,False,False,221.0,2025.0,10.0,63,Non conforme
+BTP-2024-0008,Note de calcul Génie civil - Stade - Lot 4,E,En révision,2024-10-12,Lefebvre M.,Génie civil,Moyenne,Note de calcul,Stade Bordeaux,Conforme,0,,False,False,589.0,2024.0,10.0,85,À améliorer
+BTP-2024-0009,Plan d'exécution Façade - Grand - Lot 5,D,En révision,2026-04-15,Durand K.,Façade,Faible,Plan d'exécution,Grand Paris Ligne 16,En attente,8,,False,False,39.0,2026.0,4.0,73,Non conforme
+BTP-2024-0010,Plan d'exécution Façade - A89 - Lot 1,C,En révision,2026-04-04,Petit A.,Façade,Moyenne,Plan d'exécution,A89 Tunnel Est,Conforme,4,,False,False,50.0,2026.0,4.0,73,Non conforme
+BTP-2024-0011,Note de calcul CVC - A89 - Lot 5,E,Obsolète,2026-04-15,Lefebvre M.,CVC,Haute,Note de calcul,A89 Tunnel Est,Conforme,5,,False,False,39.0,2026.0,4.0,85,À améliorer
+BTP-2024-0012,Plan d'exécution Électricité - A89 - Lot 1,N/A,Manquant,,Lefebvre M.,Électricité,Faible,Plan d'exécution,A89 Tunnel Est,Non conforme,7,,False,False,,,,60,Non conforme
+BTP-2024-0013,Plan d'exécution Façade - Grand - Lot 2,E,Validé,2024-03-17,Petit A.,Façade,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Non conforme,4,,False,False,798.0,2024.0,3.0,90,Conforme
+BTP-2024-0014,DOE Électricité - Stade - Lot 2,A,Validé,2026-05-08,Rousseau S.,Électricité,Moyenne,DOE,Stade Bordeaux,Conforme,3,,False,False,16.0,2026.0,5.0,73,Non conforme
+BTP-2024-0015,Plan d'exécution Structure - A89 - Lot 5,C,Validé,2026-05-19,Martin T.,Structure,Faible,Plan d'exécution,A89 Tunnel Est,Conforme,7,,False,False,5.0,2026.0,5.0,100,Conforme
+BTP-2024-0016,Fiche de contrôle Génie civil - Viaduc - Lot 1,D,Validé,2026-05-01,Lefebvre M.,Génie civil,Critique,Fiche de contrôle,Viaduc Saône,Conforme,6,,False,False,23.0,2026.0,5.0,73,Non conforme
+BTP-2024-0017,PV de réception Plomberie - A89 - Lot 1,D,Validé,2026-05-15,Bernard C.,Plomberie,Haute,PV de réception,A89 Tunnel Est,Conforme,8,,False,False,9.0,2026.0,5.0,100,Conforme
+BTP-2024-0018,Plan d'exécution Structure - A89 - Lot 4,N/A,Manquant,,Lefebvre M.,Structure,Faible,Plan d'exécution,A89 Tunnel Est,Non conforme,2,,False,False,,,,60,Non conforme
+BTP-2024-0019,Plan d'exécution Électricité - Viaduc - Lot 1,D,Validé,2026-05-05,Rousseau S.,Électricité,Faible,Plan d'exécution,Viaduc Saône,Conforme,8,,False,False,19.0,2026.0,5.0,73,Non conforme
+BTP-2024-0020,DOE Structure - Stade - Lot 2,E,Validé,2026-03-26,Lefebvre M.,Structure,Moyenne,DOE,Stade Bordeaux,Conforme,1,,False,False,59.0,2026.0,3.0,73,Non conforme
+BTP-2024-0021,Note de calcul Plomberie - Viaduc - Lot 5,B,Validé,2025-05-25,Rousseau S.,Plomberie,Faible,Note de calcul,Viaduc Saône,Conforme,8,,False,False,364.0,2025.0,5.0,63,Non conforme
+BTP-2024-0022,PV de réception VRD - Grand - Lot 1,C,En révision,2026-04-28,Lefebvre M.,VRD,Haute,PV de réception,Grand Paris Ligne 16,En attente,7,,False,False,26.0,2026.0,4.0,73,Non conforme
+BTP-2024-0023,CCTP CVC - A89 - Lot 2,C,Validé,2025-03-15,Bernard C.,CVC,Haute,CCTP,A89 Tunnel Est,Conforme,8,,False,False,435.0,2025.0,3.0,63,Non conforme
+BTP-2024-0024,PV de réception Plomberie - A89 - Lot 5,A,En révision,2026-03-28,Martin T.,Plomberie,Moyenne,PV de réception,A89 Tunnel Est,Conforme,4,,False,False,57.0,2026.0,3.0,85,À améliorer
+BTP-2024-0025,CCTP VRD - Grand - Lot 1,C,En révision,2024-09-09,Petit A.,VRD,Haute,CCTP,Grand Paris Ligne 16,En attente,6,,False,False,622.0,2024.0,9.0,100,Conforme
+BTP-2024-0026,PV de réception Façade - A89 - Lot 2,C,Validé,2026-05-13,Rousseau S.,Façade,Faible,PV de réception,A89 Tunnel Est,Conforme,0,,False,False,11.0,2026.0,5.0,73,Non conforme
+BTP-2024-0027,PV de réception Façade - Grand - Lot 1,C,Validé,2026-03-27,Durand K.,Façade,Critique,PV de réception,Grand Paris Ligne 16,Conforme,8,,False,False,58.0,2026.0,3.0,85,À améliorer
+BTP-2024-0028,Fiche de contrôle Façade - Grand - Lot 3,N/A,Manquant,,UNKNOWN,Façade,Haute,Fiche de contrôle,Grand Paris Ligne 16,Non conforme,6,,False,False,,,,50,Non conforme
+BTP-2024-0029,DOE Façade - Grand - Lot 4,A,Validé,2026-04-29,Durand K.,Façade,Faible,DOE,Grand Paris Ligne 16,Conforme,4,,False,False,25.0,2026.0,4.0,73,Non conforme
+BTP-2024-0030,Note de calcul Façade - Grand - Lot 5,C,Validé,2026-05-06,Durand K.,Façade,Haute,Note de calcul,Grand Paris Ligne 16,Conforme,0,,False,False,18.0,2026.0,5.0,100,Conforme
+BTP-2024-0031,PV de réception Structure - Grand - Lot 4,A,Validé,2026-05-17,Rousseau S.,Structure,Faible,PV de réception,Grand Paris Ligne 16,Conforme,8,,False,False,7.0,2026.0,5.0,73,Non conforme
+BTP-2024-0032,Fiche de contrôle Structure - Grand - Lot 3,A,Validé,2026-04-20,Rousseau S.,Structure,Moyenne,Fiche de contrôle,Grand Paris Ligne 16,Conforme,5,,False,False,34.0,2026.0,4.0,100,Conforme
+BTP-2024-0033,Plan d'exécution Plomberie - Stade - Lot 4,C,Validé,2026-04-28,Petit A.,Plomberie,Moyenne,Plan d'exécution,Stade Bordeaux,Conforme,2,,False,False,26.0,2026.0,4.0,73,Non conforme
+BTP-2024-0034,CCTP CVC - Stade - Lot 3,C,Validé,2025-12-08,Bernard C.,CVC,Faible,CCTP,Stade Bordeaux,Conforme,7,,False,False,167.0,2025.0,12.0,100,Conforme
+BTP-2024-0035,DOE Électricité - Grand - Lot 3,B,Validé,2026-04-11,Lefebvre M.,Électricité,Faible,DOE,Grand Paris Ligne 16,Conforme,3,,False,False,43.0,2026.0,4.0,100,Conforme
+BTP-2024-0036,PV de réception Plomberie - Grand - Lot 5,A,Obsolète,2026-05-08,Martin T.,Plomberie,Haute,PV de réception,Grand Paris Ligne 16,En attente,6,,False,False,16.0,2026.0,5.0,100,Conforme
+BTP-2024-0037,Fiche de contrôle Électricité - Grand - Lot 5,A,Validé,2026-04-04,Bernard C.,Électricité,Moyenne,Fiche de contrôle,Grand Paris Ligne 16,Non conforme,0,,False,False,50.0,2026.0,4.0,73,Non conforme
+BTP-2024-0038,Note de calcul CVC - A89 - Lot 5,E,Validé,2024-07-04,UNKNOWN,CVC,Faible,Note de calcul,A89 Tunnel Est,Non conforme,8,,False,False,689.0,2024.0,7.0,75,À améliorer
+BTP-2024-0039,CCTP Électricité - Viaduc - Lot 5,D,Obsolète,2025-11-13,Bernard C.,Électricité,Moyenne,CCTP,Viaduc Saône,Conforme,3,,False,False,192.0,2025.0,11.0,100,Conforme
+BTP-2024-0040,Fiche de contrôle VRD - A89 - Lot 2,C,En révision,2026-05-03,Petit A.,VRD,Haute,Fiche de contrôle,A89 Tunnel Est,Conforme,3,,False,False,21.0,2026.0,5.0,85,À améliorer
+BTP-2024-0041,Fiche de contrôle Structure - Viaduc - Lot 1,A,Validé,2024-04-21,UNKNOWN,Structure,Moyenne,Fiche de contrôle,Viaduc Saône,Conforme,6,,False,False,763.0,2024.0,4.0,75,À améliorer
+BTP-2024-0042,Plan d'exécution Électricité - Stade - Lot 4,D,Validé,2026-04-19,Lefebvre M.,Électricité,Moyenne,Plan d'exécution,Stade Bordeaux,Conforme,6,,False,False,35.0,2026.0,4.0,73,Non conforme
+BTP-2024-0043,DOE VRD - Viaduc - Lot 1,B,En révision,2025-04-27,Lefebvre M.,VRD,Faible,DOE,Viaduc Saône,Non conforme,6,,False,False,392.0,2025.0,4.0,100,Conforme
+BTP-2024-0044,Fiche de contrôle Génie civil - Grand - Lot 4,B,Validé,2025-10-09,Durand K.,Génie civil,Moyenne,Fiche de contrôle,Grand Paris Ligne 16,Conforme,1,,False,False,227.0,2025.0,10.0,90,Conforme
+BTP-2024-0045,Plan d'exécution Électricité - A89 - Lot 2,N/A,Manquant,,UNKNOWN,Électricité,Haute,Plan d'exécution,A89 Tunnel Est,Non conforme,0,,False,False,,,,35,Critique
+BTP-2024-0046,Note de calcul CVC - Grand - Lot 5,E,Validé,2025-07-30,Petit A.,CVC,Moyenne,Note de calcul,Grand Paris Ligne 16,Conforme,1,,False,False,298.0,2025.0,7.0,75,À améliorer
+BTP-2024-0047,Note de calcul Façade - Stade - Lot 5,C,Validé,2024-04-13,Petit A.,Façade,Critique,Note de calcul,Stade Bordeaux,Conforme,3,,False,False,771.0,2024.0,4.0,90,Conforme
+BTP-2024-0048,DOE Structure - Stade - Lot 3,A,Obsolète,2026-04-03,Lefebvre M.,Structure,Moyenne,DOE,Stade Bordeaux,Non conforme,8,,False,False,51.0,2026.0,4.0,100,Conforme
+BTP-2024-0049,PV de réception Plomberie - A89 - Lot 5,A,Obsolète,2025-09-21,Petit A.,Plomberie,Faible,PV de réception,A89 Tunnel Est,Non conforme,4,,False,False,245.0,2025.0,9.0,85,À améliorer
+BTP-2024-0050,CCTP CVC - Viaduc - Lot 4,E,Validé,2025-10-11,Martin T.,CVC,Faible,CCTP,Viaduc Saône,Conforme,7,,False,False,225.0,2025.0,10.0,90,Conforme
+BTP-2024-0051,CCTP CVC - Viaduc - Lot 3,C,Validé,2026-05-12,Rousseau S.,CVC,Moyenne,CCTP,Viaduc Saône,Conforme,4,,False,False,12.0,2026.0,5.0,73,Non conforme
+BTP-2024-0052,Plan d'exécution CVC - Grand - Lot 1,D,Validé,2025-11-22,Lefebvre M.,CVC,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Conforme,4,,False,False,183.0,2025.0,11.0,63,Non conforme
+BTP-2024-0053,Fiche de contrôle Génie civil - Grand - Lot 3,D,Validé,2026-04-18,Durand K.,Génie civil,Moyenne,Fiche de contrôle,Grand Paris Ligne 16,Conforme,7,,False,False,36.0,2026.0,4.0,100,Conforme
+BTP-2024-0054,PV de réception VRD - Stade - Lot 3,C,Validé,2026-05-16,Petit A.,VRD,Moyenne,PV de réception,Stade Bordeaux,Conforme,8,,False,False,8.0,2026.0,5.0,73,Non conforme
+BTP-2024-0055,PV de réception CVC - A89 - Lot 1,C,Obsolète,2025-10-22,Lefebvre M.,CVC,Haute,PV de réception,A89 Tunnel Est,Conforme,8,,False,False,214.0,2025.0,10.0,85,À améliorer
+BTP-2024-0056,DOE VRD - Grand - Lot 2,A,En révision,2026-03-29,Lefebvre M.,VRD,Faible,DOE,Grand Paris Ligne 16,Non conforme,4,,False,False,56.0,2026.0,3.0,85,À améliorer
+BTP-2024-0057,Fiche de contrôle Façade - A89 - Lot 3,A,Obsolète,2026-04-17,Lefebvre M.,Façade,Moyenne,Fiche de contrôle,A89 Tunnel Est,Non conforme,3,,False,False,37.0,2026.0,4.0,85,À améliorer
+BTP-2024-0058,CCTP Structure - Viaduc - Lot 5,B,En révision,2026-04-04,Bernard C.,Structure,Faible,CCTP,Viaduc Saône,Non conforme,4,,False,False,50.0,2026.0,4.0,73,Non conforme
+BTP-2024-0059,CCTP CVC - A89 - Lot 2,B,En révision,2025-12-07,Rousseau S.,CVC,Moyenne,CCTP,A89 Tunnel Est,Conforme,1,,False,False,168.0,2025.0,12.0,73,Non conforme
+BTP-2024-0060,Plan d'exécution Génie civil - Viaduc - Lot 4,C,Validé,2025-11-27,Lefebvre M.,Génie civil,Moyenne,Plan d'exécution,Viaduc Saône,Conforme,3,,False,False,178.0,2025.0,11.0,100,Conforme
+BTP-2024-0061,DOE VRD - Grand - Lot 3,B,Validé,2026-03-26,Rousseau S.,VRD,Moyenne,DOE,Grand Paris Ligne 16,Conforme,4,,False,False,59.0,2026.0,3.0,73,Non conforme
+BTP-2024-0062,Plan d'exécution Électricité - Viaduc - Lot 4,C,En révision,2026-04-21,Petit A.,Électricité,Moyenne,Plan d'exécution,Viaduc Saône,Non conforme,5,,False,False,33.0,2026.0,4.0,100,Conforme
+BTP-2024-0063,PV de réception CVC - A89 - Lot 2,E,Validé,2026-04-16,Bernard C.,CVC,Faible,PV de réception,A89 Tunnel Est,Conforme,8,,False,False,38.0,2026.0,4.0,100,Conforme
+BTP-2024-0064,Fiche de contrôle Plomberie - Stade - Lot 1,D,Validé,2026-05-18,UNKNOWN,Plomberie,Moyenne,Fiche de contrôle,Stade Bordeaux,Conforme,2,,False,False,6.0,2026.0,5.0,100,Conforme
+BTP-2024-0065,Fiche de contrôle VRD - Viaduc - Lot 4,E,Validé,2026-05-21,UNKNOWN,VRD,Faible,Fiche de contrôle,Viaduc Saône,Conforme,8,,False,False,3.0,2026.0,5.0,85,À améliorer
+BTP-2024-0066,Plan d'exécution Façade - Viaduc - Lot 5,C,Validé,2025-07-13,Martin T.,Façade,Haute,Plan d'exécution,Viaduc Saône,Conforme,4,,False,False,315.0,2025.0,7.0,75,À améliorer
+BTP-2024-0067,DOE Électricité - Viaduc - Lot 4,E,Validé,2026-04-02,Lefebvre M.,Électricité,Faible,DOE,Viaduc Saône,Conforme,3,,False,False,52.0,2026.0,4.0,85,À améliorer
+BTP-2024-0068,Plan d'exécution Façade - Viaduc - Lot 4,N/A,Manquant,,UNKNOWN,Façade,Moyenne,Plan d'exécution,Viaduc Saône,Non conforme,7,,False,False,,,,60,Non conforme
+BTP-2024-0069,Note de calcul Électricité - Viaduc - Lot 4,E,Validé,2026-04-21,Durand K.,Électricité,Moyenne,Note de calcul,Viaduc Saône,Conforme,8,,False,False,33.0,2026.0,4.0,100,Conforme
+BTP-2024-0070,Plan d'exécution VRD - Stade - Lot 3,E,En révision,2026-04-11,Rousseau S.,VRD,Faible,Plan d'exécution,Stade Bordeaux,Non conforme,8,,False,False,43.0,2026.0,4.0,73,Non conforme
+BTP-2024-0071,Fiche de contrôle Électricité - Stade - Lot 3,B,Obsolète,2024-09-27,Petit A.,Électricité,Faible,Fiche de contrôle,Stade Bordeaux,Non conforme,7,,False,False,604.0,2024.0,9.0,100,Conforme
+BTP-2024-0072,Fiche de contrôle Plomberie - Viaduc - Lot 5,N/A,Manquant,,Durand K.,Plomberie,Faible,Fiche de contrôle,Viaduc Saône,Non conforme,1,,False,False,,,,60,Non conforme
+BTP-2024-0073,Fiche de contrôle Façade - A89 - Lot 3,B,Validé,2026-04-27,Rousseau S.,Façade,Moyenne,Fiche de contrôle,A89 Tunnel Est,Non conforme,6,,False,False,27.0,2026.0,4.0,85,À améliorer
+BTP-2024-0074,Plan d'exécution Plomberie - Stade - Lot 3,D,Obsolète,2025-07-19,Martin T.,Plomberie,Faible,Plan d'exécution,Stade Bordeaux,Conforme,1,,False,False,309.0,2025.0,7.0,100,Conforme
+BTP-2024-0075,Plan d'exécution Électricité - A89 - Lot 2,A,Validé,2026-05-21,Martin T.,Électricité,Moyenne,Plan d'exécution,A89 Tunnel Est,Conforme,8,,False,False,3.0,2026.0,5.0,73,Non conforme
+BTP-2024-0076,CCTP Électricité - Grand - Lot 4,D,Validé,2024-01-01,Petit A.,Électricité,Critique,CCTP,Grand Paris Ligne 16,Conforme,4,,False,False,874.0,2024.0,1.0,90,Conforme
+BTP-2024-0077,PV de réception Électricité - A89 - Lot 5,C,Obsolète,2026-04-10,Durand K.,Électricité,Moyenne,PV de réception,A89 Tunnel Est,En attente,6,,False,False,44.0,2026.0,4.0,100,Conforme
+BTP-2024-0078,PV de réception Plomberie - Viaduc - Lot 5,D,Obsolète,2026-03-30,Durand K.,Plomberie,Haute,PV de réception,Viaduc Saône,Non conforme,4,,False,False,55.0,2026.0,3.0,60,Non conforme
+BTP-2024-0079,DOE Structure - Viaduc - Lot 3,A,Validé,2025-07-14,Martin T.,Structure,Moyenne,DOE,Viaduc Saône,Conforme,3,,False,False,314.0,2025.0,7.0,63,Non conforme
+BTP-2024-0080,PV de réception CVC - Grand - Lot 1,A,En révision,2026-05-04,Durand K.,CVC,Faible,PV de réception,Grand Paris Ligne 16,En attente,5,,False,False,20.0,2026.0,5.0,100,Conforme
+BTP-2024-0081,Fiche de contrôle Plomberie - Grand - Lot 4,C,Validé,2025-07-12,UNKNOWN,Plomberie,Faible,Fiche de contrôle,Grand Paris Ligne 16,Conforme,4,,False,False,316.0,2025.0,7.0,63,Non conforme
+BTP-2024-0082,PV de réception Plomberie - A89 - Lot 3,B,Validé,2026-03-29,Rousseau S.,Plomberie,Critique,PV de réception,A89 Tunnel Est,Conforme,1,,False,False,56.0,2026.0,3.0,73,Non conforme
+BTP-2024-0083,PV de réception Électricité - Stade - Lot 5,C,Validé,2026-05-17,Durand K.,Électricité,Faible,PV de réception,Stade Bordeaux,Non conforme,3,,False,False,7.0,2026.0,5.0,100,Conforme
+BTP-2024-0084,Plan d'exécution Plomberie - Viaduc - Lot 4,D,Obsolète,2025-04-08,Lefebvre M.,Plomberie,Haute,Plan d'exécution,Viaduc Saône,Conforme,1,,False,False,411.0,2025.0,4.0,100,Conforme
+BTP-2024-0085,CCTP Génie civil - Grand - Lot 4,E,Validé,2024-12-17,Rousseau S.,Génie civil,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,6,,False,False,523.0,2024.0,12.0,90,Conforme
+BTP-2024-0086,Plan d'exécution VRD - Stade - Lot 3,B,Validé,2025-02-12,Lefebvre M.,VRD,Moyenne,Plan d'exécution,Stade Bordeaux,Conforme,6,,False,False,466.0,2025.0,2.0,63,Non conforme
+BTP-2024-0087,Note de calcul VRD - A89 - Lot 3,N/A,Manquant,,Martin T.,VRD,Faible,Note de calcul,A89 Tunnel Est,Non conforme,2,,False,False,,,,75,À améliorer
+BTP-2024-0088,CCTP Façade - Grand - Lot 5,B,Validé,2026-04-16,Lefebvre M.,Façade,Faible,CCTP,Grand Paris Ligne 16,Conforme,4,,False,False,38.0,2026.0,4.0,73,Non conforme
+BTP-2024-0089,Note de calcul Façade - Grand - Lot 2,A,Validé,2026-04-11,Rousseau S.,Façade,Faible,Note de calcul,Grand Paris Ligne 16,Conforme,5,,False,False,43.0,2026.0,4.0,73,Non conforme
+BTP-2024-0090,Note de calcul Structure - Stade - Lot 5,E,Validé,2026-05-16,Lefebvre M.,Structure,Moyenne,Note de calcul,Stade Bordeaux,Conforme,7,,False,False,8.0,2026.0,5.0,85,À améliorer
+BTP-2024-0091,Note de calcul CVC - A89 - Lot 4,E,En révision,2026-05-04,Bernard C.,CVC,Faible,Note de calcul,A89 Tunnel Est,Non conforme,1,,False,False,20.0,2026.0,5.0,100,Conforme
+BTP-2024-0092,DOE Électricité - Viaduc - Lot 5,E,Validé,2026-05-14,Petit A.,Électricité,Critique,DOE,Viaduc Saône,Conforme,5,,False,False,10.0,2026.0,5.0,100,Conforme
+BTP-2024-0093,CCTP Électricité - Stade - Lot 4,A,Validé,2026-04-03,Durand K.,Électricité,Moyenne,CCTP,Stade Bordeaux,Non conforme,7,,False,False,51.0,2026.0,4.0,73,Non conforme
+BTP-2024-0094,Fiche de contrôle Électricité - A89 - Lot 1,C,Validé,2026-04-30,Bernard C.,Électricité,Haute,Fiche de contrôle,A89 Tunnel Est,Conforme,1,,False,False,24.0,2026.0,4.0,73,Non conforme
+BTP-2024-0095,DOE Plomberie - Stade - Lot 4,E,Obsolète,2025-06-11,UNKNOWN,Plomberie,Moyenne,DOE,Stade Bordeaux,Non conforme,0,,False,False,347.0,2025.0,6.0,85,À améliorer
+BTP-2024-0096,CCTP VRD - Stade - Lot 5,B,Validé,2025-07-22,Durand K.,VRD,Moyenne,CCTP,Stade Bordeaux,Conforme,1,,False,False,306.0,2025.0,7.0,63,Non conforme
+BTP-2024-0097,PV de réception Façade - Grand - Lot 3,E,Obsolète,2025-06-13,Lefebvre M.,Façade,Faible,PV de réception,Grand Paris Ligne 16,Non conforme,2,,False,False,345.0,2025.0,6.0,100,Conforme
+BTP-2024-0098,DOE VRD - Stade - Lot 1,N/A,Manquant,,Lefebvre M.,VRD,Moyenne,DOE,Stade Bordeaux,Non conforme,8,,False,False,,,,75,À améliorer
+BTP-2024-0099,Fiche de contrôle Génie civil - Viaduc - Lot 5,C,Validé,2025-02-27,Lefebvre M.,Génie civil,Haute,Fiche de contrôle,Viaduc Saône,Conforme,1,,False,False,451.0,2025.0,2.0,90,Conforme
+BTP-2024-0100,Fiche de contrôle VRD - Viaduc - Lot 5,C,Validé,2026-05-10,Bernard C.,VRD,Moyenne,Fiche de contrôle,Viaduc Saône,Conforme,8,,False,False,14.0,2026.0,5.0,100,Conforme
+BTP-2024-0101,PV de réception Plomberie - A89 - Lot 3,A,Validé,2024-07-20,Durand K.,Plomberie,Faible,PV de réception,A89 Tunnel Est,Conforme,5,,False,False,673.0,2024.0,7.0,63,Non conforme
+BTP-2024-0102,Plan d'exécution Structure - Viaduc - Lot 3,D,En révision,2026-04-19,Lefebvre M.,Structure,Haute,Plan d'exécution,Viaduc Saône,Non conforme,6,,False,False,35.0,2026.0,4.0,75,À améliorer
+BTP-2024-0103,DOE Façade - A89 - Lot 4,A,Validé,2026-03-29,Durand K.,Façade,Moyenne,DOE,A89 Tunnel Est,Conforme,1,,False,False,56.0,2026.0,3.0,100,Conforme
+BTP-2024-0104,Plan d'exécution Électricité - Stade - Lot 4,D,Validé,2026-03-31,Rousseau S.,Électricité,Faible,Plan d'exécution,Stade Bordeaux,Conforme,6,,False,False,54.0,2026.0,3.0,73,Non conforme
+BTP-2024-0105,Plan d'exécution CVC - Viaduc - Lot 5,B,Obsolète,2026-05-02,Martin T.,CVC,Moyenne,Plan d'exécution,Viaduc Saône,Conforme,5,,False,False,22.0,2026.0,5.0,100,Conforme
+BTP-2024-0106,DOE VRD - Grand - Lot 4,B,Validé,2026-05-12,Bernard C.,VRD,Haute,DOE,Grand Paris Ligne 16,Conforme,7,,False,False,12.0,2026.0,5.0,100,Conforme
+BTP-2024-0107,CCTP Plomberie - Stade - Lot 3,B,Obsolète,2026-04-25,Rousseau S.,Plomberie,Moyenne,CCTP,Stade Bordeaux,Conforme,0,,False,False,29.0,2026.0,4.0,85,À améliorer
+BTP-2024-0108,CCTP VRD - A89 - Lot 1,A,Validé,2025-10-30,Rousseau S.,VRD,Moyenne,CCTP,A89 Tunnel Est,Non conforme,8,,False,False,206.0,2025.0,10.0,90,Conforme
+BTP-2024-0109,Fiche de contrôle Électricité - A89 - Lot 1,B,Validé,2026-05-03,UNKNOWN,Électricité,Faible,Fiche de contrôle,A89 Tunnel Est,Conforme,5,,False,False,21.0,2026.0,5.0,73,Non conforme
+BTP-2024-0110,Plan d'exécution Plomberie - Grand - Lot 4,D,Validé,2026-04-20,Bernard C.,Plomberie,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Non conforme,5,,False,False,34.0,2026.0,4.0,100,Conforme
+BTP-2024-0111,CCTP Plomberie - A89 - Lot 5,A,En révision,2026-05-02,UNKNOWN,Plomberie,Moyenne,CCTP,A89 Tunnel Est,En attente,2,,False,False,22.0,2026.0,5.0,100,Conforme
+BTP-2024-0112,Plan d'exécution VRD - Grand - Lot 3,D,Obsolète,2026-05-15,UNKNOWN,VRD,Haute,Plan d'exécution,Grand Paris Ligne 16,Conforme,2,,False,False,9.0,2026.0,5.0,100,Conforme
+BTP-2024-0113,DOE Plomberie - A89 - Lot 4,C,En révision,2026-05-22,Martin T.,Plomberie,Moyenne,DOE,A89 Tunnel Est,Conforme,3,,False,False,2.0,2026.0,5.0,85,À améliorer
+BTP-2024-0114,Note de calcul Génie civil - A89 - Lot 5,E,Validé,2025-06-22,Martin T.,Génie civil,Faible,Note de calcul,A89 Tunnel Est,Non conforme,6,,False,False,336.0,2025.0,6.0,90,Conforme
+BTP-2024-0115,Note de calcul Génie civil - Grand - Lot 2,B,Obsolète,2026-04-07,Bernard C.,Génie civil,Faible,Note de calcul,Grand Paris Ligne 16,Non conforme,4,,False,False,47.0,2026.0,4.0,100,Conforme
+BTP-2024-0116,DOE Façade - Viaduc - Lot 4,D,Validé,2025-12-16,Bernard C.,Façade,Haute,DOE,Viaduc Saône,Conforme,4,,False,False,159.0,2025.0,12.0,73,Non conforme
+BTP-2024-0117,Fiche de contrôle Façade - Viaduc - Lot 3,N/A,Manquant,,Rousseau S.,Façade,Faible,Fiche de contrôle,Viaduc Saône,Non conforme,1,,False,False,,,,60,Non conforme
+BTP-2024-0118,CCTP Plomberie - A89 - Lot 2,C,Validé,2025-07-06,UNKNOWN,Plomberie,Faible,CCTP,A89 Tunnel Est,Conforme,7,,False,False,322.0,2025.0,7.0,90,Conforme
+BTP-2024-0119,Plan d'exécution VRD - Viaduc - Lot 1,B,Validé,2026-04-29,UNKNOWN,VRD,Moyenne,Plan d'exécution,Viaduc Saône,Conforme,5,,False,False,25.0,2026.0,4.0,100,Conforme
+BTP-2024-0120,Note de calcul Façade - Grand - Lot 1,D,Validé,2026-04-09,Lefebvre M.,Façade,Faible,Note de calcul,Grand Paris Ligne 16,Conforme,4,,False,False,45.0,2026.0,4.0,100,Conforme
+BTP-2024-0121,Note de calcul Génie civil - Viaduc - Lot 4,C,Validé,2026-05-16,Lefebvre M.,Génie civil,Haute,Note de calcul,Viaduc Saône,Conforme,1,,False,False,8.0,2026.0,5.0,73,Non conforme
+BTP-2024-0122,Fiche de contrôle Façade - A89 - Lot 4,B,En révision,2025-08-18,Martin T.,Façade,Moyenne,Fiche de contrôle,A89 Tunnel Est,Conforme,1,,False,False,279.0,2025.0,8.0,73,Non conforme
+BTP-2024-0123,PV de réception CVC - A89 - Lot 1,N/A,Manquant,,Petit A.,CVC,Moyenne,PV de réception,A89 Tunnel Est,Non conforme,6,,False,False,,,,60,Non conforme
+BTP-2024-0124,PV de réception VRD - A89 - Lot 3,B,Validé,2026-04-07,UNKNOWN,VRD,Critique,PV de réception,A89 Tunnel Est,Conforme,2,,False,False,47.0,2026.0,4.0,100,Conforme
+BTP-2024-0125,DOE Façade - Viaduc - Lot 4,N/A,Manquant,,Lefebvre M.,Façade,Moyenne,DOE,Viaduc Saône,Non conforme,4,,False,False,,,,60,Non conforme
+BTP-2024-0126,Plan d'exécution Génie civil - Grand - Lot 2,C,Obsolète,2026-04-21,Durand K.,Génie civil,Haute,Plan d'exécution,Grand Paris Ligne 16,En attente,5,,False,False,33.0,2026.0,4.0,100,Conforme
+BTP-2024-0127,Plan d'exécution Façade - Stade - Lot 2,D,Validé,2024-02-29,Bernard C.,Façade,Faible,Plan d'exécution,Stade Bordeaux,Conforme,7,,False,False,815.0,2024.0,2.0,90,Conforme
+BTP-2024-0128,CCTP VRD - Stade - Lot 3,A,Obsolète,2026-04-26,Durand K.,VRD,Moyenne,CCTP,Stade Bordeaux,Conforme,7,,False,False,28.0,2026.0,4.0,85,À améliorer
+BTP-2024-0129,DOE CVC - Viaduc - Lot 1,D,Validé,2026-05-21,Lefebvre M.,CVC,Moyenne,DOE,Viaduc Saône,Non conforme,6,,False,False,3.0,2026.0,5.0,100,Conforme
+BTP-2024-0130,CCTP VRD - Grand - Lot 2,N/A,Manquant,,UNKNOWN,VRD,Haute,CCTP,Grand Paris Ligne 16,Non conforme,5,,False,False,,,,50,Non conforme
+BTP-2024-0131,Fiche de contrôle VRD - A89 - Lot 4,C,En révision,2026-04-30,Durand K.,VRD,Moyenne,Fiche de contrôle,A89 Tunnel Est,Non conforme,4,,False,False,24.0,2026.0,4.0,85,À améliorer
+BTP-2024-0132,Plan d'exécution Génie civil - A89 - Lot 4,D,En révision,2026-03-26,Martin T.,Génie civil,Moyenne,Plan d'exécution,A89 Tunnel Est,Conforme,4,,False,False,59.0,2026.0,3.0,100,Conforme
+BTP-2024-0133,Fiche de contrôle Plomberie - Grand - Lot 3,D,Validé,2025-08-10,Petit A.,Plomberie,Faible,Fiche de contrôle,Grand Paris Ligne 16,Non conforme,5,,False,False,287.0,2025.0,8.0,63,Non conforme
+BTP-2024-0134,Plan d'exécution Plomberie - Stade - Lot 2,B,Obsolète,2026-04-03,Martin T.,Plomberie,Faible,Plan d'exécution,Stade Bordeaux,En attente,7,,False,False,51.0,2026.0,4.0,100,Conforme
+BTP-2024-0135,PV de réception Structure - Stade - Lot 4,B,Validé,2026-04-14,Rousseau S.,Structure,Faible,PV de réception,Stade Bordeaux,Non conforme,6,,False,False,40.0,2026.0,4.0,100,Conforme
+BTP-2024-0136,Fiche de contrôle Façade - A89 - Lot 5,A,Validé,2026-04-25,Petit A.,Façade,Haute,Fiche de contrôle,A89 Tunnel Est,Non conforme,2,,False,False,29.0,2026.0,4.0,75,À améliorer
+BTP-2024-0137,Note de calcul Façade - Viaduc - Lot 2,A,Validé,2026-04-20,Durand K.,Façade,Faible,Note de calcul,Viaduc Saône,Conforme,8,,False,False,34.0,2026.0,4.0,73,Non conforme
+BTP-2024-0138,Plan d'exécution VRD - Stade - Lot 5,C,Validé,2026-05-15,Martin T.,VRD,Faible,Plan d'exécution,Stade Bordeaux,Conforme,2,,False,False,9.0,2026.0,5.0,85,À améliorer
+BTP-2024-0139,CCTP Plomberie - Stade - Lot 4,A,Obsolète,2026-03-02,Rousseau S.,Plomberie,Moyenne,CCTP,Stade Bordeaux,En attente,0,,False,False,83.0,2026.0,3.0,100,Conforme
+BTP-2024-0140,DOE Électricité - Stade - Lot 2,B,En révision,2026-04-02,Bernard C.,Électricité,Haute,DOE,Stade Bordeaux,Non conforme,6,,False,False,52.0,2026.0,4.0,48,Critique
+BTP-2024-0141,Fiche de contrôle Électricité - Grand - Lot 5,C,Validé,2026-04-07,Lefebvre M.,Électricité,Haute,Fiche de contrôle,Grand Paris Ligne 16,Conforme,5,,False,False,47.0,2026.0,4.0,73,Non conforme
+BTP-2024-0142,Fiche de contrôle Génie civil - A89 - Lot 2,A,Validé,2024-04-26,UNKNOWN,Génie civil,Haute,Fiche de contrôle,A89 Tunnel Est,Conforme,5,,False,False,758.0,2024.0,4.0,63,Non conforme
+BTP-2024-0143,DOE CVC - Stade - Lot 4,E,Validé,2026-04-24,Rousseau S.,CVC,Haute,DOE,Stade Bordeaux,Conforme,7,,False,False,30.0,2026.0,4.0,100,Conforme
+BTP-2024-0144,Note de calcul Génie civil - Stade - Lot 4,E,Validé,2026-03-28,Martin T.,Génie civil,Haute,Note de calcul,Stade Bordeaux,Conforme,4,,False,False,57.0,2026.0,3.0,85,À améliorer
+BTP-2024-0145,PV de réception Plomberie - Viaduc - Lot 5,E,Validé,2026-04-18,Bernard C.,Plomberie,Moyenne,PV de réception,Viaduc Saône,Conforme,8,,False,False,36.0,2026.0,4.0,73,Non conforme
+BTP-2024-0146,CCTP VRD - A89 - Lot 5,C,Validé,2025-10-03,Bernard C.,VRD,Critique,CCTP,A89 Tunnel Est,Conforme,8,,False,False,233.0,2025.0,10.0,90,Conforme
+BTP-2024-0147,Plan d'exécution Structure - A89 - Lot 3,D,Validé,2025-08-04,Rousseau S.,Structure,Haute,Plan d'exécution,A89 Tunnel Est,Conforme,5,,False,False,293.0,2025.0,8.0,90,Conforme
+BTP-2024-0148,Fiche de contrôle Génie civil - Stade - Lot 3,E,Validé,2026-04-19,Petit A.,Génie civil,Moyenne,Fiche de contrôle,Stade Bordeaux,Conforme,1,,False,False,35.0,2026.0,4.0,85,À améliorer
+BTP-2024-0149,CCTP Électricité - Stade - Lot 5,A,En révision,2024-08-26,Rousseau S.,Électricité,Moyenne,CCTP,Stade Bordeaux,En attente,3,,False,False,636.0,2024.0,8.0,100,Conforme
+BTP-2024-0150,Plan d'exécution Plomberie - Viaduc - Lot 5,E,Validé,2025-09-12,Petit A.,Plomberie,Moyenne,Plan d'exécution,Viaduc Saône,Conforme,1,,False,False,254.0,2025.0,9.0,90,Conforme
+BTP-2024-0151,Plan d'exécution Génie civil - Viaduc - Lot 1,B,Validé,2024-01-28,Petit A.,Génie civil,Haute,Plan d'exécution,Viaduc Saône,Conforme,2,,False,False,847.0,2024.0,1.0,90,Conforme
+BTP-2024-0152,Note de calcul CVC - Stade - Lot 3,N/A,Manquant,,Rousseau S.,CVC,Moyenne,Note de calcul,Stade Bordeaux,Non conforme,5,,False,False,,,,75,À améliorer
+BTP-2024-0153,DOE Plomberie - Stade - Lot 3,B,En révision,2026-05-06,UNKNOWN,Plomberie,Haute,DOE,Stade Bordeaux,En attente,4,,False,False,18.0,2026.0,5.0,85,À améliorer
+BTP-2024-0154,Note de calcul Plomberie - Viaduc - Lot 3,C,Validé,2024-05-01,UNKNOWN,Plomberie,Haute,Note de calcul,Viaduc Saône,Conforme,2,,False,False,753.0,2024.0,5.0,90,Conforme
+BTP-2024-0155,Plan d'exécution VRD - Stade - Lot 5,N/A,Manquant,,Durand K.,VRD,Critique,Plan d'exécution,Stade Bordeaux,Non conforme,8,,False,False,,,,35,Critique
+BTP-2024-0156,PV de réception Plomberie - Grand - Lot 4,B,Validé,2026-02-28,Durand K.,Plomberie,Moyenne,PV de réception,Grand Paris Ligne 16,Conforme,7,,False,False,85.0,2026.0,2.0,100,Conforme
+BTP-2024-0157,DOE Structure - Grand - Lot 3,B,Validé,2025-07-25,Durand K.,Structure,Moyenne,DOE,Grand Paris Ligne 16,Conforme,4,,False,False,303.0,2025.0,7.0,90,Conforme
+BTP-2024-0158,Plan d'exécution Plomberie - A89 - Lot 1,A,En révision,2024-03-23,UNKNOWN,Plomberie,Haute,Plan d'exécution,A89 Tunnel Est,Conforme,6,,False,False,792.0,2024.0,3.0,85,À améliorer
+BTP-2024-0159,Fiche de contrôle Façade - Grand - Lot 5,N/A,Manquant,,Lefebvre M.,Façade,Faible,Fiche de contrôle,Grand Paris Ligne 16,Non conforme,5,,False,False,,,,75,À améliorer
+BTP-2024-0160,Fiche de contrôle VRD - Viaduc - Lot 4,E,Obsolète,2025-11-06,Petit A.,VRD,Haute,Fiche de contrôle,Viaduc Saône,Conforme,4,,False,False,199.0,2025.0,11.0,85,À améliorer
+BTP-2024-0161,Note de calcul Plomberie - A89 - Lot 4,E,En révision,2025-12-17,UNKNOWN,Plomberie,Faible,Note de calcul,A89 Tunnel Est,Non conforme,6,,False,False,158.0,2025.0,12.0,100,Conforme
+BTP-2024-0162,PV de réception CVC - A89 - Lot 4,B,Validé,2026-04-23,UNKNOWN,CVC,Critique,PV de réception,A89 Tunnel Est,Conforme,4,,False,False,31.0,2026.0,4.0,100,Conforme
+BTP-2024-0163,PV de réception VRD - A89 - Lot 5,B,Validé,2026-05-20,Petit A.,VRD,Moyenne,PV de réception,A89 Tunnel Est,Conforme,4,,False,False,4.0,2026.0,5.0,85,À améliorer
+BTP-2024-0164,Plan d'exécution Plomberie - Stade - Lot 4,B,Validé,2026-01-06,Petit A.,Plomberie,Haute,Plan d'exécution,Stade Bordeaux,Conforme,8,,False,False,138.0,2026.0,1.0,73,Non conforme
+BTP-2024-0165,CCTP Électricité - Grand - Lot 5,E,En révision,2026-03-29,Lefebvre M.,Électricité,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,0,,False,False,56.0,2026.0,3.0,73,Non conforme
+BTP-2024-0166,CCTP Façade - Grand - Lot 5,C,Validé,2026-03-30,Bernard C.,Façade,Haute,CCTP,Grand Paris Ligne 16,Conforme,1,,False,False,55.0,2026.0,3.0,73,Non conforme
+BTP-2024-0167,Fiche de contrôle CVC - A89 - Lot 1,D,Validé,2026-02-24,Bernard C.,CVC,Moyenne,Fiche de contrôle,A89 Tunnel Est,Conforme,4,,False,False,89.0,2026.0,2.0,73,Non conforme
+BTP-2024-0168,Plan d'exécution Façade - Grand - Lot 4,C,Validé,2025-03-24,Lefebvre M.,Façade,Critique,Plan d'exécution,Grand Paris Ligne 16,Conforme,4,,False,False,426.0,2025.0,3.0,90,Conforme
+BTP-2024-0169,Note de calcul Électricité - Grand - Lot 4,D,En révision,2024-02-20,Lefebvre M.,Électricité,Faible,Note de calcul,Grand Paris Ligne 16,En attente,8,,False,False,824.0,2024.0,2.0,73,Non conforme
+BTP-2024-0170,DOE Génie civil - Stade - Lot 3,D,Validé,2026-01-19,Bernard C.,Génie civil,Faible,DOE,Stade Bordeaux,Conforme,8,,False,False,125.0,2026.0,1.0,100,Conforme
+BTP-2024-0171,CCTP Électricité - Viaduc - Lot 1,C,Obsolète,2024-11-12,Lefebvre M.,Électricité,Haute,CCTP,Viaduc Saône,En attente,6,,False,False,558.0,2024.0,11.0,100,Conforme
+BTP-2024-0172,Plan d'exécution CVC - Grand - Lot 2,A,Validé,2026-03-01,Rousseau S.,CVC,Haute,Plan d'exécution,Grand Paris Ligne 16,Conforme,3,,False,False,84.0,2026.0,3.0,100,Conforme
+BTP-2024-0173,Plan d'exécution Façade - Grand - Lot 5,E,Validé,2026-05-03,Martin T.,Façade,Haute,Plan d'exécution,Grand Paris Ligne 16,Non conforme,6,,False,False,21.0,2026.0,5.0,48,Critique
+BTP-2024-0174,PV de réception VRD - A89 - Lot 4,B,Validé,2026-04-13,UNKNOWN,VRD,Moyenne,PV de réception,A89 Tunnel Est,Conforme,8,,False,False,41.0,2026.0,4.0,73,Non conforme
+BTP-2024-0175,DOE VRD - Viaduc - Lot 2,B,Validé,2026-04-05,UNKNOWN,VRD,Haute,DOE,Viaduc Saône,Conforme,7,,False,False,49.0,2026.0,4.0,100,Conforme
+BTP-2024-0176,CCTP Structure - Viaduc - Lot 1,N/A,Manquant,,Bernard C.,Structure,Moyenne,CCTP,Viaduc Saône,Non conforme,5,,False,False,,,,60,Non conforme
+BTP-2024-0177,CCTP Structure - Grand - Lot 5,E,Validé,2026-04-15,Martin T.,Structure,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,7,,False,False,39.0,2026.0,4.0,100,Conforme
+BTP-2024-0178,PV de réception Génie civil - Stade - Lot 5,N/A,Manquant,,Petit A.,Génie civil,Critique,PV de réception,Stade Bordeaux,Non conforme,3,,False,False,,,,50,Non conforme
+BTP-2024-0179,Note de calcul Électricité - Stade - Lot 4,E,En révision,2026-04-12,Bernard C.,Électricité,Moyenne,Note de calcul,Stade Bordeaux,Non conforme,1,,False,False,42.0,2026.0,4.0,100,Conforme
+BTP-2024-0180,DOE Façade - Viaduc - Lot 2,B,En révision,2026-04-30,Lefebvre M.,Façade,Haute,DOE,Viaduc Saône,En attente,4,,False,False,24.0,2026.0,4.0,100,Conforme
+BTP-2024-0181,CCTP CVC - Viaduc - Lot 3,B,Validé,2026-04-29,Durand K.,CVC,Haute,CCTP,Viaduc Saône,Conforme,7,,False,False,25.0,2026.0,4.0,73,Non conforme
+BTP-2024-0182,DOE Plomberie - Viaduc - Lot 1,C,Validé,2026-05-13,Rousseau S.,Plomberie,Moyenne,DOE,Viaduc Saône,Non conforme,0,,False,False,11.0,2026.0,5.0,85,À améliorer
+BTP-2024-0183,Plan d'exécution Façade - A89 - Lot 1,B,En révision,2026-05-19,Rousseau S.,Façade,Moyenne,Plan d'exécution,A89 Tunnel Est,Non conforme,7,,False,False,5.0,2026.0,5.0,73,Non conforme
+BTP-2024-0184,Fiche de contrôle Plomberie - A89 - Lot 5,A,Validé,2026-05-22,UNKNOWN,Plomberie,Moyenne,Fiche de contrôle,A89 Tunnel Est,Conforme,6,,False,False,2.0,2026.0,5.0,100,Conforme
+BTP-2024-0185,Note de calcul Façade - A89 - Lot 4,B,Obsolète,2025-06-29,Lefebvre M.,Façade,Moyenne,Note de calcul,A89 Tunnel Est,Conforme,5,,False,False,329.0,2025.0,6.0,85,À améliorer
+BTP-2024-0186,Fiche de contrôle Électricité - Grand - Lot 4,N/A,Manquant,,Rousseau S.,Électricité,Haute,Fiche de contrôle,Grand Paris Ligne 16,Non conforme,7,,False,False,,,,50,Non conforme
+BTP-2024-0187,DOE Structure - A89 - Lot 2,D,En révision,2025-02-16,Martin T.,Structure,Critique,DOE,A89 Tunnel Est,En attente,7,,False,False,462.0,2025.0,2.0,85,À améliorer
+BTP-2024-0188,Plan d'exécution VRD - A89 - Lot 2,E,En révision,2024-11-22,Rousseau S.,VRD,Haute,Plan d'exécution,A89 Tunnel Est,Conforme,2,,False,False,548.0,2024.0,11.0,73,Non conforme
+BTP-2024-0189,DOE Façade - Viaduc - Lot 5,N/A,Manquant,,Durand K.,Façade,Haute,DOE,Viaduc Saône,Non conforme,6,,False,False,,,,50,Non conforme
+BTP-2024-0190,DOE Façade - Grand - Lot 1,A,En révision,2026-04-21,Durand K.,Façade,Moyenne,DOE,Grand Paris Ligne 16,Conforme,6,,False,False,33.0,2026.0,4.0,100,Conforme
+BTP-2024-0191,PV de réception Façade - A89 - Lot 2,D,En révision,2026-04-22,Petit A.,Façade,Faible,PV de réception,A89 Tunnel Est,Conforme,6,,False,False,32.0,2026.0,4.0,73,Non conforme
+BTP-2024-0192,CCTP Structure - Stade - Lot 4,A,En révision,2026-01-06,Durand K.,Structure,Moyenne,CCTP,Stade Bordeaux,Non conforme,5,,False,False,138.0,2026.0,1.0,100,Conforme
+BTP-2024-0193,Plan d'exécution Structure - A89 - Lot 4,N/A,Manquant,,Rousseau S.,Structure,Moyenne,Plan d'exécution,A89 Tunnel Est,Non conforme,8,,False,False,,,,60,Non conforme
+BTP-2024-0194,Fiche de contrôle CVC - A89 - Lot 1,A,Validé,2026-04-15,Petit A.,CVC,Moyenne,Fiche de contrôle,A89 Tunnel Est,Conforme,8,,False,False,39.0,2026.0,4.0,73,Non conforme
+BTP-2024-0195,CCTP Génie civil - Grand - Lot 3,C,En révision,2026-05-04,Bernard C.,Génie civil,Haute,CCTP,Grand Paris Ligne 16,Conforme,4,,False,False,20.0,2026.0,5.0,100,Conforme
+BTP-2024-0196,Plan d'exécution Électricité - Stade - Lot 4,D,Validé,2026-04-15,Durand K.,Électricité,Haute,Plan d'exécution,Stade Bordeaux,Conforme,6,,False,False,39.0,2026.0,4.0,73,Non conforme
+BTP-2024-0197,PV de réception Façade - Viaduc - Lot 4,E,Validé,2025-10-23,Durand K.,Façade,Faible,PV de réception,Viaduc Saône,Conforme,2,,False,False,213.0,2025.0,10.0,63,Non conforme
+BTP-2024-0198,PV de réception Électricité - Stade - Lot 4,E,En révision,2026-04-03,Durand K.,Électricité,Moyenne,PV de réception,Stade Bordeaux,En attente,1,,False,False,51.0,2026.0,4.0,100,Conforme
+BTP-2024-0199,Note de calcul CVC - Grand - Lot 1,D,En révision,2025-12-08,UNKNOWN,CVC,Moyenne,Note de calcul,Grand Paris Ligne 16,En attente,6,,False,False,167.0,2025.0,12.0,100,Conforme
+BTP-2024-0200,Fiche de contrôle Plomberie - Grand - Lot 4,B,En révision,2026-04-08,Rousseau S.,Plomberie,Haute,Fiche de contrôle,Grand Paris Ligne 16,En attente,6,,False,False,46.0,2026.0,4.0,73,Non conforme
+BTP-2024-0201,CCTP CVC - Viaduc - Lot 3,C,Validé,2026-04-09,Martin T.,CVC,Faible,CCTP,Viaduc Saône,Conforme,0,,False,False,45.0,2026.0,4.0,73,Non conforme
+BTP-2024-0202,DOE CVC - Viaduc - Lot 5,N/A,Manquant,,Petit A.,CVC,Haute,DOE,Viaduc Saône,Non conforme,8,,False,False,,,,50,Non conforme
+BTP-2024-0203,CCTP CVC - Grand - Lot 1,E,Validé,2026-04-09,Durand K.,CVC,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,6,,False,False,45.0,2026.0,4.0,73,Non conforme
+BTP-2024-0204,Plan d'exécution Structure - Grand - Lot 4,B,Validé,2026-04-20,Durand K.,Structure,Haute,Plan d'exécution,Grand Paris Ligne 16,Conforme,1,,False,False,34.0,2026.0,4.0,100,Conforme
+BTP-2024-0205,Plan d'exécution VRD - A89 - Lot 3,A,Validé,2026-04-10,Rousseau S.,VRD,Haute,Plan d'exécution,A89 Tunnel Est,Conforme,6,,False,False,44.0,2026.0,4.0,100,Conforme
+BTP-2024-0206,Note de calcul Électricité - Viaduc - Lot 1,D,En révision,2026-04-28,Petit A.,Électricité,Haute,Note de calcul,Viaduc Saône,Non conforme,3,,False,False,26.0,2026.0,4.0,75,À améliorer
+BTP-2024-0207,PV de réception Génie civil - A89 - Lot 4,E,Validé,2026-05-12,Rousseau S.,Génie civil,Faible,PV de réception,A89 Tunnel Est,Conforme,5,,False,False,12.0,2026.0,5.0,85,À améliorer
+BTP-2024-0208,Fiche de contrôle CVC - Viaduc - Lot 2,D,Validé,2024-07-24,Durand K.,CVC,Haute,Fiche de contrôle,Viaduc Saône,Conforme,1,,False,False,669.0,2024.0,7.0,90,Conforme
+BTP-2024-0209,PV de réception Génie civil - A89 - Lot 4,E,Validé,2026-04-29,Petit A.,Génie civil,Moyenne,PV de réception,A89 Tunnel Est,Conforme,8,,False,False,25.0,2026.0,4.0,85,À améliorer
+BTP-2024-0210,DOE Plomberie - Grand - Lot 1,B,Validé,2025-10-15,Bernard C.,Plomberie,Moyenne,DOE,Grand Paris Ligne 16,Non conforme,2,,False,False,221.0,2025.0,10.0,63,Non conforme
+BTP-2024-0211,Fiche de contrôle Génie civil - Viaduc - Lot 2,D,Validé,2026-04-22,Durand K.,Génie civil,Moyenne,Fiche de contrôle,Viaduc Saône,Conforme,0,,False,False,32.0,2026.0,4.0,73,Non conforme
+BTP-2024-0212,Note de calcul VRD - Stade - Lot 5,D,Validé,2026-04-18,UNKNOWN,VRD,Moyenne,Note de calcul,Stade Bordeaux,Conforme,5,,False,False,36.0,2026.0,4.0,100,Conforme
+BTP-2024-0213,Plan d'exécution CVC - Viaduc - Lot 3,A,Validé,2024-07-24,Durand K.,CVC,Faible,Plan d'exécution,Viaduc Saône,Conforme,1,,False,False,669.0,2024.0,7.0,90,Conforme
+BTP-2024-0214,Plan d'exécution Électricité - Grand - Lot 2,C,Validé,2025-08-18,UNKNOWN,Électricité,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Conforme,0,,False,False,279.0,2025.0,8.0,63,Non conforme
+BTP-2024-0215,PV de réception CVC - Stade - Lot 1,C,Validé,2024-08-24,Martin T.,CVC,Haute,PV de réception,Stade Bordeaux,Conforme,6,,False,False,638.0,2024.0,8.0,63,Non conforme
+BTP-2024-0216,PV de réception Structure - Grand - Lot 4,B,En révision,2025-10-12,Martin T.,Structure,Haute,PV de réception,Grand Paris Ligne 16,Non conforme,4,,False,False,224.0,2025.0,10.0,48,Critique
+BTP-2024-0217,Fiche de contrôle Plomberie - Viaduc - Lot 4,A,Validé,2025-07-05,Bernard C.,Plomberie,Moyenne,Fiche de contrôle,Viaduc Saône,Non conforme,5,,False,False,323.0,2025.0,7.0,90,Conforme
+BTP-2024-0218,Plan d'exécution CVC - A89 - Lot 2,C,En révision,2026-03-30,Bernard C.,CVC,Moyenne,Plan d'exécution,A89 Tunnel Est,Non conforme,4,,False,False,55.0,2026.0,3.0,100,Conforme
+BTP-2024-0219,PV de réception VRD - Stade - Lot 4,D,Validé,2026-04-03,Lefebvre M.,VRD,Haute,PV de réception,Stade Bordeaux,Conforme,1,,False,False,51.0,2026.0,4.0,100,Conforme
+BTP-2024-0220,Note de calcul Façade - Viaduc - Lot 3,D,Validé,2026-05-11,Lefebvre M.,Façade,Faible,Note de calcul,Viaduc Saône,Non conforme,5,,False,False,13.0,2026.0,5.0,73,Non conforme
+BTP-2024-0221,Plan d'exécution VRD - Stade - Lot 1,A,En révision,2026-04-28,Lefebvre M.,VRD,Moyenne,Plan d'exécution,Stade Bordeaux,Conforme,3,,False,False,26.0,2026.0,4.0,100,Conforme
+BTP-2024-0222,Plan d'exécution Électricité - Grand - Lot 4,D,Validé,2026-03-21,Petit A.,Électricité,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Non conforme,2,,False,False,64.0,2026.0,3.0,100,Conforme
+BTP-2024-0223,Plan d'exécution Électricité - Grand - Lot 2,A,Validé,2024-05-13,Petit A.,Électricité,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Conforme,2,,False,False,741.0,2024.0,5.0,63,Non conforme
+BTP-2024-0224,CCTP Structure - A89 - Lot 4,C,En révision,2024-12-20,UNKNOWN,Structure,Haute,CCTP,A89 Tunnel Est,Non conforme,3,,False,False,520.0,2024.0,12.0,75,À améliorer
+BTP-2024-0225,Plan d'exécution Structure - Grand - Lot 1,D,En révision,2025-08-18,Martin T.,Structure,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Conforme,8,,False,False,279.0,2025.0,8.0,100,Conforme
+BTP-2024-0226,CCTP CVC - Stade - Lot 1,C,En révision,2026-05-10,UNKNOWN,CVC,Moyenne,CCTP,Stade Bordeaux,Conforme,3,,False,False,14.0,2026.0,5.0,100,Conforme
+BTP-2024-0227,Fiche de contrôle Électricité - A89 - Lot 5,A,Validé,2024-05-20,Bernard C.,Électricité,Moyenne,Fiche de contrôle,A89 Tunnel Est,Conforme,5,,False,False,734.0,2024.0,5.0,90,Conforme
+BTP-2024-0228,DOE CVC - Grand - Lot 1,A,En révision,2026-05-22,UNKNOWN,CVC,Faible,DOE,Grand Paris Ligne 16,Conforme,6,,False,False,2.0,2026.0,5.0,73,Non conforme
+BTP-2024-0229,PV de réception CVC - Viaduc - Lot 2,E,Validé,2026-04-19,UNKNOWN,CVC,Moyenne,PV de réception,Viaduc Saône,Conforme,2,,False,False,35.0,2026.0,4.0,100,Conforme
+BTP-2024-0230,PV de réception CVC - Viaduc - Lot 4,A,Validé,2026-05-04,Lefebvre M.,CVC,Faible,PV de réception,Viaduc Saône,Conforme,7,,False,False,20.0,2026.0,5.0,73,Non conforme
+BTP-2024-0231,CCTP CVC - A89 - Lot 3,B,Validé,2026-03-19,Rousseau S.,CVC,Moyenne,CCTP,A89 Tunnel Est,Conforme,8,,False,False,66.0,2026.0,3.0,73,Non conforme
+BTP-2024-0232,DOE Façade - Stade - Lot 5,C,Validé,2026-04-07,Lefebvre M.,Façade,Haute,DOE,Stade Bordeaux,Conforme,4,,False,False,47.0,2026.0,4.0,100,Conforme
+BTP-2024-0233,CCTP Plomberie - A89 - Lot 1,A,Validé,2026-04-22,Rousseau S.,Plomberie,Moyenne,CCTP,A89 Tunnel Est,Conforme,1,,False,False,32.0,2026.0,4.0,85,À améliorer
+BTP-2024-0234,DOE Génie civil - A89 - Lot 1,B,Validé,2026-05-21,Rousseau S.,Génie civil,Faible,DOE,A89 Tunnel Est,Conforme,6,,False,False,3.0,2026.0,5.0,100,Conforme
+BTP-2024-0235,PV de réception Génie civil - Grand - Lot 1,C,Validé,2026-04-01,Martin T.,Génie civil,Moyenne,PV de réception,Grand Paris Ligne 16,Conforme,3,,False,False,53.0,2026.0,4.0,100,Conforme
+BTP-2024-0236,CCTP Façade - A89 - Lot 5,N/A,Manquant,,Bernard C.,Façade,Critique,CCTP,A89 Tunnel Est,Non conforme,0,,False,False,,,,35,Critique
+BTP-2024-0237,Note de calcul VRD - Stade - Lot 2,E,Validé,2026-05-08,Petit A.,VRD,Haute,Note de calcul,Stade Bordeaux,Conforme,8,,False,False,16.0,2026.0,5.0,73,Non conforme
+BTP-2024-0238,Note de calcul Façade - Grand - Lot 4,B,Validé,2025-05-15,UNKNOWN,Façade,Moyenne,Note de calcul,Grand Paris Ligne 16,Conforme,4,,False,False,374.0,2025.0,5.0,90,Conforme
+BTP-2024-0239,Note de calcul Structure - Grand - Lot 5,B,Validé,2026-04-08,Bernard C.,Structure,Faible,Note de calcul,Grand Paris Ligne 16,Conforme,5,,False,False,46.0,2026.0,4.0,100,Conforme
+BTP-2024-0240,DOE Électricité - A89 - Lot 2,D,Validé,2026-05-19,Durand K.,Électricité,Moyenne,DOE,A89 Tunnel Est,Non conforme,4,,False,False,5.0,2026.0,5.0,73,Non conforme
+BTP-2024-0241,PV de réception Façade - Viaduc - Lot 5,C,En révision,2026-04-25,Lefebvre M.,Façade,Moyenne,PV de réception,Viaduc Saône,Conforme,2,,False,False,29.0,2026.0,4.0,73,Non conforme
+BTP-2024-0242,Note de calcul Structure - Viaduc - Lot 1,E,Validé,2026-05-01,Lefebvre M.,Structure,Moyenne,Note de calcul,Viaduc Saône,Conforme,2,,False,False,23.0,2026.0,5.0,100,Conforme
+BTP-2024-0243,DOE Façade - Stade - Lot 3,A,Obsolète,2026-05-10,Bernard C.,Façade,Moyenne,DOE,Stade Bordeaux,Conforme,8,,False,False,14.0,2026.0,5.0,100,Conforme
+BTP-2024-0244,DOE Structure - Stade - Lot 2,A,Validé,2026-04-28,Lefebvre M.,Structure,Faible,DOE,Stade Bordeaux,Conforme,0,,False,False,26.0,2026.0,4.0,73,Non conforme
+BTP-2024-0245,Note de calcul Structure - Grand - Lot 1,A,Validé,2024-09-01,Martin T.,Structure,Moyenne,Note de calcul,Grand Paris Ligne 16,Conforme,7,,False,False,630.0,2024.0,9.0,63,Non conforme
+BTP-2024-0246,Note de calcul Façade - A89 - Lot 4,C,Obsolète,2026-05-16,UNKNOWN,Façade,Faible,Note de calcul,A89 Tunnel Est,En attente,6,,False,False,8.0,2026.0,5.0,85,À améliorer
+BTP-2024-0247,Plan d'exécution Électricité - Viaduc - Lot 1,B,En révision,2026-03-26,Rousseau S.,Électricité,Haute,Plan d'exécution,Viaduc Saône,En attente,3,,False,False,59.0,2026.0,3.0,73,Non conforme
+BTP-2024-0248,PV de réception Plomberie - Viaduc - Lot 5,A,Validé,2026-05-18,Martin T.,Plomberie,Moyenne,PV de réception,Viaduc Saône,Conforme,8,,False,False,6.0,2026.0,5.0,73,Non conforme
+BTP-2024-0249,Plan d'exécution Façade - Viaduc - Lot 4,E,En révision,2024-06-06,Durand K.,Façade,Moyenne,Plan d'exécution,Viaduc Saône,Non conforme,2,,False,False,717.0,2024.0,6.0,85,À améliorer
+BTP-2024-0250,PV de réception Structure - Grand - Lot 2,C,Validé,2025-07-27,Lefebvre M.,Structure,Faible,PV de réception,Grand Paris Ligne 16,Non conforme,3,,False,False,301.0,2025.0,7.0,90,Conforme
+BTP-2024-0251,Note de calcul Plomberie - Stade - Lot 2,A,Validé,2026-04-05,Martin T.,Plomberie,Faible,Note de calcul,Stade Bordeaux,Conforme,3,,False,False,49.0,2026.0,4.0,100,Conforme
+BTP-2024-0252,PV de réception CVC - Stade - Lot 4,C,Obsolète,2026-04-17,Rousseau S.,CVC,Critique,PV de réception,Stade Bordeaux,Conforme,4,,False,False,37.0,2026.0,4.0,85,À améliorer
+BTP-2024-0253,Fiche de contrôle Génie civil - A89 - Lot 2,B,Validé,2026-05-22,UNKNOWN,Génie civil,Haute,Fiche de contrôle,A89 Tunnel Est,Non conforme,2,,False,False,2.0,2026.0,5.0,48,Critique
+BTP-2024-0254,DOE VRD - Grand - Lot 1,C,Obsolète,2026-05-20,UNKNOWN,VRD,Faible,DOE,Grand Paris Ligne 16,En attente,8,,False,False,4.0,2026.0,5.0,100,Conforme
+BTP-2024-0255,PV de réception Façade - A89 - Lot 2,D,Validé,2026-04-16,Petit A.,Façade,Faible,PV de réception,A89 Tunnel Est,Conforme,6,,False,False,38.0,2026.0,4.0,73,Non conforme
+BTP-2024-0256,DOE Façade - Viaduc - Lot 4,E,En révision,2025-09-24,Durand K.,Façade,Haute,DOE,Viaduc Saône,En attente,4,,False,False,242.0,2025.0,9.0,73,Non conforme
+BTP-2024-0257,Note de calcul Génie civil - A89 - Lot 3,N/A,Manquant,,UNKNOWN,Génie civil,Faible,Note de calcul,A89 Tunnel Est,Non conforme,3,,False,False,,,,75,À améliorer
+BTP-2024-0258,CCTP Plomberie - A89 - Lot 1,N/A,Manquant,,UNKNOWN,Plomberie,Haute,CCTP,A89 Tunnel Est,Non conforme,5,,False,False,,,,35,Critique
+BTP-2024-0259,Plan d'exécution Électricité - Stade - Lot 4,C,Validé,2026-05-07,Martin T.,Électricité,Moyenne,Plan d'exécution,Stade Bordeaux,Conforme,6,,False,False,17.0,2026.0,5.0,73,Non conforme
+BTP-2024-0260,Fiche de contrôle Électricité - Stade - Lot 1,D,Validé,2026-04-03,Durand K.,Électricité,Haute,Fiche de contrôle,Stade Bordeaux,Conforme,0,,False,False,51.0,2026.0,4.0,100,Conforme
+BTP-2024-0261,PV de réception VRD - A89 - Lot 4,D,Validé,2026-05-13,Petit A.,VRD,Haute,PV de réception,A89 Tunnel Est,Non conforme,0,,False,False,11.0,2026.0,5.0,48,Critique
+BTP-2024-0262,DOE Électricité - Grand - Lot 5,A,En révision,2024-10-26,Petit A.,Électricité,Moyenne,DOE,Grand Paris Ligne 16,Non conforme,8,,False,False,575.0,2024.0,10.0,100,Conforme
+BTP-2024-0263,DOE VRD - Stade - Lot 4,D,Validé,2026-04-17,Lefebvre M.,VRD,Critique,DOE,Stade Bordeaux,Conforme,4,,False,False,37.0,2026.0,4.0,100,Conforme
+BTP-2024-0264,DOE Façade - Viaduc - Lot 4,B,Validé,2026-04-13,Bernard C.,Façade,Critique,DOE,Viaduc Saône,Conforme,7,,False,False,41.0,2026.0,4.0,73,Non conforme
+BTP-2024-0265,PV de réception Plomberie - A89 - Lot 4,C,En révision,2026-03-28,Bernard C.,Plomberie,Moyenne,PV de réception,A89 Tunnel Est,Conforme,4,,False,False,57.0,2026.0,3.0,100,Conforme
+BTP-2024-0266,PV de réception Génie civil - A89 - Lot 5,A,Validé,2024-03-27,Lefebvre M.,Génie civil,Moyenne,PV de réception,A89 Tunnel Est,Conforme,6,,False,False,788.0,2024.0,3.0,90,Conforme
+BTP-2024-0267,CCTP Façade - Viaduc - Lot 4,N/A,Manquant,,UNKNOWN,Façade,Moyenne,CCTP,Viaduc Saône,Non conforme,0,,False,False,,,,75,À améliorer
+BTP-2024-0268,CCTP CVC - Grand - Lot 4,B,Validé,2026-05-13,Martin T.,CVC,Faible,CCTP,Grand Paris Ligne 16,Conforme,2,,False,False,11.0,2026.0,5.0,100,Conforme
+BTP-2024-0269,CCTP Façade - Stade - Lot 5,A,Validé,2026-05-18,Bernard C.,Façade,Moyenne,CCTP,Stade Bordeaux,Non conforme,0,,False,False,6.0,2026.0,5.0,85,À améliorer
+BTP-2024-0270,DOE Façade - Viaduc - Lot 1,E,Validé,2025-02-11,UNKNOWN,Façade,Haute,DOE,Viaduc Saône,Conforme,4,,False,False,467.0,2025.0,2.0,90,Conforme
+BTP-2024-0271,CCTP Façade - Stade - Lot 5,D,Obsolète,2026-04-17,Rousseau S.,Façade,Haute,CCTP,Stade Bordeaux,Non conforme,6,,False,False,37.0,2026.0,4.0,60,Non conforme
+BTP-2024-0272,Fiche de contrôle Structure - Stade - Lot 3,D,En révision,2026-03-26,Durand K.,Structure,Critique,Fiche de contrôle,Stade Bordeaux,En attente,4,,False,False,59.0,2026.0,3.0,100,Conforme
+BTP-2024-0273,Fiche de contrôle Façade - A89 - Lot 4,N/A,Manquant,,Rousseau S.,Façade,Haute,Fiche de contrôle,A89 Tunnel Est,Non conforme,1,,False,False,,,,35,Critique
+BTP-2024-0274,Fiche de contrôle Génie civil - Grand - Lot 2,D,Obsolète,2025-07-04,Lefebvre M.,Génie civil,Moyenne,Fiche de contrôle,Grand Paris Ligne 16,Non conforme,4,,False,False,324.0,2025.0,7.0,85,À améliorer
+BTP-2024-0275,CCTP Plomberie - Viaduc - Lot 1,E,Validé,2024-11-08,Martin T.,Plomberie,Faible,CCTP,Viaduc Saône,Conforme,0,,False,False,562.0,2024.0,11.0,63,Non conforme
+BTP-2024-0276,Plan d'exécution Électricité - Stade - Lot 4,D,En révision,2025-09-03,Rousseau S.,Électricité,Haute,Plan d'exécution,Stade Bordeaux,Conforme,7,,False,False,263.0,2025.0,9.0,73,Non conforme
+BTP-2024-0277,Fiche de contrôle Génie civil - Stade - Lot 5,C,Validé,2026-04-06,UNKNOWN,Génie civil,Faible,Fiche de contrôle,Stade Bordeaux,Conforme,3,,False,False,48.0,2026.0,4.0,100,Conforme
+BTP-2024-0278,Note de calcul Façade - Grand - Lot 2,D,En révision,2026-04-21,Rousseau S.,Façade,Haute,Note de calcul,Grand Paris Ligne 16,Conforme,0,,False,False,33.0,2026.0,4.0,73,Non conforme
+BTP-2024-0279,PV de réception Génie civil - Stade - Lot 3,C,En révision,2026-04-26,Petit A.,Génie civil,Moyenne,PV de réception,Stade Bordeaux,Conforme,8,,False,False,28.0,2026.0,4.0,100,Conforme
+BTP-2024-0280,CCTP Façade - Viaduc - Lot 1,C,Validé,2026-04-18,Durand K.,Façade,Critique,CCTP,Viaduc Saône,Conforme,4,,False,False,36.0,2026.0,4.0,100,Conforme
+BTP-2024-0281,PV de réception Plomberie - Stade - Lot 5,C,Validé,2026-01-08,Bernard C.,Plomberie,Moyenne,PV de réception,Stade Bordeaux,Non conforme,5,,False,False,136.0,2026.0,1.0,100,Conforme
+BTP-2024-0282,Note de calcul Plomberie - A89 - Lot 5,C,En révision,2026-03-26,UNKNOWN,Plomberie,Faible,Note de calcul,A89 Tunnel Est,Conforme,3,,False,False,59.0,2026.0,3.0,100,Conforme
+BTP-2024-0283,DOE VRD - Grand - Lot 5,D,En révision,2026-03-26,Martin T.,VRD,Moyenne,DOE,Grand Paris Ligne 16,Conforme,4,,False,False,59.0,2026.0,3.0,100,Conforme
+BTP-2024-0284,Fiche de contrôle Structure - Grand - Lot 2,E,En révision,2025-12-22,Petit A.,Structure,Moyenne,Fiche de contrôle,Grand Paris Ligne 16,Conforme,4,,False,False,153.0,2025.0,12.0,100,Conforme
+BTP-2024-0285,PV de réception Électricité - Stade - Lot 1,A,Validé,2026-04-23,UNKNOWN,Électricité,Haute,PV de réception,Stade Bordeaux,Conforme,6,,False,False,31.0,2026.0,4.0,100,Conforme
+BTP-2024-0286,PV de réception CVC - Viaduc - Lot 4,B,Validé,2024-03-31,Martin T.,CVC,Faible,PV de réception,Viaduc Saône,Non conforme,5,,False,False,784.0,2024.0,3.0,63,Non conforme
+BTP-2024-0287,DOE Façade - Grand - Lot 2,B,En révision,2026-05-03,Rousseau S.,Façade,Moyenne,DOE,Grand Paris Ligne 16,Conforme,2,,False,False,21.0,2026.0,5.0,100,Conforme
+BTP-2024-0288,Plan d'exécution Électricité - Grand - Lot 3,D,En révision,2026-04-26,Lefebvre M.,Électricité,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Non conforme,5,,False,False,28.0,2026.0,4.0,73,Non conforme
+BTP-2024-0289,CCTP Façade - Grand - Lot 5,B,Validé,2026-05-09,Durand K.,Façade,Critique,CCTP,Grand Paris Ligne 16,Conforme,2,,False,False,15.0,2026.0,5.0,73,Non conforme
+BTP-2024-0290,Plan d'exécution Structure - Stade - Lot 2,N/A,Manquant,,Durand K.,Structure,Moyenne,Plan d'exécution,Stade Bordeaux,Non conforme,7,,False,False,,,,75,À améliorer
+BTP-2024-0291,Note de calcul VRD - Grand - Lot 2,N/A,Manquant,,Martin T.,VRD,Faible,Note de calcul,Grand Paris Ligne 16,Non conforme,0,,False,False,,,,75,À améliorer
+BTP-2024-0292,CCTP CVC - Grand - Lot 1,A,Validé,2026-04-29,Petit A.,CVC,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,0,,False,False,25.0,2026.0,4.0,73,Non conforme
+BTP-2024-0293,DOE Structure - A89 - Lot 1,E,Validé,2026-05-07,Durand K.,Structure,Moyenne,DOE,A89 Tunnel Est,Conforme,6,,False,False,17.0,2026.0,5.0,100,Conforme
+BTP-2024-0294,Plan d'exécution Plomberie - Stade - Lot 1,D,En révision,2026-01-31,UNKNOWN,Plomberie,Moyenne,Plan d'exécution,Stade Bordeaux,Conforme,1,,False,False,113.0,2026.0,1.0,100,Conforme
+BTP-2024-0295,Note de calcul Électricité - Grand - Lot 2,B,En révision,2026-05-01,Petit A.,Électricité,Faible,Note de calcul,Grand Paris Ligne 16,Non conforme,7,,False,False,23.0,2026.0,5.0,100,Conforme
+BTP-2024-0296,Note de calcul VRD - A89 - Lot 5,A,Validé,2026-03-31,Lefebvre M.,VRD,Critique,Note de calcul,A89 Tunnel Est,Conforme,1,,False,False,54.0,2026.0,3.0,100,Conforme
+BTP-2024-0297,DOE VRD - Grand - Lot 3,C,Validé,2026-02-28,Durand K.,VRD,Faible,DOE,Grand Paris Ligne 16,Non conforme,5,,False,False,85.0,2026.0,2.0,73,Non conforme
+BTP-2024-0298,DOE Électricité - A89 - Lot 5,A,Validé,2026-05-23,Durand K.,Électricité,Faible,DOE,A89 Tunnel Est,Non conforme,1,,False,False,1.0,2026.0,5.0,73,Non conforme
+BTP-2024-0299,PV de réception VRD - Grand - Lot 2,D,Validé,2025-09-09,Lefebvre M.,VRD,Moyenne,PV de réception,Grand Paris Ligne 16,Conforme,2,,False,False,257.0,2025.0,9.0,90,Conforme
+BTP-2024-0300,DOE Plomberie - A89 - Lot 4,N/A,Manquant,,Martin T.,Plomberie,Faible,DOE,A89 Tunnel Est,Non conforme,6,,False,False,,,,60,Non conforme
+BTP-2024-0301,PV de réception Façade - A89 - Lot 1,B,Obsolète,2025-01-29,Durand K.,Façade,Faible,PV de réception,A89 Tunnel Est,Non conforme,5,,False,False,480.0,2025.0,1.0,100,Conforme
+BTP-2024-0302,DOE Structure - Grand - Lot 2,N/A,Manquant,,Bernard C.,Structure,Moyenne,DOE,Grand Paris Ligne 16,Non conforme,5,,False,False,,,,75,À améliorer
+BTP-2024-0303,DOE Plomberie - Viaduc - Lot 4,E,Validé,2026-05-20,UNKNOWN,Plomberie,Faible,DOE,Viaduc Saône,Conforme,2,,False,False,4.0,2026.0,5.0,73,Non conforme
+BTP-2024-0304,Fiche de contrôle Structure - Stade - Lot 4,A,Validé,2026-04-21,Bernard C.,Structure,Faible,Fiche de contrôle,Stade Bordeaux,Conforme,7,,False,False,33.0,2026.0,4.0,100,Conforme
+BTP-2024-0305,Fiche de contrôle Structure - Viaduc - Lot 1,A,Validé,2026-05-17,UNKNOWN,Structure,Faible,Fiche de contrôle,Viaduc Saône,Conforme,4,,False,False,7.0,2026.0,5.0,85,À améliorer
+BTP-2024-0306,CCTP CVC - Grand - Lot 5,C,En révision,2026-02-26,Rousseau S.,CVC,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,7,,False,False,87.0,2026.0,2.0,100,Conforme
+BTP-2024-0307,DOE Plomberie - Stade - Lot 3,B,En révision,2025-10-02,Rousseau S.,Plomberie,Haute,DOE,Stade Bordeaux,En attente,8,,False,False,234.0,2025.0,10.0,85,À améliorer
+BTP-2024-0308,DOE VRD - A89 - Lot 1,B,Validé,2026-04-01,UNKNOWN,VRD,Haute,DOE,A89 Tunnel Est,Conforme,6,,False,False,53.0,2026.0,4.0,100,Conforme
+BTP-2024-0309,Fiche de contrôle Génie civil - Grand - Lot 5,D,En révision,2025-05-28,Rousseau S.,Génie civil,Haute,Fiche de contrôle,Grand Paris Ligne 16,Non conforme,2,,False,False,361.0,2025.0,5.0,75,À améliorer
+BTP-2024-0310,Plan d'exécution Électricité - A89 - Lot 2,E,Validé,2025-07-08,Lefebvre M.,Électricité,Moyenne,Plan d'exécution,A89 Tunnel Est,Conforme,6,,False,False,320.0,2025.0,7.0,63,Non conforme
+BTP-2024-0311,CCTP Plomberie - Stade - Lot 3,E,Validé,2026-03-26,Bernard C.,Plomberie,Moyenne,CCTP,Stade Bordeaux,Conforme,2,,False,False,59.0,2026.0,3.0,85,À améliorer
+BTP-2024-0312,Fiche de contrôle Génie civil - Stade - Lot 3,C,Obsolète,2026-04-08,Petit A.,Génie civil,Moyenne,Fiche de contrôle,Stade Bordeaux,Non conforme,5,,False,False,46.0,2026.0,4.0,85,À améliorer
+BTP-2024-0313,Note de calcul Plomberie - Grand - Lot 4,C,Validé,2026-04-08,Petit A.,Plomberie,Moyenne,Note de calcul,Grand Paris Ligne 16,Conforme,8,,False,False,46.0,2026.0,4.0,73,Non conforme
+BTP-2024-0314,Fiche de contrôle VRD - A89 - Lot 3,B,Validé,2026-05-20,Petit A.,VRD,Critique,Fiche de contrôle,A89 Tunnel Est,Conforme,4,,False,False,4.0,2026.0,5.0,73,Non conforme
+BTP-2024-0315,Plan d'exécution Génie civil - Stade - Lot 5,C,Validé,2025-08-06,UNKNOWN,Génie civil,Moyenne,Plan d'exécution,Stade Bordeaux,Conforme,3,,False,False,291.0,2025.0,8.0,90,Conforme
+BTP-2024-0316,DOE Plomberie - Viaduc - Lot 3,C,Validé,2026-04-09,Rousseau S.,Plomberie,Faible,DOE,Viaduc Saône,Non conforme,0,,False,False,45.0,2026.0,4.0,85,À améliorer
+BTP-2024-0317,DOE Structure - Stade - Lot 5,D,Validé,2025-11-30,Martin T.,Structure,Faible,DOE,Stade Bordeaux,Conforme,3,,False,False,175.0,2025.0,11.0,73,Non conforme
+BTP-2024-0318,Fiche de contrôle VRD - Grand - Lot 4,N/A,Manquant,,Durand K.,VRD,Critique,Fiche de contrôle,Grand Paris Ligne 16,Non conforme,8,,False,False,,,,35,Critique
+BTP-2024-0319,Note de calcul VRD - Grand - Lot 1,C,Validé,2026-04-24,UNKNOWN,VRD,Haute,Note de calcul,Grand Paris Ligne 16,Conforme,4,,False,False,30.0,2026.0,4.0,100,Conforme
+BTP-2024-0320,CCTP Électricité - Stade - Lot 4,E,Validé,2026-05-09,Rousseau S.,Électricité,Moyenne,CCTP,Stade Bordeaux,Conforme,8,,False,False,15.0,2026.0,5.0,73,Non conforme
+BTP-2024-0321,Plan d'exécution Électricité - Stade - Lot 5,C,Validé,2026-05-02,Bernard C.,Électricité,Haute,Plan d'exécution,Stade Bordeaux,Conforme,8,,False,False,22.0,2026.0,5.0,100,Conforme
+BTP-2024-0322,DOE Façade - A89 - Lot 1,B,Validé,2025-11-21,Bernard C.,Façade,Haute,DOE,A89 Tunnel Est,Conforme,4,,False,False,184.0,2025.0,11.0,90,Conforme
+BTP-2024-0323,DOE CVC - Stade - Lot 2,C,Validé,2026-04-21,Durand K.,CVC,Moyenne,DOE,Stade Bordeaux,Conforme,8,,False,False,33.0,2026.0,4.0,100,Conforme
+BTP-2024-0324,Plan d'exécution Structure - Grand - Lot 2,N/A,Manquant,,UNKNOWN,Structure,Faible,Plan d'exécution,Grand Paris Ligne 16,Non conforme,6,,False,False,,,,75,À améliorer
+BTP-2024-0325,Plan d'exécution Façade - Grand - Lot 1,D,Validé,2026-04-12,Lefebvre M.,Façade,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Conforme,1,,False,False,42.0,2026.0,4.0,100,Conforme
+BTP-2024-0326,Note de calcul Structure - Stade - Lot 4,B,Validé,2026-03-26,Durand K.,Structure,Moyenne,Note de calcul,Stade Bordeaux,Conforme,0,,False,False,59.0,2026.0,3.0,100,Conforme
+BTP-2024-0327,DOE Électricité - A89 - Lot 5,E,Validé,2025-05-30,Lefebvre M.,Électricité,Moyenne,DOE,A89 Tunnel Est,Conforme,4,,False,False,359.0,2025.0,5.0,63,Non conforme
+BTP-2024-0328,DOE Façade - Stade - Lot 2,D,En révision,2026-04-29,Petit A.,Façade,Haute,DOE,Stade Bordeaux,Non conforme,6,,False,False,25.0,2026.0,4.0,75,À améliorer
+BTP-2024-0329,CCTP Façade - Stade - Lot 1,N/A,Manquant,,Rousseau S.,Façade,Haute,CCTP,Stade Bordeaux,Non conforme,6,,False,False,,,,35,Critique
+BTP-2024-0330,CCTP CVC - A89 - Lot 5,C,Validé,2026-05-10,UNKNOWN,CVC,Moyenne,CCTP,A89 Tunnel Est,Conforme,4,,False,False,14.0,2026.0,5.0,100,Conforme
+BTP-2024-0331,Plan d'exécution Génie civil - Grand - Lot 1,A,En révision,2025-06-17,Durand K.,Génie civil,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Conforme,1,,False,False,341.0,2025.0,6.0,100,Conforme
+BTP-2024-0332,DOE Génie civil - Viaduc - Lot 3,N/A,Manquant,,Bernard C.,Génie civil,Moyenne,DOE,Viaduc Saône,Non conforme,7,,False,False,,,,60,Non conforme
+BTP-2024-0333,CCTP VRD - Stade - Lot 2,E,En révision,2026-04-30,Petit A.,VRD,Haute,CCTP,Stade Bordeaux,Conforme,6,,False,False,24.0,2026.0,4.0,100,Conforme
+BTP-2024-0334,PV de réception VRD - Grand - Lot 1,D,En révision,2025-08-09,Martin T.,VRD,Haute,PV de réception,Grand Paris Ligne 16,Non conforme,1,,False,False,288.0,2025.0,8.0,48,Critique
+BTP-2024-0335,PV de réception Façade - Grand - Lot 5,A,Obsolète,2026-02-15,Rousseau S.,Façade,Haute,PV de réception,Grand Paris Ligne 16,Non conforme,6,,False,False,98.0,2026.0,2.0,60,Non conforme
+BTP-2024-0336,CCTP Façade - Grand - Lot 4,E,Obsolète,2025-06-22,Martin T.,Façade,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,4,,False,False,336.0,2025.0,6.0,100,Conforme
+BTP-2024-0337,Fiche de contrôle Génie civil - A89 - Lot 5,B,Validé,2026-03-30,Rousseau S.,Génie civil,Moyenne,Fiche de contrôle,A89 Tunnel Est,Conforme,2,,False,False,55.0,2026.0,3.0,100,Conforme
+BTP-2024-0338,DOE Plomberie - Viaduc - Lot 1,N/A,Manquant,,Petit A.,Plomberie,Critique,DOE,Viaduc Saône,Non conforme,3,,False,False,,,,35,Critique
+BTP-2024-0339,PV de réception CVC - Viaduc - Lot 3,A,Validé,2025-10-11,UNKNOWN,CVC,Moyenne,PV de réception,Viaduc Saône,Conforme,4,,False,False,225.0,2025.0,10.0,90,Conforme
+BTP-2024-0340,CCTP CVC - Grand - Lot 2,E,Validé,2026-04-12,Rousseau S.,CVC,Moyenne,CCTP,Grand Paris Ligne 16,Non conforme,6,,False,False,42.0,2026.0,4.0,100,Conforme
+BTP-2024-0341,PV de réception VRD - Viaduc - Lot 3,A,En révision,2026-04-21,Martin T.,VRD,Faible,PV de réception,Viaduc Saône,Conforme,2,,False,False,33.0,2026.0,4.0,100,Conforme
+BTP-2024-0342,Note de calcul Génie civil - Stade - Lot 2,B,En révision,2026-04-27,Rousseau S.,Génie civil,Faible,Note de calcul,Stade Bordeaux,Non conforme,2,,False,False,27.0,2026.0,4.0,100,Conforme
+BTP-2024-0343,Fiche de contrôle Plomberie - A89 - Lot 1,E,Validé,2026-05-13,Martin T.,Plomberie,Haute,Fiche de contrôle,A89 Tunnel Est,Conforme,4,,False,False,11.0,2026.0,5.0,85,À améliorer
+BTP-2024-0344,CCTP Génie civil - Viaduc - Lot 4,A,Validé,2026-03-28,UNKNOWN,Génie civil,Moyenne,CCTP,Viaduc Saône,Conforme,7,,False,False,57.0,2026.0,3.0,100,Conforme
+BTP-2024-0345,Note de calcul Génie civil - Viaduc - Lot 4,B,En révision,2026-04-14,Rousseau S.,Génie civil,Faible,Note de calcul,Viaduc Saône,Non conforme,1,,False,False,40.0,2026.0,4.0,73,Non conforme
+BTP-2024-0346,Fiche de contrôle Génie civil - Viaduc - Lot 2,E,Validé,2025-07-10,Bernard C.,Génie civil,Critique,Fiche de contrôle,Viaduc Saône,Conforme,0,,False,False,318.0,2025.0,7.0,63,Non conforme
+BTP-2024-0347,CCTP Façade - A89 - Lot 1,E,Validé,2026-04-19,Petit A.,Façade,Moyenne,CCTP,A89 Tunnel Est,Conforme,8,,False,False,35.0,2026.0,4.0,100,Conforme
+BTP-2024-0348,Note de calcul Électricité - Viaduc - Lot 2,E,En révision,2026-04-02,UNKNOWN,Électricité,Moyenne,Note de calcul,Viaduc Saône,Conforme,1,,False,False,52.0,2026.0,4.0,100,Conforme
+BTP-2024-0349,CCTP VRD - Viaduc - Lot 2,A,Validé,2026-04-17,Petit A.,VRD,Critique,CCTP,Viaduc Saône,Conforme,5,,False,False,37.0,2026.0,4.0,100,Conforme
+BTP-2024-0350,PV de réception Électricité - A89 - Lot 4,C,Validé,2026-05-07,UNKNOWN,Électricité,Moyenne,PV de réception,A89 Tunnel Est,Conforme,3,,False,False,17.0,2026.0,5.0,100,Conforme
+BTP-2024-0351,CCTP Électricité - Viaduc - Lot 2,D,Validé,2025-10-19,UNKNOWN,Électricité,Moyenne,CCTP,Viaduc Saône,Conforme,1,,False,False,217.0,2025.0,10.0,90,Conforme
+BTP-2024-0352,Note de calcul Plomberie - Viaduc - Lot 5,A,En révision,2025-07-08,Petit A.,Plomberie,Faible,Note de calcul,Viaduc Saône,En attente,0,,False,False,320.0,2025.0,7.0,73,Non conforme
+BTP-2024-0353,Fiche de contrôle Génie civil - A89 - Lot 1,D,Obsolète,2026-03-25,Rousseau S.,Génie civil,Faible,Fiche de contrôle,A89 Tunnel Est,Conforme,0,,False,False,60.0,2026.0,3.0,100,Conforme
+BTP-2024-0354,Fiche de contrôle Plomberie - Viaduc - Lot 5,E,En révision,2026-05-20,Durand K.,Plomberie,Moyenne,Fiche de contrôle,Viaduc Saône,Conforme,3,,False,False,4.0,2026.0,5.0,85,À améliorer
+BTP-2024-0355,CCTP Structure - Grand - Lot 4,C,En révision,2026-05-08,Durand K.,Structure,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,6,,False,False,16.0,2026.0,5.0,100,Conforme
+BTP-2024-0356,CCTP Électricité - Grand - Lot 5,A,Validé,2026-02-07,Durand K.,Électricité,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,5,,False,False,106.0,2026.0,2.0,73,Non conforme
+BTP-2024-0357,PV de réception Façade - Grand - Lot 5,D,En révision,2026-04-17,Lefebvre M.,Façade,Haute,PV de réception,Grand Paris Ligne 16,Non conforme,8,,False,False,37.0,2026.0,4.0,60,Non conforme
+BTP-2024-0358,PV de réception VRD - A89 - Lot 5,E,Obsolète,2025-06-04,Bernard C.,VRD,Faible,PV de réception,A89 Tunnel Est,En attente,3,,False,False,354.0,2025.0,6.0,85,À améliorer
+BTP-2024-0359,PV de réception Façade - Viaduc - Lot 2,A,En révision,2026-04-23,Petit A.,Façade,Faible,PV de réception,Viaduc Saône,Non conforme,3,,False,False,31.0,2026.0,4.0,73,Non conforme
+BTP-2024-0360,PV de réception Façade - Viaduc - Lot 4,N/A,Manquant,,Petit A.,Façade,Moyenne,PV de réception,Viaduc Saône,Non conforme,5,,False,False,,,,60,Non conforme
+BTP-2024-0361,CCTP Structure - Grand - Lot 2,E,Validé,2026-05-06,UNKNOWN,Structure,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,4,,False,False,18.0,2026.0,5.0,73,Non conforme
+BTP-2024-0362,Note de calcul Génie civil - Grand - Lot 4,C,Obsolète,2025-01-22,Rousseau S.,Génie civil,Faible,Note de calcul,Grand Paris Ligne 16,Non conforme,0,,False,False,487.0,2025.0,1.0,100,Conforme
+BTP-2024-0363,CCTP Façade - A89 - Lot 5,C,Obsolète,2026-04-22,Durand K.,Façade,Moyenne,CCTP,A89 Tunnel Est,En attente,6,,False,False,32.0,2026.0,4.0,85,À améliorer
+BTP-2024-0364,CCTP Génie civil - Grand - Lot 2,D,Validé,2026-04-19,Bernard C.,Génie civil,Faible,CCTP,Grand Paris Ligne 16,Non conforme,1,,False,False,35.0,2026.0,4.0,85,À améliorer
+BTP-2024-0365,CCTP Plomberie - Viaduc - Lot 3,B,Validé,2026-04-29,Martin T.,Plomberie,Critique,CCTP,Viaduc Saône,Conforme,8,,False,False,25.0,2026.0,4.0,100,Conforme
+BTP-2024-0366,Note de calcul VRD - Stade - Lot 3,C,Validé,2026-05-12,Durand K.,VRD,Moyenne,Note de calcul,Stade Bordeaux,Conforme,6,,False,False,12.0,2026.0,5.0,100,Conforme
+BTP-2024-0367,Fiche de contrôle VRD - Grand - Lot 4,B,Validé,2026-02-02,Martin T.,VRD,Faible,Fiche de contrôle,Grand Paris Ligne 16,Conforme,2,,False,False,111.0,2026.0,2.0,73,Non conforme
+BTP-2024-0368,DOE Façade - Grand - Lot 4,D,Validé,2026-04-22,Durand K.,Façade,Critique,DOE,Grand Paris Ligne 16,Conforme,4,,False,False,32.0,2026.0,4.0,73,Non conforme
+BTP-2024-0369,CCTP CVC - A89 - Lot 3,A,Validé,2025-11-15,Durand K.,CVC,Moyenne,CCTP,A89 Tunnel Est,Conforme,5,,False,False,190.0,2025.0,11.0,63,Non conforme
+BTP-2024-0370,CCTP VRD - Stade - Lot 3,C,Validé,2024-11-27,Petit A.,VRD,Moyenne,CCTP,Stade Bordeaux,Conforme,8,,False,False,543.0,2024.0,11.0,75,À améliorer
+BTP-2024-0371,DOE Électricité - Viaduc - Lot 4,C,Obsolète,2026-01-10,Petit A.,Électricité,Moyenne,DOE,Viaduc Saône,En attente,6,,False,False,134.0,2026.0,1.0,85,À améliorer
+BTP-2024-0372,Plan d'exécution Façade - A89 - Lot 4,C,Validé,2025-10-27,UNKNOWN,Façade,Haute,Plan d'exécution,A89 Tunnel Est,Conforme,5,,False,False,209.0,2025.0,10.0,90,Conforme
+BTP-2024-0373,CCTP Plomberie - Viaduc - Lot 1,A,Validé,2024-09-09,Martin T.,Plomberie,Haute,CCTP,Viaduc Saône,Conforme,2,,False,False,622.0,2024.0,9.0,63,Non conforme
+BTP-2024-0374,Plan d'exécution Électricité - A89 - Lot 1,E,Validé,2026-05-20,Durand K.,Électricité,Faible,Plan d'exécution,A89 Tunnel Est,Non conforme,2,,False,False,4.0,2026.0,5.0,85,À améliorer
+BTP-2024-0375,DOE Structure - Viaduc - Lot 1,C,Validé,2026-04-25,Petit A.,Structure,Haute,DOE,Viaduc Saône,Conforme,5,,False,False,29.0,2026.0,4.0,85,À améliorer
+BTP-2024-0376,PV de réception Façade - Viaduc - Lot 2,C,Validé,2025-01-06,Rousseau S.,Façade,Faible,PV de réception,Viaduc Saône,Conforme,7,,False,False,503.0,2025.0,1.0,63,Non conforme
+BTP-2024-0377,DOE Plomberie - Viaduc - Lot 4,C,Validé,2026-03-26,Durand K.,Plomberie,Moyenne,DOE,Viaduc Saône,Conforme,5,,False,False,59.0,2026.0,3.0,73,Non conforme
+BTP-2024-0378,PV de réception Électricité - Grand - Lot 4,B,Validé,2026-05-01,UNKNOWN,Électricité,Critique,PV de réception,Grand Paris Ligne 16,Conforme,7,,False,False,23.0,2026.0,5.0,73,Non conforme
+BTP-2024-0379,Plan d'exécution VRD - Viaduc - Lot 4,A,En révision,2026-04-18,Martin T.,VRD,Moyenne,Plan d'exécution,Viaduc Saône,Non conforme,2,,False,False,36.0,2026.0,4.0,100,Conforme
+BTP-2024-0380,DOE Plomberie - Viaduc - Lot 3,A,Obsolète,2025-11-23,Durand K.,Plomberie,Haute,DOE,Viaduc Saône,En attente,8,,False,False,182.0,2025.0,11.0,85,À améliorer
+BTP-2024-0381,PV de réception Façade - Viaduc - Lot 5,B,Validé,2026-01-28,Bernard C.,Façade,Critique,PV de réception,Viaduc Saône,Conforme,3,,False,False,116.0,2026.0,1.0,73,Non conforme
+BTP-2024-0382,Plan d'exécution VRD - Grand - Lot 1,B,Validé,2026-05-17,Martin T.,VRD,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Conforme,1,,False,False,7.0,2026.0,5.0,100,Conforme
+BTP-2024-0383,Plan d'exécution Génie civil - Viaduc - Lot 2,D,Validé,2026-04-30,Lefebvre M.,Génie civil,Moyenne,Plan d'exécution,Viaduc Saône,Conforme,4,,False,False,24.0,2026.0,4.0,100,Conforme
+BTP-2024-0384,Fiche de contrôle Façade - A89 - Lot 2,C,Validé,2026-04-01,Bernard C.,Façade,Haute,Fiche de contrôle,A89 Tunnel Est,Conforme,7,,False,False,53.0,2026.0,4.0,100,Conforme
+BTP-2024-0385,DOE Génie civil - A89 - Lot 3,A,Validé,2026-04-20,Martin T.,Génie civil,Moyenne,DOE,A89 Tunnel Est,Non conforme,0,,False,False,34.0,2026.0,4.0,100,Conforme
+BTP-2024-0386,CCTP Plomberie - A89 - Lot 4,B,Validé,2024-10-13,Durand K.,Plomberie,Moyenne,CCTP,A89 Tunnel Est,Conforme,0,,False,False,588.0,2024.0,10.0,90,Conforme
+BTP-2024-0387,PV de réception Génie civil - A89 - Lot 2,A,Validé,2026-04-16,Bernard C.,Génie civil,Haute,PV de réception,A89 Tunnel Est,Conforme,1,,False,False,38.0,2026.0,4.0,100,Conforme
+BTP-2024-0388,CCTP Plomberie - Stade - Lot 1,N/A,Manquant,,Martin T.,Plomberie,Faible,CCTP,Stade Bordeaux,Non conforme,7,,False,False,,,,75,À améliorer
+BTP-2024-0389,PV de réception Génie civil - Stade - Lot 1,B,Obsolète,2025-09-13,Bernard C.,Génie civil,Moyenne,PV de réception,Stade Bordeaux,Conforme,7,,False,False,253.0,2025.0,9.0,100,Conforme
+BTP-2024-0390,PV de réception CVC - Viaduc - Lot 5,C,Validé,2024-08-16,Martin T.,CVC,Haute,PV de réception,Viaduc Saône,Conforme,1,,False,False,646.0,2024.0,8.0,90,Conforme
+BTP-2024-0391,Note de calcul CVC - Viaduc - Lot 1,C,Validé,2026-04-24,Rousseau S.,CVC,Haute,Note de calcul,Viaduc Saône,Conforme,5,,False,False,30.0,2026.0,4.0,73,Non conforme
+BTP-2024-0392,CCTP Façade - Grand - Lot 5,E,Validé,2026-04-01,Martin T.,Façade,Critique,CCTP,Grand Paris Ligne 16,Conforme,4,,False,False,53.0,2026.0,4.0,73,Non conforme
+BTP-2024-0393,Fiche de contrôle VRD - Stade - Lot 4,A,Validé,2024-11-23,Martin T.,VRD,Moyenne,Fiche de contrôle,Stade Bordeaux,Conforme,1,,False,False,547.0,2024.0,11.0,90,Conforme
+BTP-2024-0394,CCTP Structure - Viaduc - Lot 1,E,En révision,2026-05-07,Martin T.,Structure,Moyenne,CCTP,Viaduc Saône,En attente,7,,False,False,17.0,2026.0,5.0,85,À améliorer
+BTP-2024-0395,Plan d'exécution Façade - Viaduc - Lot 5,E,Obsolète,2025-08-25,Durand K.,Façade,Critique,Plan d'exécution,Viaduc Saône,Conforme,8,,False,False,272.0,2025.0,8.0,85,À améliorer
+BTP-2024-0396,DOE Structure - A89 - Lot 2,B,Obsolète,2026-02-04,Martin T.,Structure,Critique,DOE,A89 Tunnel Est,Non conforme,8,,False,False,109.0,2026.0,2.0,60,Non conforme
+BTP-2024-0397,Note de calcul Plomberie - Grand - Lot 4,A,Validé,2025-06-03,Lefebvre M.,Plomberie,Moyenne,Note de calcul,Grand Paris Ligne 16,Conforme,2,,False,False,355.0,2025.0,6.0,63,Non conforme
+BTP-2024-0398,Note de calcul Façade - Viaduc - Lot 3,E,Validé,2024-05-29,UNKNOWN,Façade,Moyenne,Note de calcul,Viaduc Saône,Conforme,5,,False,False,725.0,2024.0,5.0,63,Non conforme
+BTP-2024-0399,DOE Électricité - Viaduc - Lot 3,B,Obsolète,2026-04-17,Durand K.,Électricité,Haute,DOE,Viaduc Saône,Non conforme,7,,False,False,37.0,2026.0,4.0,75,À améliorer
+BTP-2024-0400,Fiche de contrôle Électricité - A89 - Lot 3,E,En révision,2025-01-06,Martin T.,Électricité,Faible,Fiche de contrôle,A89 Tunnel Est,Conforme,3,,False,False,503.0,2025.0,1.0,100,Conforme
+BTP-2024-0401,PV de réception Façade - A89 - Lot 2,C,En révision,2026-03-26,Lefebvre M.,Façade,Faible,PV de réception,A89 Tunnel Est,En attente,0,,False,False,59.0,2026.0,3.0,73,Non conforme
+BTP-2024-0402,PV de réception Électricité - Grand - Lot 4,E,Validé,2025-11-26,Rousseau S.,Électricité,Moyenne,PV de réception,Grand Paris Ligne 16,Conforme,3,,False,False,179.0,2025.0,11.0,73,Non conforme
+BTP-2024-0403,Plan d'exécution Plomberie - Stade - Lot 4,E,En révision,2026-04-01,Lefebvre M.,Plomberie,Haute,Plan d'exécution,Stade Bordeaux,En attente,0,,False,False,53.0,2026.0,4.0,73,Non conforme
+BTP-2024-0404,PV de réception Façade - Stade - Lot 1,A,Obsolète,2025-11-29,Durand K.,Façade,Moyenne,PV de réception,Stade Bordeaux,Non conforme,8,,False,False,176.0,2025.0,11.0,85,À améliorer
+BTP-2024-0405,PV de réception Structure - Grand - Lot 1,B,Validé,2025-09-05,Martin T.,Structure,Moyenne,PV de réception,Grand Paris Ligne 16,Conforme,6,,False,False,261.0,2025.0,9.0,90,Conforme
+BTP-2024-0406,Fiche de contrôle VRD - Grand - Lot 4,E,Validé,2026-04-06,UNKNOWN,VRD,Critique,Fiche de contrôle,Grand Paris Ligne 16,Conforme,2,,False,False,48.0,2026.0,4.0,73,Non conforme
+BTP-2024-0407,Note de calcul Façade - Viaduc - Lot 4,E,Validé,2026-05-11,Durand K.,Façade,Moyenne,Note de calcul,Viaduc Saône,Conforme,1,,False,False,13.0,2026.0,5.0,100,Conforme
+BTP-2024-0408,DOE Structure - Viaduc - Lot 3,C,Validé,2025-05-25,Rousseau S.,Structure,Haute,DOE,Viaduc Saône,Conforme,7,,False,False,364.0,2025.0,5.0,63,Non conforme
+BTP-2024-0409,Note de calcul CVC - Viaduc - Lot 1,B,Validé,2025-09-15,Petit A.,CVC,Faible,Note de calcul,Viaduc Saône,Non conforme,0,,False,False,251.0,2025.0,9.0,63,Non conforme
+BTP-2024-0410,CCTP Génie civil - Grand - Lot 2,A,Obsolète,2026-05-02,Petit A.,Génie civil,Faible,CCTP,Grand Paris Ligne 16,Conforme,8,,False,False,22.0,2026.0,5.0,85,À améliorer
+BTP-2024-0411,Note de calcul Génie civil - Stade - Lot 1,B,Validé,2026-04-09,Durand K.,Génie civil,Moyenne,Note de calcul,Stade Bordeaux,Conforme,2,,False,False,45.0,2026.0,4.0,100,Conforme
+BTP-2024-0412,PV de réception Structure - Grand - Lot 3,A,En révision,2026-04-24,UNKNOWN,Structure,Moyenne,PV de réception,Grand Paris Ligne 16,Conforme,1,,False,False,30.0,2026.0,4.0,100,Conforme
+BTP-2024-0413,PV de réception Structure - Viaduc - Lot 2,A,Validé,2024-01-14,Martin T.,Structure,Moyenne,PV de réception,Viaduc Saône,Conforme,8,,False,False,861.0,2024.0,1.0,90,Conforme
+BTP-2024-0414,CCTP Électricité - A89 - Lot 3,C,Validé,2025-07-18,Durand K.,Électricité,Faible,CCTP,A89 Tunnel Est,Conforme,4,,False,False,310.0,2025.0,7.0,90,Conforme
+BTP-2024-0415,CCTP Génie civil - Stade - Lot 4,D,Obsolète,2026-03-28,Petit A.,Génie civil,Moyenne,CCTP,Stade Bordeaux,Conforme,2,,False,False,57.0,2026.0,3.0,85,À améliorer
+BTP-2024-0416,DOE Structure - Viaduc - Lot 5,B,Validé,2026-04-27,Durand K.,Structure,Moyenne,DOE,Viaduc Saône,Conforme,7,,False,False,27.0,2026.0,4.0,100,Conforme
+BTP-2024-0417,Note de calcul CVC - Grand - Lot 2,B,En révision,2026-01-14,Bernard C.,CVC,Moyenne,Note de calcul,Grand Paris Ligne 16,En attente,2,,False,False,130.0,2026.0,1.0,100,Conforme
+BTP-2024-0418,CCTP Plomberie - Grand - Lot 4,A,Validé,2025-10-14,Bernard C.,Plomberie,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,4,,False,False,222.0,2025.0,10.0,63,Non conforme
+BTP-2024-0419,DOE Électricité - Stade - Lot 5,B,Validé,2026-03-12,Martin T.,Électricité,Haute,DOE,Stade Bordeaux,Conforme,3,,False,False,73.0,2026.0,3.0,100,Conforme
+BTP-2024-0420,Plan d'exécution Plomberie - Stade - Lot 4,B,Validé,2026-04-21,Martin T.,Plomberie,Faible,Plan d'exécution,Stade Bordeaux,Conforme,2,,False,False,33.0,2026.0,4.0,73,Non conforme
+BTP-2024-0421,Note de calcul Génie civil - A89 - Lot 4,C,Validé,2025-12-02,UNKNOWN,Génie civil,Faible,Note de calcul,A89 Tunnel Est,Conforme,7,,False,False,173.0,2025.0,12.0,100,Conforme
+BTP-2024-0422,PV de réception Plomberie - Viaduc - Lot 5,A,Obsolète,2026-04-15,Rousseau S.,Plomberie,Moyenne,PV de réception,Viaduc Saône,En attente,8,,False,False,39.0,2026.0,4.0,85,À améliorer
+BTP-2024-0423,DOE CVC - A89 - Lot 1,A,Validé,2026-03-28,Rousseau S.,CVC,Moyenne,DOE,A89 Tunnel Est,Non conforme,6,,False,False,57.0,2026.0,3.0,73,Non conforme
+BTP-2024-0424,DOE CVC - A89 - Lot 1,C,Validé,2026-04-04,Petit A.,CVC,Moyenne,DOE,A89 Tunnel Est,Conforme,8,,False,False,50.0,2026.0,4.0,73,Non conforme
+BTP-2024-0425,Fiche de contrôle Génie civil - Viaduc - Lot 1,B,Validé,2026-04-04,Martin T.,Génie civil,Moyenne,Fiche de contrôle,Viaduc Saône,Conforme,7,,False,False,50.0,2026.0,4.0,73,Non conforme
+BTP-2024-0426,DOE CVC - Grand - Lot 3,C,Obsolète,2026-04-09,Lefebvre M.,CVC,Critique,DOE,Grand Paris Ligne 16,En attente,8,,False,False,45.0,2026.0,4.0,100,Conforme
+BTP-2024-0427,Fiche de contrôle Plomberie - Grand - Lot 1,B,Validé,2026-03-26,Bernard C.,Plomberie,Moyenne,Fiche de contrôle,Grand Paris Ligne 16,Conforme,4,,False,False,59.0,2026.0,3.0,100,Conforme
+BTP-2024-0428,DOE VRD - Viaduc - Lot 4,B,Validé,2026-05-11,Rousseau S.,VRD,Haute,DOE,Viaduc Saône,Conforme,0,,False,False,13.0,2026.0,5.0,100,Conforme
+BTP-2024-0429,Fiche de contrôle CVC - Grand - Lot 5,D,Validé,2025-08-11,Durand K.,CVC,Moyenne,Fiche de contrôle,Grand Paris Ligne 16,Conforme,8,,False,False,286.0,2025.0,8.0,90,Conforme
+BTP-2024-0430,Note de calcul Façade - A89 - Lot 3,C,Validé,2026-01-10,Durand K.,Façade,Critique,Note de calcul,A89 Tunnel Est,Conforme,1,,False,False,134.0,2026.0,1.0,100,Conforme
+BTP-2024-0431,Plan d'exécution Structure - Viaduc - Lot 5,N/A,Manquant,,Durand K.,Structure,Haute,Plan d'exécution,Viaduc Saône,Non conforme,0,,False,False,,,,50,Non conforme
+BTP-2024-0432,PV de réception Structure - Stade - Lot 3,A,Validé,2026-04-05,Durand K.,Structure,Moyenne,PV de réception,Stade Bordeaux,Conforme,8,,False,False,49.0,2026.0,4.0,100,Conforme
+BTP-2024-0433,CCTP Électricité - Grand - Lot 3,A,En révision,2026-04-17,Bernard C.,Électricité,Moyenne,CCTP,Grand Paris Ligne 16,Non conforme,5,,False,False,37.0,2026.0,4.0,100,Conforme
+BTP-2024-0434,CCTP VRD - Stade - Lot 5,N/A,Manquant,,Martin T.,VRD,Moyenne,CCTP,Stade Bordeaux,Non conforme,4,,False,False,,,,60,Non conforme
+BTP-2024-0435,Plan d'exécution Génie civil - A89 - Lot 5,A,Validé,2026-04-06,UNKNOWN,Génie civil,Moyenne,Plan d'exécution,A89 Tunnel Est,Conforme,3,,False,False,48.0,2026.0,4.0,100,Conforme
+BTP-2024-0436,DOE Structure - Grand - Lot 1,A,En révision,2026-05-04,Petit A.,Structure,Haute,DOE,Grand Paris Ligne 16,En attente,5,,False,False,20.0,2026.0,5.0,100,Conforme
+BTP-2024-0437,Fiche de contrôle VRD - A89 - Lot 4,C,Obsolète,2025-07-23,Martin T.,VRD,Haute,Fiche de contrôle,A89 Tunnel Est,Non conforme,7,,False,False,305.0,2025.0,7.0,60,Non conforme
+BTP-2024-0438,CCTP Façade - Stade - Lot 5,A,Validé,2026-03-31,Rousseau S.,Façade,Faible,CCTP,Stade Bordeaux,Conforme,0,,False,False,54.0,2026.0,3.0,85,À améliorer
+BTP-2024-0439,CCTP Génie civil - Stade - Lot 4,C,En révision,2026-01-08,Petit A.,Génie civil,Faible,CCTP,Stade Bordeaux,Conforme,8,,False,False,136.0,2026.0,1.0,85,À améliorer
+BTP-2024-0440,Note de calcul Façade - Viaduc - Lot 2,C,Validé,2026-04-08,Durand K.,Façade,Haute,Note de calcul,Viaduc Saône,Conforme,7,,False,False,46.0,2026.0,4.0,73,Non conforme
+BTP-2024-0441,PV de réception Façade - Grand - Lot 1,C,Validé,2024-10-30,UNKNOWN,Façade,Haute,PV de réception,Grand Paris Ligne 16,Conforme,7,,False,False,571.0,2024.0,10.0,75,À améliorer
+BTP-2024-0442,Note de calcul CVC - Grand - Lot 5,E,Validé,2025-10-09,Petit A.,CVC,Moyenne,Note de calcul,Grand Paris Ligne 16,Conforme,2,,False,False,227.0,2025.0,10.0,75,À améliorer
+BTP-2024-0443,DOE Génie civil - A89 - Lot 5,E,Validé,2024-07-10,UNKNOWN,Génie civil,Moyenne,DOE,A89 Tunnel Est,Conforme,1,,False,False,683.0,2024.0,7.0,90,Conforme
+BTP-2024-0444,Fiche de contrôle VRD - A89 - Lot 2,C,Validé,2025-06-03,Martin T.,VRD,Faible,Fiche de contrôle,A89 Tunnel Est,Conforme,4,,False,False,355.0,2025.0,6.0,75,À améliorer
+BTP-2024-0445,CCTP VRD - Stade - Lot 5,C,En révision,2026-05-14,Rousseau S.,VRD,Moyenne,CCTP,Stade Bordeaux,En attente,1,,False,False,10.0,2026.0,5.0,73,Non conforme
+BTP-2024-0446,CCTP Génie civil - Stade - Lot 3,C,Validé,2026-04-17,Rousseau S.,Génie civil,Haute,CCTP,Stade Bordeaux,Conforme,7,,False,False,37.0,2026.0,4.0,100,Conforme
+BTP-2024-0447,Note de calcul Structure - A89 - Lot 5,A,Validé,2026-04-29,Rousseau S.,Structure,Moyenne,Note de calcul,A89 Tunnel Est,Conforme,7,,False,False,25.0,2026.0,4.0,100,Conforme
+BTP-2024-0448,PV de réception CVC - Stade - Lot 4,E,Validé,2026-05-18,Lefebvre M.,CVC,Haute,PV de réception,Stade Bordeaux,Conforme,7,,False,False,6.0,2026.0,5.0,85,À améliorer
+BTP-2024-0449,DOE VRD - Viaduc - Lot 3,B,Validé,2026-03-29,UNKNOWN,VRD,Faible,DOE,Viaduc Saône,Conforme,5,,False,False,56.0,2026.0,3.0,100,Conforme
+BTP-2024-0450,Fiche de contrôle Électricité - A89 - Lot 2,D,Validé,2025-12-28,Rousseau S.,Électricité,Haute,Fiche de contrôle,A89 Tunnel Est,Conforme,1,,False,False,147.0,2025.0,12.0,100,Conforme
+BTP-2024-0451,DOE Électricité - A89 - Lot 2,C,Validé,2026-04-19,Rousseau S.,Électricité,Moyenne,DOE,A89 Tunnel Est,Conforme,2,,False,False,35.0,2026.0,4.0,73,Non conforme
+BTP-2024-0452,Fiche de contrôle Électricité - A89 - Lot 1,E,Validé,2026-04-26,Petit A.,Électricité,Faible,Fiche de contrôle,A89 Tunnel Est,Conforme,7,,False,False,28.0,2026.0,4.0,73,Non conforme
+BTP-2024-0453,CCTP Structure - Viaduc - Lot 5,D,Validé,2026-05-12,UNKNOWN,Structure,Critique,CCTP,Viaduc Saône,Conforme,6,,False,False,12.0,2026.0,5.0,73,Non conforme
+BTP-2024-0454,Fiche de contrôle VRD - A89 - Lot 3,E,Validé,2026-03-25,Bernard C.,VRD,Faible,Fiche de contrôle,A89 Tunnel Est,Conforme,7,,False,False,60.0,2026.0,3.0,73,Non conforme
+BTP-2024-0455,Note de calcul Génie civil - Stade - Lot 5,C,Validé,2024-06-06,Rousseau S.,Génie civil,Faible,Note de calcul,Stade Bordeaux,Conforme,6,,False,False,717.0,2024.0,6.0,63,Non conforme
+BTP-2024-0456,Note de calcul Façade - Stade - Lot 1,A,Validé,2026-05-23,Martin T.,Façade,Faible,Note de calcul,Stade Bordeaux,Conforme,6,,False,False,1.0,2026.0,5.0,100,Conforme
+BTP-2024-0457,CCTP Plomberie - Viaduc - Lot 2,D,En révision,2025-08-15,Rousseau S.,Plomberie,Moyenne,CCTP,Viaduc Saône,Non conforme,6,,False,False,282.0,2025.0,8.0,100,Conforme
+BTP-2024-0458,PV de réception Façade - Viaduc - Lot 4,B,Validé,2026-03-20,Petit A.,Façade,Faible,PV de réception,Viaduc Saône,Conforme,6,,False,False,65.0,2026.0,3.0,73,Non conforme
+BTP-2024-0459,Plan d'exécution Génie civil - Grand - Lot 4,D,En révision,2026-03-27,Bernard C.,Génie civil,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Non conforme,5,,False,False,58.0,2026.0,3.0,100,Conforme
+BTP-2024-0460,Note de calcul Génie civil - Viaduc - Lot 3,B,En révision,2026-04-08,Lefebvre M.,Génie civil,Moyenne,Note de calcul,Viaduc Saône,Non conforme,0,,False,False,46.0,2026.0,4.0,100,Conforme
+BTP-2024-0461,Fiche de contrôle CVC - Stade - Lot 5,A,Validé,2026-05-14,Lefebvre M.,CVC,Moyenne,Fiche de contrôle,Stade Bordeaux,Conforme,3,,False,False,10.0,2026.0,5.0,100,Conforme
+BTP-2024-0462,DOE Électricité - A89 - Lot 4,E,En révision,2026-05-04,Rousseau S.,Électricité,Moyenne,DOE,A89 Tunnel Est,Conforme,7,,False,False,20.0,2026.0,5.0,100,Conforme
+BTP-2024-0463,DOE CVC - Stade - Lot 3,C,Validé,2025-12-30,Petit A.,CVC,Faible,DOE,Stade Bordeaux,Conforme,4,,False,False,145.0,2025.0,12.0,100,Conforme
+BTP-2024-0464,DOE Structure - Viaduc - Lot 1,C,Validé,2026-04-02,UNKNOWN,Structure,Moyenne,DOE,Viaduc Saône,Conforme,4,,False,False,52.0,2026.0,4.0,85,À améliorer
+BTP-2024-0465,Note de calcul VRD - Stade - Lot 2,A,Validé,2025-12-26,Durand K.,VRD,Haute,Note de calcul,Stade Bordeaux,Conforme,3,,False,False,149.0,2025.0,12.0,73,Non conforme
+BTP-2024-0466,Note de calcul Électricité - A89 - Lot 4,B,Validé,2026-01-06,Martin T.,Électricité,Critique,Note de calcul,A89 Tunnel Est,Conforme,7,,False,False,138.0,2026.0,1.0,100,Conforme
+BTP-2024-0467,DOE Plomberie - Grand - Lot 4,C,Validé,2026-05-20,Durand K.,Plomberie,Moyenne,DOE,Grand Paris Ligne 16,Conforme,7,,False,False,4.0,2026.0,5.0,100,Conforme
+BTP-2024-0468,CCTP Plomberie - Grand - Lot 4,D,Validé,2026-05-07,Bernard C.,Plomberie,Moyenne,CCTP,Grand Paris Ligne 16,Non conforme,5,,False,False,17.0,2026.0,5.0,73,Non conforme
+BTP-2024-0469,DOE CVC - A89 - Lot 1,C,Validé,2026-03-30,Durand K.,CVC,Moyenne,DOE,A89 Tunnel Est,Conforme,6,,False,False,55.0,2026.0,3.0,73,Non conforme
+BTP-2024-0470,DOE Électricité - Grand - Lot 1,B,En révision,2026-04-20,UNKNOWN,Électricité,Moyenne,DOE,Grand Paris Ligne 16,Conforme,1,,False,False,34.0,2026.0,4.0,100,Conforme
+BTP-2024-0471,Fiche de contrôle Structure - A89 - Lot 1,C,Validé,2026-05-09,Lefebvre M.,Structure,Moyenne,Fiche de contrôle,A89 Tunnel Est,Conforme,3,,False,False,15.0,2026.0,5.0,100,Conforme
+BTP-2024-0472,DOE CVC - A89 - Lot 3,E,En révision,2024-11-16,Durand K.,CVC,Haute,DOE,A89 Tunnel Est,Non conforme,7,,False,False,554.0,2024.0,11.0,75,À améliorer
+BTP-2024-0473,Plan d'exécution Plomberie - Viaduc - Lot 1,N/A,Manquant,,Durand K.,Plomberie,Haute,Plan d'exécution,Viaduc Saône,Non conforme,0,,False,False,,,,50,Non conforme
+BTP-2024-0474,Fiche de contrôle Électricité - Stade - Lot 2,N/A,Manquant,,Rousseau S.,Électricité,Haute,Fiche de contrôle,Stade Bordeaux,Non conforme,6,,False,False,,,,50,Non conforme
+BTP-2024-0475,DOE Génie civil - Viaduc - Lot 1,D,Validé,2026-01-30,Lefebvre M.,Génie civil,Moyenne,DOE,Viaduc Saône,Conforme,4,,False,False,114.0,2026.0,1.0,100,Conforme
+BTP-2024-0476,Fiche de contrôle Façade - A89 - Lot 4,A,Obsolète,2026-03-25,Rousseau S.,Façade,Haute,Fiche de contrôle,A89 Tunnel Est,En attente,0,,False,False,60.0,2026.0,3.0,85,À améliorer
+BTP-2024-0477,DOE CVC - Viaduc - Lot 4,A,Validé,2026-04-19,Lefebvre M.,CVC,Moyenne,DOE,Viaduc Saône,Conforme,8,,False,False,35.0,2026.0,4.0,100,Conforme
+BTP-2024-0478,PV de réception VRD - Stade - Lot 3,A,Validé,2026-04-30,Petit A.,VRD,Moyenne,PV de réception,Stade Bordeaux,Conforme,3,,False,False,24.0,2026.0,4.0,73,Non conforme
+BTP-2024-0479,CCTP Génie civil - A89 - Lot 3,N/A,Manquant,,Bernard C.,Génie civil,Moyenne,CCTP,A89 Tunnel Est,Non conforme,1,,False,False,,,,75,À améliorer
+BTP-2024-0480,Fiche de contrôle Plomberie - Grand - Lot 3,E,Validé,2026-05-08,Bernard C.,Plomberie,Haute,Fiche de contrôle,Grand Paris Ligne 16,Conforme,8,,False,False,16.0,2026.0,5.0,73,Non conforme
+BTP-2024-0481,Fiche de contrôle Façade - A89 - Lot 4,A,Validé,2026-01-24,Petit A.,Façade,Critique,Fiche de contrôle,A89 Tunnel Est,Conforme,8,,False,False,120.0,2026.0,1.0,73,Non conforme
+BTP-2024-0482,DOE Génie civil - Grand - Lot 5,N/A,Manquant,,Lefebvre M.,Génie civil,Critique,DOE,Grand Paris Ligne 16,Non conforme,3,,False,False,,,,50,Non conforme
+BTP-2024-0483,DOE Plomberie - Grand - Lot 1,C,Validé,2026-02-04,UNKNOWN,Plomberie,Moyenne,DOE,Grand Paris Ligne 16,Conforme,1,,False,False,109.0,2026.0,2.0,73,Non conforme
+BTP-2024-0484,Fiche de contrôle Structure - Grand - Lot 5,C,Validé,2026-04-02,Martin T.,Structure,Haute,Fiche de contrôle,Grand Paris Ligne 16,Conforme,5,,False,False,52.0,2026.0,4.0,100,Conforme
+BTP-2024-0485,Note de calcul Façade - A89 - Lot 2,A,Validé,2026-05-06,Bernard C.,Façade,Haute,Note de calcul,A89 Tunnel Est,Conforme,3,,False,False,18.0,2026.0,5.0,100,Conforme
+BTP-2024-0486,Plan d'exécution CVC - Grand - Lot 1,E,Validé,2025-05-08,Martin T.,CVC,Faible,Plan d'exécution,Grand Paris Ligne 16,Conforme,1,,False,False,381.0,2025.0,5.0,63,Non conforme
+BTP-2024-0487,DOE Plomberie - Stade - Lot 4,D,Validé,2026-04-09,Bernard C.,Plomberie,Faible,DOE,Stade Bordeaux,Conforme,3,,False,False,45.0,2026.0,4.0,85,À améliorer
+BTP-2024-0488,CCTP Génie civil - A89 - Lot 2,E,Validé,2026-05-18,Lefebvre M.,Génie civil,Moyenne,CCTP,A89 Tunnel Est,Conforme,8,,False,False,6.0,2026.0,5.0,100,Conforme
+BTP-2024-0489,CCTP Structure - Stade - Lot 2,E,Obsolète,2026-05-09,Petit A.,Structure,Faible,CCTP,Stade Bordeaux,Conforme,7,,False,False,15.0,2026.0,5.0,100,Conforme
+BTP-2024-0490,Note de calcul Électricité - Grand - Lot 4,C,En révision,2026-05-05,Lefebvre M.,Électricité,Critique,Note de calcul,Grand Paris Ligne 16,Non conforme,1,,False,False,19.0,2026.0,5.0,48,Critique
+BTP-2024-0491,Plan d'exécution Plomberie - Grand - Lot 3,E,Validé,2026-02-17,Bernard C.,Plomberie,Critique,Plan d'exécution,Grand Paris Ligne 16,Conforme,3,,False,False,96.0,2026.0,2.0,100,Conforme
+BTP-2024-0492,DOE Plomberie - Stade - Lot 2,B,Validé,2024-03-28,Lefebvre M.,Plomberie,Haute,DOE,Stade Bordeaux,Conforme,7,,False,False,787.0,2024.0,3.0,90,Conforme
+BTP-2024-0493,Fiche de contrôle CVC - A89 - Lot 2,E,Obsolète,2026-04-24,Petit A.,CVC,Haute,Fiche de contrôle,A89 Tunnel Est,Non conforme,5,,False,False,30.0,2026.0,4.0,75,À améliorer
+BTP-2024-0494,Note de calcul VRD - Stade - Lot 2,A,Validé,2025-01-31,UNKNOWN,VRD,Moyenne,Note de calcul,Stade Bordeaux,Conforme,5,,False,False,478.0,2025.0,1.0,63,Non conforme
+BTP-2024-0495,PV de réception Génie civil - Grand - Lot 4,E,En révision,2026-03-27,UNKNOWN,Génie civil,Moyenne,PV de réception,Grand Paris Ligne 16,En attente,3,,False,False,58.0,2026.0,3.0,100,Conforme
+BTP-2024-0496,Fiche de contrôle CVC - Viaduc - Lot 5,B,Validé,2026-05-08,Martin T.,CVC,Moyenne,Fiche de contrôle,Viaduc Saône,Non conforme,0,,False,False,16.0,2026.0,5.0,100,Conforme
+BTP-2024-0497,Plan d'exécution Électricité - A89 - Lot 1,N/A,Manquant,,Bernard C.,Électricité,Moyenne,Plan d'exécution,A89 Tunnel Est,Non conforme,7,,False,False,,,,60,Non conforme
+BTP-2024-0498,Plan d'exécution Génie civil - A89 - Lot 1,B,En révision,2026-05-15,Bernard C.,Génie civil,Moyenne,Plan d'exécution,A89 Tunnel Est,En attente,4,,False,False,9.0,2026.0,5.0,100,Conforme
+BTP-2024-0499,DOE Génie civil - Viaduc - Lot 3,A,Obsolète,2025-01-03,Petit A.,Génie civil,Moyenne,DOE,Viaduc Saône,Non conforme,7,,False,False,506.0,2025.0,1.0,85,À améliorer
+BTP-2024-0500,DOE Plomberie - A89 - Lot 5,C,Obsolète,2026-04-20,Rousseau S.,Plomberie,Critique,DOE,A89 Tunnel Est,Conforme,3,,False,False,34.0,2026.0,4.0,100,Conforme
+BTP-2024-0501,PV de réception Façade - Stade - Lot 1,A,Obsolète,2025-11-29,Durand K.,Façade,Moyenne,PV de réception,Stade Bordeaux,Non conforme,8,,False,False,176.0,2025.0,11.0,85,À améliorer
+BTP-2024-0502,Fiche de contrôle VRD - Grand - Lot 4,C,Manquant,,Durand K.,VRD,Critique,Fiche de contrôle,Grand Paris Ligne 16,Non conforme,8,,False,False,,,,35,Critique
+BTP-2024-0503,DOE Plomberie - Viaduc - Lot 4,A,Validé,2026-03-26,Durand K.,Plomberie,Moyenne,DOE,Viaduc Saône,Conforme,5,,False,False,59.0,2026.0,3.0,73,Non conforme
+BTP-2024-0504,DOE Façade - Viaduc - Lot 4,C,Validé,2026-04-13,Bernard C.,Façade,Critique,DOE,Viaduc Saône,Conforme,7,,False,False,41.0,2026.0,4.0,73,Non conforme
+BTP-2024-0505,Note de calcul Génie civil - Stade - Lot 5,A,Validé,2024-06-06,Rousseau S.,Génie civil,Faible,Note de calcul,Stade Bordeaux,Conforme,6,,False,False,717.0,2024.0,6.0,63,Non conforme
+BTP-2024-0506,Fiche de contrôle Façade - A89 - Lot 3,D,Obsolète,2026-04-17,Lefebvre M.,Façade,Moyenne,Fiche de contrôle,A89 Tunnel Est,Non conforme,3,,False,False,37.0,2026.0,4.0,85,À améliorer
+BTP-2024-0507,Plan d'exécution VRD - A89 - Lot 2,D,En révision,2024-11-22,Rousseau S.,VRD,Haute,Plan d'exécution,A89 Tunnel Est,Conforme,2,,False,False,548.0,2024.0,11.0,73,Non conforme
+BTP-2024-0508,DOE Structure - Stade - Lot 5,A,Validé,2025-11-30,Martin T.,Structure,Faible,DOE,Stade Bordeaux,Conforme,3,,False,False,175.0,2025.0,11.0,73,Non conforme
+BTP-2024-0509,Plan d'exécution VRD - A89 - Lot 2,C,En révision,2024-11-22,Rousseau S.,VRD,Haute,Plan d'exécution,A89 Tunnel Est,Conforme,2,,False,False,548.0,2024.0,11.0,73,Non conforme
+BTP-2024-0510,Note de calcul Structure - Stade - Lot 5,E,Validé,2026-05-16,Lefebvre M.,Structure,Moyenne,Note de calcul,Stade Bordeaux,Conforme,7,,False,False,8.0,2026.0,5.0,85,À améliorer
+BTP-2024-0511,CCTP Structure - Grand - Lot 2,A,Validé,2026-05-06,UNKNOWN,Structure,Moyenne,CCTP,Grand Paris Ligne 16,Conforme,4,,False,False,18.0,2026.0,5.0,73,Non conforme
+BTP-2024-0512,Plan d'exécution Électricité - Grand - Lot 3,B,En révision,2026-04-26,Lefebvre M.,Électricité,Moyenne,Plan d'exécution,Grand Paris Ligne 16,Non conforme,5,,False,False,28.0,2026.0,4.0,73,Non conforme
+BTP-2024-0513,Fiche de contrôle Génie civil - A89 - Lot 2,C,Validé,2024-04-26,UNKNOWN,Génie civil,Haute,Fiche de contrôle,A89 Tunnel Est,Conforme,5,,False,False,758.0,2024.0,4.0,63,Non conforme
+BTP-2024-0514,Note de calcul Structure - Grand - Lot 1,E,Validé,2024-09-01,Martin T.,Structure,Moyenne,Note de calcul,Grand Paris Ligne 16,Conforme,7,,False,False,630.0,2024.0,9.0,63,Non conforme
+BTP-2024-0515,Fiche de contrôle Façade - Viaduc - Lot 3,D,Manquant,,Rousseau S.,Façade,Faible,Fiche de contrôle,Viaduc Saône,Non conforme,1,,False,False,,,,60,Non conforme
+BTP-2024-0516,PV de réception CVC - Stade - Lot 1,B,Validé,2024-08-24,Martin T.,CVC,Haute,PV de réception,Stade Bordeaux,Conforme,6,,False,False,638.0,2024.0,8.0,63,Non conforme
+BTP-2024-0517,CCTP Façade - Stade - Lot 1,C,Manquant,,Rousseau S.,Façade,Haute,CCTP,Stade Bordeaux,Non conforme,6,,False,False,,,,35,Critique
+BTP-2024-0518,Fiche de contrôle Génie civil - Grand - Lot 2,E,Obsolète,2025-07-04,Lefebvre M.,Génie civil,Moyenne,Fiche de contrôle,Grand Paris Ligne 16,Non conforme,4,,False,False,324.0,2025.0,7.0,85,À améliorer
+BTP-2024-0519,CCTP VRD - Stade - Lot 5,C,Manquant,,Martin T.,VRD,Moyenne,CCTP,Stade Bordeaux,Non conforme,4,,False,False,,,,60,Non conforme
+BTP-2024-0520,DOE VRD - Grand - Lot 2,A,En révision,2026-03-29,Lefebvre M.,VRD,Faible,DOE,Grand Paris Ligne 16,Non conforme,4,,False,False,56.0,2026.0,3.0,85,À améliorer

@@ -1,0 +1,58 @@
+# ============================================================
+# Document Quality Monitor — Configuration
+# ============================================================
+
+# --- Chemins des données ---
+paths:
+  raw_data: "data/raw/documents.csv"          # Fichier source principal
+  manual_mapping: "data/raw/manual_mapping.json"  # Overrides mapping colonne source -> standard
+  processed_data: "data/processed/documents_clean.csv"
+  nomenclature: "data/raw/nomenclature_cible.csv"  # Liste des documents attendus
+  outputs_dir: "data/outputs"
+  db_path: "data/processed/dqm.db"           # Base SQLite
+
+# --- Contrôles qualité ---
+quality:
+  seuil_obsolescence_jours: 180              # Docs non mis à jour depuis N jours
+  seuil_conformite_alerte: 85.0              # % en dessous duquel une alerte globale est envoyée
+  statuts_valides:
+    - "Validé"
+    - "En révision"
+    - "Manquant"
+    - "Obsolète"
+  criticites_valides:
+    - "Critique"
+    - "Haute"
+    - "Moyenne"
+    - "Faible"
+  champs_obligatoires:
+    - "responsable"
+    - "discipline"
+    - "criticite"
+    - "type_document"
+    - "projet"
+
+# --- Alertes mail ---
+smtp:
+  host: "smtp.gmail.com"                     # Remplacer par le serveur SMTP de l'entreprise
+  port: 587
+  user: "dqm.monitor@example.com"            # Compte émetteur
+  password: "VOTRE_MOT_DE_PASSE"             # À stocker dans une variable d'env en production
+  destinataires_defaut:
+    - "chef.projet@example.com"
+    - "responsable.qualite@example.com"
+  sujet_prefixe: "[DQM - Bouygues TP]"
+
+# --- Rapport ---
+reporting:
+  format: "html"                             # html | excel | les deux
+  titre_rapport: "Rapport Qualité Documentaire — Document Quality Monitor"
+  logo_path: ""                              # Optionnel : chemin vers logo PNG
+  frequence_rapport: "hebdomadaire"          # Pour documentation
+
+# --- Projet ---
+project:
+  nom: "Document Quality Monitor"
+  version: "1.0.0"
+  client: "Bouygues Travaux Publics"
+  date_debut: "2024-01-01"

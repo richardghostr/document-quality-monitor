@@ -1,0 +1,14 @@
+﻿source_column,standard_column,confidence,method
+commentaire,commentaire,100.0,synonym
+conformite,conformite,100.0,synonym
+criticite,criticite,100.0,synonym
+date_mise_a_jour,date_mise_a_jour,100.0,synonym
+discipline,discipline,100.0,synonym
+doc_id,doc_id,100.0,synonym
+nb_revisions,nb_revisions,100.0,synonym
+nom_document,nom_document,100.0,synonym
+projet,projet,100.0,synonym
+responsable,responsable,100.0,synonym
+statut,statut,100.0,synonym
+type_document,type_document,100.0,synonym
+version,version,100.0,synonym

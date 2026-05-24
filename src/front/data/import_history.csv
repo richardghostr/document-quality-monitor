@@ -1,0 +1,5 @@
+timestamp,source,fichier,statut,message
+20260524_024355,upload,construction_dataset.csv,rejeté,"Colonnes minimales manquantes: ['doc_id', 'nom_document', 'statut']"
+20260524_024446,upload,documents.csv,importé,Stocké dans C:\Users\richa\document-quality-monitor\data\raw\documents.csv
+20260524_024505,upload,construction_dataset.csv,rejeté,"Colonnes minimales manquantes: ['doc_id', 'nom_document', 'statut']"
+20260524_025417,upload,construction_dataset.csv,rejeté,"Colonnes minimales manquantes: ['doc_id', 'nom_document', 'statut']"

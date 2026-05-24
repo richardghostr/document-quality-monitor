@@ -1,0 +1,625 @@
+2026-05-24 02:06:30 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:06:30 | INFO     | main                           | 🚀 DOCUMENT QUALITY MONITOR - Pipeline de conformité documentaire
+2026-05-24 02:06:30 | INFO     | main                           | ======================================================================
+2026-05-24 02:06:30 | INFO     | main                           | 
+[1/8] Chargement configuration...
+2026-05-24 02:06:30 | INFO     | main                           | ✓ Configuration chargée
+2026-05-24 02:06:30 | INFO     | main                           | 
+[2/8] Extraction données sources...
+2026-05-24 02:06:30 | WARNING  | etl.extract                    | Fichier source absent (data/raw/documents.csv). Génération d'un dataset simulé.
+2026-05-24 02:06:30 | INFO     | etl.extract                    | Génération dataset simulé : 500 documents...
+2026-05-24 02:06:30 | INFO     | etl.extract                    |   → Dataset sauvegardé : data/raw/documents.csv (520 lignes)
+2026-05-24 02:06:30 | INFO     | main                           | ✓ 520 documents extraits
+2026-05-24 02:06:30 | INFO     | main                           | 
+[3/8] Transformation (nettoyage + enrichissement)...
+2026-05-24 02:06:30 | INFO     | etl.transform                  | Début transformation — 520 lignes en entrée
+2026-05-24 02:06:30 | INFO     | etl.transform                  | Normalisation des colonnes et valeurs texte...
+2026-05-24 02:06:30 | INFO     | etl.transform                  | Parsing des dates...
+2026-05-24 02:06:30 | WARNING  | etl.transform                  |   → 49 date(s) invalide(s) convertie(s) en NaT
+2026-05-24 02:06:30 | WARNING  | etl.transform                  |   → 5 document(s) avec statut invalide détecté(s)
+2026-05-24 02:06:30 | INFO     | etl.transform                  | Transformation terminée — 520 lignes en sortie
+2026-05-24 02:06:30 | INFO     | main                           | ✓ 520 documents transformés
+2026-05-24 02:06:30 | INFO     | main                           | 
+[4/8] Lancement des 7 contrôles qualité...
+2026-05-24 02:06:30 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:06:30 | INFO     | quality.checks                 | Lancement des 7 contrôles qualité...
+2026-05-24 02:06:30 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:06:30 | WARNING  | quality.checks                 | [CHECK 1] Doublons : 271 document(s) concerné(s)
+2026-05-24 02:06:30 | WARNING  | quality.checks                 | [CHECK 2] Versions incohérentes : 161 cas détecté(s)
+2026-05-24 02:06:30 | WARNING  | quality.checks                 | [CHECK 3] Documents manquants : 48 document(s)
+2026-05-24 02:06:30 | WARNING  | quality.checks                 | [CHECK 4] Obsolètes : 87 document(s)
+2026-05-24 02:06:30 | WARNING  | quality.checks                 | [CHECK 5] Champs vides : 76 document(s) concerné(s)
+2026-05-24 02:06:30 | WARNING  | quality.checks                 | [CHECK 6] Statuts invalides : 5 document(s)
+2026-05-24 02:06:30 | WARNING  | quality.checks                 | [CHECK 7] Anomalies critiques : 42 document(s) — ALERTE
+2026-05-24 02:06:30 | INFO     | quality.checks                 | Total anomalies détectées : 690
+2026-05-24 02:06:30 | INFO     | quality.checks                 |   Critiques : 54
+2026-05-24 02:06:30 | INFO     | quality.checks                 |   Hautes    : 542
+2026-05-24 02:06:30 | INFO     | quality.checks                 |   Moyennes  : 94
+2026-05-24 02:06:30 | INFO     | main                           | ✓ 690 anomalies détectées
+2026-05-24 02:06:30 | INFO     | main                           | 
+[5/8] Calcul des scores de conformité...
+2026-05-24 02:06:30 | INFO     | quality.scoring                | Calcul des scores de conformité...
+2026-05-24 02:06:31 | INFO     | quality.scoring                | ✓ Scores calculés
+2026-05-24 02:06:31 | INFO     | quality.scoring                | ✓ Classification effectuée
+2026-05-24 02:06:31 | INFO     | quality.scoring                | 
+============================================================
+2026-05-24 02:06:31 | INFO     | quality.scoring                | STATISTIQUES GLOBALES DE CONFORMITÉ
+2026-05-24 02:06:31 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:06:31 | INFO     | quality.scoring                | Total documents          : 520
+2026-05-24 02:06:31 | INFO     | quality.scoring                |   ✅ Conformes            : 176 (33.8%)
+2026-05-24 02:06:31 | INFO     | quality.scoring                |   ⚠️  À améliorer         : 318
+2026-05-24 02:06:31 | INFO     | quality.scoring                |   🔴 Critiques            : 26
+2026-05-24 02:06:31 | INFO     | quality.scoring                | Score moyen              : 79.35/100
+2026-05-24 02:06:31 | INFO     | quality.scoring                | Plage                    : 15-100
+2026-05-24 02:06:31 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:06:31 | INFO     | main                           | ✓ Scoring et classification terminés
+2026-05-24 02:06:31 | INFO     | main                           | 
+[6/8] Chargement base données et exports...
+2026-05-24 02:06:31 | INFO     | etl.load                       | Chargement dans SQLite : data/processed/dqm.db
+2026-05-24 02:06:31 | INFO     | etl.load                       | Vérification / création du schéma SQL...
+2026-05-24 02:06:31 | INFO     | etl.load                       |   → Schéma SQL prêt
+2026-05-24 02:06:31 | INFO     | etl.load                       |   → 520 document(s) chargé(s) dans la table 'documents'
+2026-05-24 02:06:31 | INFO     | etl.load                       | Chargement des anomalies : 690 entrée(s)
+2026-05-24 02:06:31 | INFO     | etl.load                       |   → 690 anomalie(s) insérée(s)
+2026-05-24 02:06:31 | INFO     | etl.load                       | Export CSV : data/outputs\documents_clean.csv
+2026-05-24 02:06:31 | ERROR    | main                           | 
+======================================================================
+2026-05-24 02:06:31 | ERROR    | main                           | ❌ ERREUR CRITIQUE — Pipeline interrompu
+2026-05-24 02:06:31 | ERROR    | main                           | ======================================================================
+Traceback (most recent call last):
+  File "c:\Users\richa\document-quality-monitor\main.py", line 86, in run_pipeline
+    export_excel(df_scored, anomalies, output_dir)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\richa\document-quality-monitor\src\etl\load.py", line 150, in export_excel
+    with pd.ExcelWriter(path, engine="openpyxl") as writer:
+         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 57, in __init__
+    from openpyxl.workbook import Workbook
+ModuleNotFoundError: No module named 'openpyxl'
+2026-05-24 02:06:49 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:06:49 | INFO     | main                           | 🚀 DOCUMENT QUALITY MONITOR - Pipeline de conformité documentaire
+2026-05-24 02:06:49 | INFO     | main                           | ======================================================================
+2026-05-24 02:06:49 | INFO     | main                           | 
+[1/8] Chargement configuration...
+2026-05-24 02:06:49 | INFO     | main                           | ✓ Configuration chargée
+2026-05-24 02:06:49 | INFO     | main                           | 
+[2/8] Extraction données sources...
+2026-05-24 02:06:49 | INFO     | etl.extract                    | Chargement CSV : data/raw/documents.csv
+2026-05-24 02:06:49 | INFO     | etl.extract                    |   → 520 ligne(s) chargée(s), 13 colonne(s)
+2026-05-24 02:06:49 | INFO     | main                           | ✓ 520 documents extraits
+2026-05-24 02:06:49 | INFO     | main                           | 
+[3/8] Transformation (nettoyage + enrichissement)...
+2026-05-24 02:06:49 | INFO     | etl.transform                  | Début transformation — 520 lignes en entrée
+2026-05-24 02:06:49 | INFO     | etl.transform                  | Normalisation des colonnes et valeurs texte...
+2026-05-24 02:06:49 | INFO     | etl.transform                  | Parsing des dates...
+2026-05-24 02:06:49 | WARNING  | etl.transform                  |   → 49 date(s) invalide(s) convertie(s) en NaT
+2026-05-24 02:06:49 | WARNING  | etl.transform                  |   → 5 document(s) avec statut invalide détecté(s)
+2026-05-24 02:06:49 | INFO     | etl.transform                  | Transformation terminée — 520 lignes en sortie
+2026-05-24 02:06:49 | INFO     | main                           | ✓ 520 documents transformés
+2026-05-24 02:06:49 | INFO     | main                           | 
+[4/8] Lancement des 7 contrôles qualité...
+2026-05-24 02:06:49 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:06:49 | INFO     | quality.checks                 | Lancement des 7 contrôles qualité...
+2026-05-24 02:06:49 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:06:49 | WARNING  | quality.checks                 | [CHECK 1] Doublons : 271 document(s) concerné(s)
+2026-05-24 02:06:49 | WARNING  | quality.checks                 | [CHECK 2] Versions incohérentes : 161 cas détecté(s)
+2026-05-24 02:06:49 | WARNING  | quality.checks                 | [CHECK 3] Documents manquants : 48 document(s)
+2026-05-24 02:06:49 | WARNING  | quality.checks                 | [CHECK 4] Obsolètes : 87 document(s)
+2026-05-24 02:06:49 | WARNING  | quality.checks                 | [CHECK 5] Champs vides : 76 document(s) concerné(s)
+2026-05-24 02:06:49 | WARNING  | quality.checks                 | [CHECK 6] Statuts invalides : 5 document(s)
+2026-05-24 02:06:49 | WARNING  | quality.checks                 | [CHECK 7] Anomalies critiques : 42 document(s) — ALERTE
+2026-05-24 02:06:49 | INFO     | quality.checks                 | Total anomalies détectées : 690
+2026-05-24 02:06:49 | INFO     | quality.checks                 |   Critiques : 54
+2026-05-24 02:06:49 | INFO     | quality.checks                 |   Hautes    : 542
+2026-05-24 02:06:49 | INFO     | quality.checks                 |   Moyennes  : 94
+2026-05-24 02:06:49 | INFO     | main                           | ✓ 690 anomalies détectées
+2026-05-24 02:06:49 | INFO     | main                           | 
+[5/8] Calcul des scores de conformité...
+2026-05-24 02:06:49 | INFO     | quality.scoring                | Calcul des scores de conformité...
+2026-05-24 02:06:49 | INFO     | quality.scoring                | ✓ Scores calculés
+2026-05-24 02:06:49 | INFO     | quality.scoring                | ✓ Classification effectuée
+2026-05-24 02:06:49 | INFO     | quality.scoring                | 
+============================================================
+2026-05-24 02:06:49 | INFO     | quality.scoring                | STATISTIQUES GLOBALES DE CONFORMITÉ
+2026-05-24 02:06:49 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:06:49 | INFO     | quality.scoring                | Total documents          : 520
+2026-05-24 02:06:49 | INFO     | quality.scoring                |   ✅ Conformes            : 176 (33.8%)
+2026-05-24 02:06:49 | INFO     | quality.scoring                |   ⚠️  À améliorer         : 318
+2026-05-24 02:06:49 | INFO     | quality.scoring                |   🔴 Critiques            : 26
+2026-05-24 02:06:49 | INFO     | quality.scoring                | Score moyen              : 79.35/100
+2026-05-24 02:06:49 | INFO     | quality.scoring                | Plage                    : 15-100
+2026-05-24 02:06:49 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:06:49 | INFO     | main                           | ✓ Scoring et classification terminés
+2026-05-24 02:06:49 | INFO     | main                           | 
+[6/8] Chargement base données et exports...
+2026-05-24 02:06:49 | INFO     | etl.load                       | Chargement dans SQLite : data/processed/dqm.db
+2026-05-24 02:06:49 | INFO     | etl.load                       | Vérification / création du schéma SQL...
+2026-05-24 02:06:49 | INFO     | etl.load                       |   → Schéma SQL prêt
+2026-05-24 02:06:49 | INFO     | etl.load                       |   → 520 document(s) chargé(s) dans la table 'documents'
+2026-05-24 02:06:49 | INFO     | etl.load                       | Chargement des anomalies : 690 entrée(s)
+2026-05-24 02:06:49 | INFO     | etl.load                       |   → 690 anomalie(s) insérée(s)
+2026-05-24 02:06:49 | INFO     | etl.load                       | Export CSV : data/outputs\documents_clean.csv
+2026-05-24 02:06:50 | INFO     | etl.load                       | Export Excel : data/outputs\rapport_qualite.xlsx
+2026-05-24 02:06:50 | INFO     | main                           | ✓ Base SQLite et exports générés
+2026-05-24 02:06:50 | INFO     | main                           | 
+[7/8] Traitement des alertes...
+2026-05-24 02:06:50 | INFO     | main                           | ⊘ Alertes désactivées dans config
+2026-05-24 02:06:50 | INFO     | main                           | 
+[8/8] Génération des rapports...
+2026-05-24 02:06:50 | INFO     | reporting.report               | Génération rapport HTML...
+2026-05-24 02:06:50 | INFO     | reporting.report               | ✓ Rapport HTML généré : data/outputs\rapport_qualite.html
+2026-05-24 02:06:50 | INFO     | reporting.report               | Génération rapport Excel...
+2026-05-24 02:06:50 | INFO     | reporting.report               | ✓ Rapport Excel généré : data/outputs\rapport_qualite.xlsx
+2026-05-24 02:06:50 | INFO     | main                           | ✓ Rapports générés
+2026-05-24 02:06:50 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:06:50 | INFO     | main                           | ✅ PIPELINE EXÉCUTÉ AVEC SUCCÈS
+2026-05-24 02:06:50 | INFO     | main                           | ======================================================================
+2026-05-24 02:06:50 | INFO     | main                           | 
+📊 RÉSUMÉ FINAL :
+2026-05-24 02:06:50 | INFO     | main                           |   • Total documents : 520
+2026-05-24 02:06:50 | INFO     | main                           |   • Conformes : 176 (33.9%)
+2026-05-24 02:06:50 | INFO     | main                           |   • Anomalies détectées : 690
+2026-05-24 02:06:50 | INFO     | main                           |   • Fichiers générés : data/outputs/
+2026-05-24 02:06:50 | INFO     | main                           | 
+💾 Base données : data/processed/dqm.db
+2026-05-24 02:06:50 | INFO     | main                           | ======================================================================
+
+2026-05-24 02:08:19 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:08:19 | INFO     | main                           | 🚀 DOCUMENT QUALITY MONITOR - Pipeline de conformité documentaire
+2026-05-24 02:08:19 | INFO     | main                           | ======================================================================
+2026-05-24 02:08:19 | INFO     | main                           | 
+[1/8] Chargement configuration...
+2026-05-24 02:08:19 | INFO     | main                           | ✓ Configuration chargée
+2026-05-24 02:08:19 | INFO     | main                           | 
+[2/8] Extraction données sources...
+2026-05-24 02:08:19 | INFO     | etl.extract                    | Chargement CSV : data/raw/documents.csv
+2026-05-24 02:08:19 | INFO     | etl.extract                    |   → 520 ligne(s) chargée(s), 13 colonne(s)
+2026-05-24 02:08:19 | INFO     | main                           | ✓ 520 documents extraits
+2026-05-24 02:08:19 | INFO     | main                           | 
+[3/8] Transformation (nettoyage + enrichissement)...
+2026-05-24 02:08:19 | INFO     | etl.transform                  | Début transformation — 520 lignes en entrée
+2026-05-24 02:08:19 | INFO     | etl.transform                  | Normalisation des colonnes et valeurs texte...
+2026-05-24 02:08:19 | INFO     | etl.transform                  | Parsing des dates...
+2026-05-24 02:08:19 | WARNING  | etl.transform                  |   → 49 date(s) invalide(s) convertie(s) en NaT
+2026-05-24 02:08:19 | WARNING  | etl.transform                  |   → 5 document(s) avec statut invalide détecté(s)
+2026-05-24 02:08:19 | INFO     | etl.transform                  | Transformation terminée — 520 lignes en sortie
+2026-05-24 02:08:19 | INFO     | main                           | ✓ 520 documents transformés
+2026-05-24 02:08:19 | INFO     | main                           | 
+[4/8] Lancement des 7 contrôles qualité...
+2026-05-24 02:08:19 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:08:19 | INFO     | quality.checks                 | Lancement des 7 contrôles qualité...
+2026-05-24 02:08:19 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:08:19 | WARNING  | quality.checks                 | [CHECK 1] Doublons : 271 document(s) concerné(s)
+2026-05-24 02:08:20 | WARNING  | quality.checks                 | [CHECK 2] Versions incohérentes : 161 cas détecté(s)
+2026-05-24 02:08:20 | WARNING  | quality.checks                 | [CHECK 3] Documents manquants : 48 document(s)
+2026-05-24 02:08:20 | WARNING  | quality.checks                 | [CHECK 4] Obsolètes : 87 document(s)
+2026-05-24 02:08:20 | WARNING  | quality.checks                 | [CHECK 5] Champs vides : 76 document(s) concerné(s)
+2026-05-24 02:08:20 | WARNING  | quality.checks                 | [CHECK 6] Statuts invalides : 5 document(s)
+2026-05-24 02:08:20 | WARNING  | quality.checks                 | [CHECK 7] Anomalies critiques : 42 document(s) — ALERTE
+2026-05-24 02:08:20 | INFO     | quality.checks                 | Total anomalies détectées : 690
+2026-05-24 02:08:20 | INFO     | quality.checks                 |   Critiques : 54
+2026-05-24 02:08:20 | INFO     | quality.checks                 |   Hautes    : 542
+2026-05-24 02:08:20 | INFO     | quality.checks                 |   Moyennes  : 94
+2026-05-24 02:08:20 | INFO     | main                           | ✓ 690 anomalies détectées
+2026-05-24 02:08:20 | INFO     | main                           | 
+[5/8] Calcul des scores de conformité...
+2026-05-24 02:08:20 | INFO     | quality.scoring                | Calcul des scores de conformité...
+2026-05-24 02:08:20 | INFO     | quality.scoring                | ✓ Scores calculés
+2026-05-24 02:08:20 | INFO     | quality.scoring                | ✓ Classification effectuée
+2026-05-24 02:08:20 | INFO     | quality.scoring                | 
+============================================================
+2026-05-24 02:08:20 | INFO     | quality.scoring                | STATISTIQUES GLOBALES DE CONFORMITÉ
+2026-05-24 02:08:20 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:08:20 | INFO     | quality.scoring                | Total documents          : 520
+2026-05-24 02:08:20 | INFO     | quality.scoring                |   ✅ Conformes            : 176 (33.8%)
+2026-05-24 02:08:20 | INFO     | quality.scoring                |   ⚠️  À améliorer         : 318
+2026-05-24 02:08:20 | INFO     | quality.scoring                |   🔴 Critiques            : 26
+2026-05-24 02:08:20 | INFO     | quality.scoring                | Score moyen              : 79.35/100
+2026-05-24 02:08:20 | INFO     | quality.scoring                | Plage                    : 15-100
+2026-05-24 02:08:20 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:08:20 | INFO     | main                           | ✓ Scoring et classification terminés
+2026-05-24 02:08:20 | INFO     | main                           | 
+[6/8] Chargement base données et exports...
+2026-05-24 02:08:20 | INFO     | etl.load                       | Chargement dans SQLite : data/processed/dqm.db
+2026-05-24 02:08:20 | INFO     | etl.load                       | Vérification / création du schéma SQL...
+2026-05-24 02:08:20 | INFO     | etl.load                       |   → Schéma SQL prêt
+2026-05-24 02:08:20 | INFO     | etl.load                       |   → 520 document(s) chargé(s) dans la table 'documents'
+2026-05-24 02:08:20 | INFO     | etl.load                       | Chargement des anomalies : 690 entrée(s)
+2026-05-24 02:08:20 | INFO     | etl.load                       |   → 690 anomalie(s) insérée(s)
+2026-05-24 02:08:20 | INFO     | etl.load                       | Export CSV : data/outputs\documents_clean.csv
+2026-05-24 02:08:21 | INFO     | etl.load                       | Export Excel : data/outputs\rapport_qualite.xlsx
+2026-05-24 02:08:21 | INFO     | main                           | ✓ Base SQLite et exports générés
+2026-05-24 02:08:21 | INFO     | main                           | 
+[7/8] Traitement des alertes...
+2026-05-24 02:08:21 | INFO     | main                           | ⊘ Alertes désactivées dans config
+2026-05-24 02:08:21 | INFO     | main                           | 
+[8/8] Génération des rapports...
+2026-05-24 02:08:21 | INFO     | reporting.report               | Génération rapport HTML...
+2026-05-24 02:08:21 | INFO     | reporting.report               | ✓ Rapport HTML généré : data/outputs\rapport_qualite.html
+2026-05-24 02:08:21 | INFO     | reporting.report               | Génération rapport Excel...
+2026-05-24 02:08:21 | INFO     | reporting.report               | ✓ Rapport Excel généré : data/outputs\rapport_qualite.xlsx
+2026-05-24 02:08:21 | INFO     | main                           | ✓ Rapports générés
+2026-05-24 02:08:21 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:08:21 | INFO     | main                           | ✅ PIPELINE EXÉCUTÉ AVEC SUCCÈS
+2026-05-24 02:08:21 | INFO     | main                           | ======================================================================
+2026-05-24 02:08:21 | INFO     | main                           | 
+📊 RÉSUMÉ FINAL :
+2026-05-24 02:08:21 | INFO     | main                           |   • Total documents : 520
+2026-05-24 02:08:21 | INFO     | main                           |   • Conformes : 176 (33.9%)
+2026-05-24 02:08:21 | INFO     | main                           |   • Anomalies détectées : 690
+2026-05-24 02:08:21 | INFO     | main                           |   • Fichiers générés : data/outputs/
+2026-05-24 02:08:21 | INFO     | main                           | 
+💾 Base données : data/processed/dqm.db
+2026-05-24 02:08:21 | INFO     | main                           | ======================================================================
+
+2026-05-24 02:26:22 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:26:22 | INFO     | main                           | 🚀 DOCUMENT QUALITY MONITOR - Pipeline de conformité documentaire
+2026-05-24 02:26:22 | INFO     | main                           | ======================================================================
+2026-05-24 02:26:22 | INFO     | main                           | 
+[1/8] Chargement configuration...
+2026-05-24 02:26:22 | INFO     | main                           | ✓ Configuration chargée
+2026-05-24 02:26:22 | INFO     | main                           | 
+[2/8] Extraction données sources...
+2026-05-24 02:26:22 | INFO     | etl.extract                    | Chargement CSV : data/raw/documents.csv
+2026-05-24 02:26:22 | INFO     | etl.extract                    |   → 520 ligne(s) chargée(s), 13 colonne(s)
+2026-05-24 02:26:22 | INFO     | main                           | ✓ 520 documents extraits
+2026-05-24 02:26:22 | INFO     | main                           | 
+[3/8] Transformation (nettoyage + enrichissement)...
+2026-05-24 02:26:22 | INFO     | etl.transform                  | Début transformation — 520 lignes en entrée
+2026-05-24 02:26:22 | INFO     | etl.transform                  | Normalisation des colonnes et valeurs texte...
+2026-05-24 02:26:22 | INFO     | etl.transform                  | Parsing des dates...
+2026-05-24 02:26:22 | WARNING  | etl.transform                  |   → 49 date(s) invalide(s) convertie(s) en NaT
+2026-05-24 02:26:22 | WARNING  | etl.transform                  |   → 5 document(s) avec statut invalide détecté(s)
+2026-05-24 02:26:22 | INFO     | etl.transform                  | Transformation terminée — 520 lignes en sortie
+2026-05-24 02:26:22 | INFO     | main                           | ✓ 520 documents transformés
+2026-05-24 02:26:22 | INFO     | main                           | 
+[4/8] Lancement des 7 contrôles qualité...
+2026-05-24 02:26:22 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:26:22 | INFO     | quality.checks                 | Lancement des 7 contrôles qualité...
+2026-05-24 02:26:22 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:26:22 | WARNING  | quality.checks                 | [CHECK 1] Doublons : 271 document(s) concerné(s)
+2026-05-24 02:26:22 | WARNING  | quality.checks                 | [CHECK 2] Versions incohérentes : 161 cas détecté(s)
+2026-05-24 02:26:22 | WARNING  | quality.checks                 | [CHECK 3] Documents manquants : 48 document(s)
+2026-05-24 02:26:22 | WARNING  | quality.checks                 | [CHECK 4] Obsolètes : 87 document(s)
+2026-05-24 02:26:22 | WARNING  | quality.checks                 | [CHECK 5] Champs vides : 76 document(s) concerné(s)
+2026-05-24 02:26:22 | WARNING  | quality.checks                 | [CHECK 6] Statuts invalides : 5 document(s)
+2026-05-24 02:26:22 | WARNING  | quality.checks                 | [CHECK 7] Anomalies critiques : 42 document(s) — ALERTE
+2026-05-24 02:26:22 | INFO     | quality.checks                 | Total anomalies détectées : 690
+2026-05-24 02:26:22 | INFO     | quality.checks                 |   Critiques : 54
+2026-05-24 02:26:22 | INFO     | quality.checks                 |   Hautes    : 542
+2026-05-24 02:26:22 | INFO     | quality.checks                 |   Moyennes  : 94
+2026-05-24 02:26:22 | INFO     | main                           | ✓ 690 anomalies détectées
+2026-05-24 02:26:22 | INFO     | main                           | 
+[5/8] Calcul des scores de conformité...
+2026-05-24 02:26:22 | INFO     | quality.scoring                | Calcul des scores de conformité...
+2026-05-24 02:26:23 | INFO     | quality.scoring                | ✓ Scores calculés
+2026-05-24 02:26:23 | INFO     | quality.scoring                | ✓ Classification effectuée
+2026-05-24 02:26:23 | INFO     | quality.scoring                | 
+============================================================
+2026-05-24 02:26:23 | INFO     | quality.scoring                | STATISTIQUES GLOBALES DE CONFORMITÉ
+2026-05-24 02:26:23 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:26:23 | INFO     | quality.scoring                | Total documents          : 520
+2026-05-24 02:26:23 | INFO     | quality.scoring                |   ✅ Conformes            : 176 (33.8%)
+2026-05-24 02:26:23 | INFO     | quality.scoring                |   ⚠️  À améliorer         : 318
+2026-05-24 02:26:23 | INFO     | quality.scoring                |   🔴 Critiques            : 26
+2026-05-24 02:26:23 | INFO     | quality.scoring                | Score moyen              : 79.35/100
+2026-05-24 02:26:23 | INFO     | quality.scoring                | Plage                    : 15-100
+2026-05-24 02:26:23 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:26:23 | INFO     | main                           | ✓ Scoring et classification terminés
+2026-05-24 02:26:23 | INFO     | main                           | 
+[6/8] Chargement base données et exports...
+2026-05-24 02:26:23 | INFO     | etl.load                       | Chargement dans SQLite : data/processed/dqm.db
+2026-05-24 02:26:23 | INFO     | etl.load                       | Vérification / création du schéma SQL...
+2026-05-24 02:26:23 | INFO     | etl.load                       |   → Schéma SQL prêt
+2026-05-24 02:26:23 | INFO     | etl.load                       |   → 520 document(s) chargé(s) dans la table 'documents'
+2026-05-24 02:26:23 | INFO     | etl.load                       | Chargement des anomalies : 690 entrée(s)
+2026-05-24 02:26:23 | INFO     | etl.load                       |   → 690 anomalie(s) insérée(s)
+2026-05-24 02:26:23 | INFO     | etl.load                       | Export CSV : data/outputs\documents_clean.csv
+2026-05-24 02:26:24 | INFO     | etl.load                       | Export Excel : data/outputs\rapport_qualite.xlsx
+2026-05-24 02:26:24 | INFO     | main                           | ✓ Base SQLite et exports générés
+2026-05-24 02:26:24 | INFO     | main                           | 
+[7/8] Traitement des alertes...
+2026-05-24 02:26:24 | INFO     | main                           | ⊘ Alertes désactivées dans config
+2026-05-24 02:26:24 | INFO     | main                           | 
+[8/8] Génération des rapports...
+2026-05-24 02:26:24 | INFO     | reporting.report               | Génération rapport HTML...
+2026-05-24 02:26:24 | INFO     | reporting.report               | ✓ Rapport HTML généré : data/outputs\rapport_qualite.html
+2026-05-24 02:26:24 | INFO     | reporting.report               | Génération rapport Excel...
+2026-05-24 02:26:24 | INFO     | reporting.report               | ✓ Rapport Excel généré : data/outputs\rapport_qualite.xlsx
+2026-05-24 02:26:24 | INFO     | main                           | ✓ Rapports générés
+2026-05-24 02:26:24 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:26:24 | INFO     | main                           | ✅ PIPELINE EXÉCUTÉ AVEC SUCCÈS
+2026-05-24 02:26:24 | INFO     | main                           | ======================================================================
+2026-05-24 02:26:24 | INFO     | main                           | 
+📊 RÉSUMÉ FINAL :
+2026-05-24 02:26:24 | INFO     | main                           |   • Total documents : 520
+2026-05-24 02:26:24 | INFO     | main                           |   • Conformes : 176 (33.9%)
+2026-05-24 02:26:24 | INFO     | main                           |   • Anomalies détectées : 690
+2026-05-24 02:26:24 | INFO     | main                           |   • Fichiers générés : data/outputs/
+2026-05-24 02:26:24 | INFO     | main                           | 
+💾 Base données : data/processed/dqm.db
+2026-05-24 02:26:24 | INFO     | main                           | ======================================================================
+
+2026-05-24 02:44:14 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:44:14 | INFO     | main                           | 🚀 DOCUMENT QUALITY MONITOR - Pipeline de conformité documentaire
+2026-05-24 02:44:14 | INFO     | main                           | ======================================================================
+2026-05-24 02:44:14 | INFO     | main                           | 
+[1/8] Chargement configuration...
+2026-05-24 02:44:14 | INFO     | main                           | ✓ Configuration chargée
+2026-05-24 02:44:14 | INFO     | main                           | 
+[2/8] Extraction données sources...
+2026-05-24 02:44:14 | INFO     | etl.extract                    | Chargement CSV : data/raw/documents.csv
+2026-05-24 02:44:14 | INFO     | etl.extract                    |   → 520 ligne(s) chargée(s), 13 colonne(s)
+2026-05-24 02:44:14 | INFO     | main                           | ✓ 520 documents extraits
+2026-05-24 02:44:14 | INFO     | main                           | 
+[3/8] Transformation (nettoyage + enrichissement)...
+2026-05-24 02:44:14 | INFO     | etl.transform                  | Début transformation — 520 lignes en entrée
+2026-05-24 02:44:14 | INFO     | etl.transform                  | Normalisation des colonnes et valeurs texte...
+2026-05-24 02:44:14 | INFO     | etl.transform                  | Parsing des dates...
+2026-05-24 02:44:14 | WARNING  | etl.transform                  |   → 49 date(s) invalide(s) convertie(s) en NaT
+2026-05-24 02:44:14 | WARNING  | etl.transform                  |   → 5 document(s) avec statut invalide détecté(s)
+2026-05-24 02:44:14 | INFO     | etl.transform                  | Transformation terminée — 520 lignes en sortie
+2026-05-24 02:44:14 | INFO     | main                           | ✓ 520 documents transformés
+2026-05-24 02:44:14 | INFO     | main                           | 
+[4/8] Lancement des 7 contrôles qualité...
+2026-05-24 02:44:14 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:44:14 | INFO     | quality.checks                 | Lancement des 7 contrôles qualité...
+2026-05-24 02:44:14 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:44:14 | WARNING  | quality.checks                 | [CHECK 1] Doublons : 271 document(s) concerné(s)
+2026-05-24 02:44:15 | WARNING  | quality.checks                 | [CHECK 2] Versions incohérentes : 161 cas détecté(s)
+2026-05-24 02:44:15 | WARNING  | quality.checks                 | [CHECK 3] Documents manquants : 48 document(s)
+2026-05-24 02:44:15 | WARNING  | quality.checks                 | [CHECK 4] Obsolètes : 87 document(s)
+2026-05-24 02:44:15 | WARNING  | quality.checks                 | [CHECK 5] Champs vides : 76 document(s) concerné(s)
+2026-05-24 02:44:15 | WARNING  | quality.checks                 | [CHECK 6] Statuts invalides : 5 document(s)
+2026-05-24 02:44:15 | WARNING  | quality.checks                 | [CHECK 7] Anomalies critiques : 42 document(s) — ALERTE
+2026-05-24 02:44:15 | INFO     | quality.checks                 | Total anomalies détectées : 690
+2026-05-24 02:44:15 | INFO     | quality.checks                 |   Critiques : 54
+2026-05-24 02:44:15 | INFO     | quality.checks                 |   Hautes    : 542
+2026-05-24 02:44:15 | INFO     | quality.checks                 |   Moyennes  : 94
+2026-05-24 02:44:15 | INFO     | main                           | ✓ 690 anomalies détectées
+2026-05-24 02:44:15 | INFO     | main                           | 
+[5/8] Calcul des scores de conformité...
+2026-05-24 02:44:15 | INFO     | quality.scoring                | Calcul des scores de conformité...
+2026-05-24 02:44:16 | INFO     | quality.scoring                | ✓ Scores calculés
+2026-05-24 02:44:16 | INFO     | quality.scoring                | ✓ Classification effectuée
+2026-05-24 02:44:16 | INFO     | quality.scoring                | 
+============================================================
+2026-05-24 02:44:16 | INFO     | quality.scoring                | STATISTIQUES GLOBALES DE CONFORMITÉ
+2026-05-24 02:44:16 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:44:16 | INFO     | quality.scoring                | Total documents          : 520
+2026-05-24 02:44:16 | INFO     | quality.scoring                |   ✅ Conformes            : 176 (33.8%)
+2026-05-24 02:44:16 | INFO     | quality.scoring                |   ⚠️  À améliorer         : 318
+2026-05-24 02:44:16 | INFO     | quality.scoring                |   🔴 Critiques            : 26
+2026-05-24 02:44:16 | INFO     | quality.scoring                | Score moyen              : 79.35/100
+2026-05-24 02:44:16 | INFO     | quality.scoring                | Plage                    : 15-100
+2026-05-24 02:44:16 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:44:16 | INFO     | main                           | ✓ Scoring et classification terminés
+2026-05-24 02:44:16 | INFO     | main                           | 
+[6/8] Chargement base données et exports...
+2026-05-24 02:44:16 | INFO     | etl.load                       | Chargement dans SQLite : data/processed/dqm.db
+2026-05-24 02:44:16 | INFO     | etl.load                       | Vérification / création du schéma SQL...
+2026-05-24 02:44:16 | INFO     | etl.load                       |   → Schéma SQL prêt
+2026-05-24 02:44:16 | INFO     | etl.load                       |   → 520 document(s) chargé(s) dans la table 'documents'
+2026-05-24 02:44:16 | INFO     | etl.load                       | Chargement des anomalies : 690 entrée(s)
+2026-05-24 02:44:16 | INFO     | etl.load                       |   → 690 anomalie(s) insérée(s)
+2026-05-24 02:44:16 | INFO     | etl.load                       | Export CSV : data/outputs\documents_clean.csv
+2026-05-24 02:44:16 | INFO     | etl.load                       | Export Excel : data/outputs\rapport_qualite.xlsx
+2026-05-24 02:44:16 | INFO     | main                           | ✓ Base SQLite et exports générés
+2026-05-24 02:44:16 | INFO     | main                           | 
+[7/8] Traitement des alertes...
+2026-05-24 02:44:16 | INFO     | main                           | ⊘ Alertes désactivées dans config
+2026-05-24 02:44:16 | INFO     | main                           | 
+[8/8] Génération des rapports...
+2026-05-24 02:44:16 | INFO     | reporting.report               | Génération rapport HTML...
+2026-05-24 02:44:17 | INFO     | reporting.report               | ✓ Rapport HTML généré : data/outputs\rapport_qualite.html
+2026-05-24 02:44:17 | INFO     | reporting.report               | Génération rapport Excel...
+2026-05-24 02:44:17 | INFO     | reporting.report               | ✓ Rapport Excel généré : data/outputs\rapport_qualite.xlsx
+2026-05-24 02:44:17 | INFO     | main                           | ✓ Rapports générés
+2026-05-24 02:44:17 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:44:17 | INFO     | main                           | ✅ PIPELINE EXÉCUTÉ AVEC SUCCÈS
+2026-05-24 02:44:17 | INFO     | main                           | ======================================================================
+2026-05-24 02:44:17 | INFO     | main                           | 
+📊 RÉSUMÉ FINAL :
+2026-05-24 02:44:17 | INFO     | main                           |   • Total documents : 520
+2026-05-24 02:44:17 | INFO     | main                           |   • Conformes : 176 (33.9%)
+2026-05-24 02:44:17 | INFO     | main                           |   • Anomalies détectées : 690
+2026-05-24 02:44:17 | INFO     | main                           |   • Fichiers générés : data/outputs/
+2026-05-24 02:44:17 | INFO     | main                           | 
+💾 Base données : data/processed/dqm.db
+2026-05-24 02:44:17 | INFO     | main                           | ======================================================================
+
+2026-05-24 02:47:13 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:47:13 | INFO     | main                           | 🚀 DOCUMENT QUALITY MONITOR - Pipeline de conformité documentaire
+2026-05-24 02:47:13 | INFO     | main                           | ======================================================================
+2026-05-24 02:47:13 | INFO     | main                           | 
+[1/8] Chargement configuration...
+2026-05-24 02:47:13 | INFO     | main                           | ✓ Configuration chargée
+2026-05-24 02:47:13 | INFO     | main                           | 
+[2/8] Extraction données sources...
+2026-05-24 02:47:13 | INFO     | etl.extract                    | Chargement CSV : data/raw/documents.csv
+2026-05-24 02:47:13 | INFO     | etl.extract                    |   → 520 ligne(s) chargée(s), 13 colonne(s)
+2026-05-24 02:47:13 | INFO     | main                           | ✓ 520 documents extraits
+2026-05-24 02:47:13 | INFO     | main                           | 
+[3/8] Transformation (nettoyage + enrichissement)...
+2026-05-24 02:47:13 | INFO     | etl.transform                  | Début transformation — 520 lignes en entrée
+2026-05-24 02:47:13 | INFO     | etl.transform                  | Normalisation des colonnes et valeurs texte...
+2026-05-24 02:47:13 | INFO     | etl.transform                  | Parsing des dates...
+2026-05-24 02:47:13 | WARNING  | etl.transform                  |   → 49 date(s) invalide(s) convertie(s) en NaT
+2026-05-24 02:47:13 | WARNING  | etl.transform                  |   → 5 document(s) avec statut invalide détecté(s)
+2026-05-24 02:47:13 | INFO     | etl.transform                  | Transformation terminée — 520 lignes en sortie
+2026-05-24 02:47:13 | INFO     | main                           | ✓ 520 documents transformés
+2026-05-24 02:47:13 | INFO     | main                           | 
+[4/8] Lancement des 7 contrôles qualité...
+2026-05-24 02:47:13 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:47:13 | INFO     | quality.checks                 | Lancement des 7 contrôles qualité...
+2026-05-24 02:47:13 | INFO     | quality.checks                 | ============================================================
+2026-05-24 02:47:13 | WARNING  | quality.checks                 | [CHECK 1] Doublons : 271 document(s) concerné(s)
+2026-05-24 02:47:13 | WARNING  | quality.checks                 | [CHECK 2] Versions incohérentes : 161 cas détecté(s)
+2026-05-24 02:47:13 | WARNING  | quality.checks                 | [CHECK 3] Documents manquants : 48 document(s)
+2026-05-24 02:47:13 | WARNING  | quality.checks                 | [CHECK 4] Obsolètes : 87 document(s)
+2026-05-24 02:47:13 | WARNING  | quality.checks                 | [CHECK 5] Champs vides : 76 document(s) concerné(s)
+2026-05-24 02:47:13 | WARNING  | quality.checks                 | [CHECK 6] Statuts invalides : 5 document(s)
+2026-05-24 02:47:13 | WARNING  | quality.checks                 | [CHECK 7] Anomalies critiques : 42 document(s) — ALERTE
+2026-05-24 02:47:13 | INFO     | quality.checks                 | Total anomalies détectées : 690
+2026-05-24 02:47:13 | INFO     | quality.checks                 |   Critiques : 54
+2026-05-24 02:47:13 | INFO     | quality.checks                 |   Hautes    : 542
+2026-05-24 02:47:13 | INFO     | quality.checks                 |   Moyennes  : 94
+2026-05-24 02:47:13 | INFO     | main                           | ✓ 690 anomalies détectées
+2026-05-24 02:47:13 | INFO     | main                           | 
+[5/8] Calcul des scores de conformité...
+2026-05-24 02:47:13 | INFO     | quality.scoring                | Calcul des scores de conformité...
+2026-05-24 02:47:14 | INFO     | quality.scoring                | ✓ Scores calculés
+2026-05-24 02:47:14 | INFO     | quality.scoring                | ✓ Classification effectuée
+2026-05-24 02:47:14 | INFO     | quality.scoring                | 
+============================================================
+2026-05-24 02:47:14 | INFO     | quality.scoring                | STATISTIQUES GLOBALES DE CONFORMITÉ
+2026-05-24 02:47:14 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:47:14 | INFO     | quality.scoring                | Total documents          : 520
+2026-05-24 02:47:14 | INFO     | quality.scoring                |   ✅ Conformes            : 176 (33.8%)
+2026-05-24 02:47:14 | INFO     | quality.scoring                |   ⚠️  À améliorer         : 318
+2026-05-24 02:47:14 | INFO     | quality.scoring                |   🔴 Critiques            : 26
+2026-05-24 02:47:14 | INFO     | quality.scoring                | Score moyen              : 79.35/100
+2026-05-24 02:47:14 | INFO     | quality.scoring                | Plage                    : 15-100
+2026-05-24 02:47:14 | INFO     | quality.scoring                | ============================================================
+2026-05-24 02:47:14 | INFO     | main                           | ✓ Scoring et classification terminés
+2026-05-24 02:47:14 | INFO     | main                           | 
+[6/8] Chargement base données et exports...
+2026-05-24 02:47:14 | INFO     | etl.load                       | Chargement dans SQLite : data/processed/dqm.db
+2026-05-24 02:47:14 | INFO     | etl.load                       | Vérification / création du schéma SQL...
+2026-05-24 02:47:14 | INFO     | etl.load                       |   → Schéma SQL prêt
+2026-05-24 02:47:14 | INFO     | etl.load                       |   → 520 document(s) chargé(s) dans la table 'documents'
+2026-05-24 02:47:14 | INFO     | etl.load                       | Chargement des anomalies : 690 entrée(s)
+2026-05-24 02:47:14 | INFO     | etl.load                       |   → 690 anomalie(s) insérée(s)
+2026-05-24 02:47:14 | INFO     | etl.load                       | Export CSV : data/outputs\documents_clean.csv
+2026-05-24 02:47:14 | INFO     | etl.load                       | Export Excel : data/outputs\rapport_qualite.xlsx
+2026-05-24 02:47:14 | INFO     | etl.load                       | Export Power BI : data/outputs\powerbi\documents_powerbi.csv
+2026-05-24 02:47:14 | INFO     | etl.load                       | Export Power BI : data/outputs\powerbi\anomalies_powerbi.csv
+2026-05-24 02:47:14 | INFO     | main                           | ✓ Base SQLite et exports générés
+2026-05-24 02:47:14 | INFO     | main                           | 
+[7/8] Traitement des alertes...
+2026-05-24 02:47:14 | INFO     | main                           | ⊘ Alertes désactivées dans config
+2026-05-24 02:47:14 | INFO     | main                           | 
+[8/8] Génération des rapports...
+2026-05-24 02:47:14 | INFO     | reporting.report               | Génération rapport HTML...
+2026-05-24 02:47:14 | INFO     | reporting.report               | ✓ Rapport HTML généré : data/outputs\rapport_qualite.html
+2026-05-24 02:47:14 | INFO     | reporting.report               | Génération rapport Excel...
+2026-05-24 02:47:15 | INFO     | reporting.report               | ✓ Rapport Excel généré : data/outputs\rapport_qualite.xlsx
+2026-05-24 02:47:15 | INFO     | main                           | ✓ Rapports générés
+2026-05-24 02:47:15 | INFO     | main                           | 
+======================================================================
+2026-05-24 02:47:15 | INFO     | main                           | ✅ PIPELINE EXÉCUTÉ AVEC SUCCÈS
+2026-05-24 02:47:15 | INFO     | main                           | ======================================================================
+2026-05-24 02:47:15 | INFO     | main                           | 
+📊 RÉSUMÉ FINAL :
+2026-05-24 02:47:15 | INFO     | main                           |   • Total documents : 520
+2026-05-24 02:47:15 | INFO     | main                           |   • Conformes : 176 (33.9%)
+2026-05-24 02:47:15 | INFO     | main                           |   • Anomalies détectées : 690
+2026-05-24 02:47:15 | INFO     | main                           |   • Fichiers générés : data/outputs/
+2026-05-24 02:47:15 | INFO     | main                           | 
+💾 Base données : data/processed/dqm.db
+2026-05-24 02:47:15 | INFO     | main                           | ======================================================================
+
+2026-05-24 03:00:57 | INFO     | main                           | 
+======================================================================
+2026-05-24 03:00:57 | INFO     | main                           | 🚀 DOCUMENT QUALITY MONITOR - Pipeline de conformité documentaire
+2026-05-24 03:00:57 | INFO     | main                           | ======================================================================
+2026-05-24 03:00:57 | INFO     | main                           | 
+[1/8] Chargement configuration...
+2026-05-24 03:00:57 | INFO     | main                           | ✓ Configuration chargée
+2026-05-24 03:00:57 | INFO     | main                           | 
+[2/8] Extraction données sources...
+2026-05-24 03:00:57 | INFO     | etl.extract                    | Chargement CSV : data/raw/documents.csv
+2026-05-24 03:00:57 | INFO     | etl.extract                    |   → 520 ligne(s) chargée(s), 13 colonne(s)
+2026-05-24 03:00:57 | INFO     | main                           | ✓ 520 documents extraits
+2026-05-24 03:00:57 | INFO     | main                           | 
+[3/8] Transformation (nettoyage + enrichissement)...
+2026-05-24 03:00:57 | INFO     | etl.transform                  | Début transformation — 520 lignes en entrée
+2026-05-24 03:00:57 | INFO     | etl.transform                  | Mapping auto appliqué : 13 colonne(s) reconnue(s), 0 non reconnue(s)
+2026-05-24 03:00:57 | INFO     | etl.transform                  | Normalisation des colonnes et valeurs texte...
+2026-05-24 03:00:57 | INFO     | etl.transform                  | Parsing des dates...
+2026-05-24 03:00:57 | WARNING  | etl.transform                  |   → 49 date(s) invalide(s) convertie(s) en NaT
+2026-05-24 03:00:57 | WARNING  | etl.transform                  |   → 5 document(s) avec statut invalide détecté(s)
+2026-05-24 03:00:57 | INFO     | etl.transform                  | Transformation terminée — 520 lignes en sortie
+2026-05-24 03:00:57 | INFO     | main                           | ✓ 520 documents transformés
+2026-05-24 03:00:57 | INFO     | main                           | 
+[4/8] Lancement des 7 contrôles qualité...
+2026-05-24 03:00:57 | INFO     | quality.checks                 | ============================================================
+2026-05-24 03:00:57 | INFO     | quality.checks                 | Lancement des 7 contrôles qualité...
+2026-05-24 03:00:57 | INFO     | quality.checks                 | ============================================================
+2026-05-24 03:00:57 | WARNING  | quality.checks                 | [CHECK 1] Doublons : 271 document(s) concerné(s)
+2026-05-24 03:00:57 | WARNING  | quality.checks                 | [CHECK 2] Versions incohérentes : 161 cas détecté(s)
+2026-05-24 03:00:57 | WARNING  | quality.checks                 | [CHECK 3] Documents manquants : 48 document(s)
+2026-05-24 03:00:57 | WARNING  | quality.checks                 | [CHECK 4] Obsolètes : 87 document(s)
+2026-05-24 03:00:57 | INFO     | quality.checks                 | [CHECK 5] Champs vides : aucun détecté
+2026-05-24 03:00:57 | WARNING  | quality.checks                 | [CHECK 6] Statuts invalides : 5 document(s)
+2026-05-24 03:00:57 | WARNING  | quality.checks                 | [CHECK 7] Anomalies critiques : 42 document(s) — ALERTE
+2026-05-24 03:00:57 | INFO     | quality.checks                 | Total anomalies détectées : 614
+2026-05-24 03:00:57 | INFO     | quality.checks                 |   Critiques : 54
+2026-05-24 03:00:57 | INFO     | quality.checks                 |   Hautes    : 466
+2026-05-24 03:00:57 | INFO     | quality.checks                 |   Moyennes  : 94
+2026-05-24 03:00:57 | INFO     | main                           | ✓ 614 anomalies détectées
+2026-05-24 03:00:57 | INFO     | main                           | 
+[5/8] Calcul des scores de conformité...
+2026-05-24 03:00:57 | INFO     | quality.scoring                | Calcul des scores de conformité...
+2026-05-24 03:00:58 | INFO     | quality.scoring                | ✓ Scores calculés
+2026-05-24 03:00:58 | INFO     | quality.scoring                | ✓ Classification effectuée
+2026-05-24 03:00:58 | INFO     | quality.scoring                | 
+============================================================
+2026-05-24 03:00:58 | INFO     | quality.scoring                | STATISTIQUES GLOBALES DE CONFORMITÉ
+2026-05-24 03:00:58 | INFO     | quality.scoring                | ============================================================
+2026-05-24 03:00:58 | INFO     | quality.scoring                | Total documents          : 520
+2026-05-24 03:00:58 | INFO     | quality.scoring                |   ✅ Conformes            : 215 (41.3%)
+2026-05-24 03:00:58 | INFO     | quality.scoring                |   ⚠️  À améliorer         : 288
+2026-05-24 03:00:58 | INFO     | quality.scoring                |   🔴 Critiques            : 17
+2026-05-24 03:00:58 | INFO     | quality.scoring                | Score moyen              : 82.28/100
+2026-05-24 03:00:58 | INFO     | quality.scoring                | Plage                    : 35-100
+2026-05-24 03:00:58 | INFO     | quality.scoring                | ============================================================
+2026-05-24 03:00:58 | INFO     | main                           | ✓ Scoring et classification terminés
+2026-05-24 03:00:58 | INFO     | main                           | 
+[6/8] Chargement base données et exports...
+2026-05-24 03:00:58 | INFO     | etl.load                       | Chargement dans SQLite : data/processed/dqm.db
+2026-05-24 03:00:58 | INFO     | etl.load                       | Vérification / création du schéma SQL...
+2026-05-24 03:00:58 | INFO     | etl.load                       |   → Schéma SQL prêt
+2026-05-24 03:00:58 | INFO     | etl.load                       |   → 520 document(s) chargé(s) dans la table 'documents'
+2026-05-24 03:00:58 | INFO     | etl.load                       | Chargement des anomalies : 614 entrée(s)
+2026-05-24 03:00:58 | INFO     | etl.load                       |   → 614 anomalie(s) insérée(s)
+2026-05-24 03:00:58 | INFO     | etl.load                       | Export CSV : data/outputs\documents_clean.csv
+2026-05-24 03:00:58 | INFO     | etl.load                       | Export Excel : data/outputs\rapport_qualite.xlsx
+2026-05-24 03:00:58 | INFO     | etl.load                       | Export Power BI : data/outputs\powerbi\documents_powerbi.csv
+2026-05-24 03:00:58 | INFO     | etl.load                       | Export Power BI : data/outputs\powerbi\anomalies_powerbi.csv
+2026-05-24 03:00:58 | INFO     | etl.load                       | Export Power BI : data/outputs\powerbi\mapping_applique.csv
+2026-05-24 03:00:58 | INFO     | main                           | ✓ Base SQLite et exports générés
+2026-05-24 03:00:58 | INFO     | main                           | 
+[7/8] Traitement des alertes...
+2026-05-24 03:00:58 | INFO     | main                           | ⊘ Alertes désactivées dans config
+2026-05-24 03:00:58 | INFO     | main                           | 
+[8/8] Génération des rapports...
+2026-05-24 03:00:58 | INFO     | reporting.report               | Génération rapport HTML...
+2026-05-24 03:00:58 | INFO     | reporting.report               | ✓ Rapport HTML généré : data/outputs\rapport_qualite.html
+2026-05-24 03:00:58 | INFO     | reporting.report               | Génération rapport Excel...
+2026-05-24 03:00:58 | INFO     | reporting.report               | ✓ Rapport Excel généré : data/outputs\rapport_qualite.xlsx
+2026-05-24 03:00:58 | INFO     | main                           | ✓ Rapports générés
+2026-05-24 03:00:58 | INFO     | main                           | 
+======================================================================
+2026-05-24 03:00:58 | INFO     | main                           | ✅ PIPELINE EXÉCUTÉ AVEC SUCCÈS
+2026-05-24 03:00:58 | INFO     | main                           | ======================================================================
+2026-05-24 03:00:58 | INFO     | main                           | 
+📊 RÉSUMÉ FINAL :
+2026-05-24 03:00:58 | INFO     | main                           |   • Total documents : 520
+2026-05-24 03:00:58 | INFO     | main                           |   • Conformes : 215 (41.4%)
+2026-05-24 03:00:58 | INFO     | main                           |   • Anomalies détectées : 614
+2026-05-24 03:00:58 | INFO     | main                           |   • Fichiers générés : data/outputs/
+2026-05-24 03:00:58 | INFO     | main                           | 
+💾 Base données : data/processed/dqm.db
+2026-05-24 03:00:58 | INFO     | main                           | ======================================================================
+

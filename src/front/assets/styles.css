@@ -1,0 +1,72 @@
+:root {
+  --dqm-navy: #0d2238;
+  --dqm-blue: #1f5ea8;
+  --dqm-cyan: #2f9ccf;
+  --dqm-bg: #f4f7fb;
+  --dqm-surface: #ffffff;
+  --dqm-border: #d8e2ef;
+  --dqm-text: #1f2937;
+  --dqm-muted: #6b7280;
+  --dqm-ok: #129a59;
+  --dqm-warn: #ca8a04;
+  --dqm-danger: #c62828;
+}
+
+html, body, .stApp {
+  background: linear-gradient(180deg, #f8fafc 0%, #eef3f8 100%);
+  color: var(--dqm-text);
+}
+
+.block-container {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.dqm-hero {
+  background: linear-gradient(135deg, var(--dqm-navy) 0%, var(--dqm-blue) 65%, var(--dqm-cyan) 100%);
+  color: #fff;
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 1rem;
+  box-shadow: 0 14px 30px rgba(13, 34, 56, 0.18);
+}
+
+.dqm-sub {
+  color: rgba(255,255,255,0.86);
+}
+
+.dqm-kpi {
+  background: var(--dqm-surface);
+  border: 1px solid var(--dqm-border);
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 8px 18px rgba(13, 34, 56, 0.05);
+}
+
+.dqm-kpi-label {
+  color: var(--dqm-muted);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+}
+
+.dqm-kpi-value {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--dqm-navy);
+}
+
+.dqm-card {
+  background: var(--dqm-surface);
+  border: 1px solid var(--dqm-border);
+  border-radius: 16px;
+  padding: 14px;
+}
+
+[data-testid="stSidebar"] {
+  background: linear-gradient(180deg, #0b1d31 0%, #133153 100%);
+}
+
+[data-testid="stSidebar"] * {
+  color: rgba(255,255,255,0.9) !important;
+}

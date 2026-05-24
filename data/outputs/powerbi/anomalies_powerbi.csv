@@ -1,0 +1,615 @@
+﻿doc_id,type_anomalie,description,priorite
+BTP-2024-0001,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Plomberie - A89 - Lot 1",Haute
+BTP-2024-0004,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Plomberie - A89 - Lot 1",Haute
+BTP-2024-0006,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE CVC - Grand - Lot 1",Haute
+BTP-2024-0007,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Viaduc - Lot 4",Haute
+BTP-2024-0008,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Génie civil - Stade - Lot 4",Haute
+BTP-2024-0009,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Façade - Grand - Lot 5",Haute
+BTP-2024-0010,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Façade - A89 - Lot 1",Haute
+BTP-2024-0011,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul CVC - A89 - Lot 5",Haute
+BTP-2024-0012,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - A89 - Lot 1",Haute
+BTP-2024-0014,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Électricité - Stade - Lot 2",Haute
+BTP-2024-0016,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - Viaduc - Lot 1",Haute
+BTP-2024-0018,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Structure - A89 - Lot 4",Haute
+BTP-2024-0019,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Viaduc - Lot 1",Haute
+BTP-2024-0020,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Structure - Stade - Lot 2",Haute
+BTP-2024-0021,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Plomberie - Viaduc - Lot 5",Haute
+BTP-2024-0022,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception VRD - Grand - Lot 1",Haute
+BTP-2024-0023,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP CVC - A89 - Lot 2",Haute
+BTP-2024-0024,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Plomberie - A89 - Lot 5",Haute
+BTP-2024-0026,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - A89 - Lot 2",Haute
+BTP-2024-0027,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Grand - Lot 1",Haute
+BTP-2024-0029,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Façade - Grand - Lot 4",Haute
+BTP-2024-0031,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Structure - Grand - Lot 4",Haute
+BTP-2024-0033,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Plomberie - Stade - Lot 4",Haute
+BTP-2024-0037,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Électricité - Grand - Lot 5",Haute
+BTP-2024-0038,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul CVC - A89 - Lot 5",Haute
+BTP-2024-0040,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - A89 - Lot 2",Haute
+BTP-2024-0041,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Structure - Viaduc - Lot 1",Haute
+BTP-2024-0042,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Stade - Lot 4",Haute
+BTP-2024-0045,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - A89 - Lot 2",Haute
+BTP-2024-0046,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul CVC - Grand - Lot 5",Haute
+BTP-2024-0049,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Plomberie - A89 - Lot 5",Haute
+BTP-2024-0051,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP CVC - Viaduc - Lot 3",Haute
+BTP-2024-0052,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution CVC - Grand - Lot 1",Haute
+BTP-2024-0054,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception VRD - Stade - Lot 3",Haute
+BTP-2024-0055,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception CVC - A89 - Lot 1",Haute
+BTP-2024-0056,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE VRD - Grand - Lot 2",Haute
+BTP-2024-0057,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Façade - A89 - Lot 3",Haute
+BTP-2024-0058,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Structure - Viaduc - Lot 5",Haute
+BTP-2024-0059,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP CVC - A89 - Lot 2",Haute
+BTP-2024-0061,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE VRD - Grand - Lot 3",Haute
+BTP-2024-0065,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - Viaduc - Lot 4",Haute
+BTP-2024-0066,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Façade - Viaduc - Lot 5",Haute
+BTP-2024-0067,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Électricité - Viaduc - Lot 4",Haute
+BTP-2024-0068,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Façade - Viaduc - Lot 4",Haute
+BTP-2024-0070,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution VRD - Stade - Lot 3",Haute
+BTP-2024-0072,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Plomberie - Viaduc - Lot 5",Haute
+BTP-2024-0073,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Façade - A89 - Lot 3",Haute
+BTP-2024-0075,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - A89 - Lot 2",Haute
+BTP-2024-0078,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Plomberie - Viaduc - Lot 5",Haute
+BTP-2024-0079,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Structure - Viaduc - Lot 3",Haute
+BTP-2024-0081,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Plomberie - Grand - Lot 4",Haute
+BTP-2024-0082,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Plomberie - A89 - Lot 3",Haute
+BTP-2024-0086,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution VRD - Stade - Lot 3",Haute
+BTP-2024-0088,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - Grand - Lot 5",Haute
+BTP-2024-0089,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Façade - Grand - Lot 2",Haute
+BTP-2024-0090,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Structure - Stade - Lot 5",Haute
+BTP-2024-0093,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Électricité - Stade - Lot 4",Haute
+BTP-2024-0094,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Électricité - A89 - Lot 1",Haute
+BTP-2024-0095,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Stade - Lot 4",Haute
+BTP-2024-0096,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP VRD - Stade - Lot 5",Haute
+BTP-2024-0101,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Plomberie - A89 - Lot 3",Haute
+BTP-2024-0104,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Stade - Lot 4",Haute
+BTP-2024-0107,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Plomberie - Stade - Lot 3",Haute
+BTP-2024-0109,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Électricité - A89 - Lot 1",Haute
+BTP-2024-0113,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - A89 - Lot 4",Haute
+BTP-2024-0116,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Façade - Viaduc - Lot 4",Haute
+BTP-2024-0117,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Façade - Viaduc - Lot 3",Haute
+BTP-2024-0121,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Génie civil - Viaduc - Lot 4",Haute
+BTP-2024-0122,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Façade - A89 - Lot 4",Haute
+BTP-2024-0123,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception CVC - A89 - Lot 1",Haute
+BTP-2024-0125,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Façade - Viaduc - Lot 4",Haute
+BTP-2024-0128,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP VRD - Stade - Lot 3",Haute
+BTP-2024-0131,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - A89 - Lot 4",Haute
+BTP-2024-0133,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Plomberie - Grand - Lot 3",Haute
+BTP-2024-0137,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Façade - Viaduc - Lot 2",Haute
+BTP-2024-0138,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution VRD - Stade - Lot 5",Haute
+BTP-2024-0140,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Électricité - Stade - Lot 2",Haute
+BTP-2024-0141,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Électricité - Grand - Lot 5",Haute
+BTP-2024-0142,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - A89 - Lot 2",Haute
+BTP-2024-0144,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Génie civil - Stade - Lot 4",Haute
+BTP-2024-0145,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Plomberie - Viaduc - Lot 5",Haute
+BTP-2024-0148,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - Stade - Lot 3",Haute
+BTP-2024-0153,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Stade - Lot 3",Haute
+BTP-2024-0155,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution VRD - Stade - Lot 5",Haute
+BTP-2024-0158,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Plomberie - A89 - Lot 1",Haute
+BTP-2024-0160,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - Viaduc - Lot 4",Haute
+BTP-2024-0163,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception VRD - A89 - Lot 5",Haute
+BTP-2024-0164,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Plomberie - Stade - Lot 4",Haute
+BTP-2024-0165,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Électricité - Grand - Lot 5",Haute
+BTP-2024-0166,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - Grand - Lot 5",Haute
+BTP-2024-0167,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle CVC - A89 - Lot 1",Haute
+BTP-2024-0169,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Électricité - Grand - Lot 4",Haute
+BTP-2024-0173,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Façade - Grand - Lot 5",Haute
+BTP-2024-0174,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception VRD - A89 - Lot 4",Haute
+BTP-2024-0176,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Structure - Viaduc - Lot 1",Haute
+BTP-2024-0181,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP CVC - Viaduc - Lot 3",Haute
+BTP-2024-0182,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Viaduc - Lot 1",Haute
+BTP-2024-0183,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Façade - A89 - Lot 1",Haute
+BTP-2024-0185,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Façade - A89 - Lot 4",Haute
+BTP-2024-0187,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Structure - A89 - Lot 2",Haute
+BTP-2024-0188,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution VRD - A89 - Lot 2",Haute
+BTP-2024-0191,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - A89 - Lot 2",Haute
+BTP-2024-0193,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Structure - A89 - Lot 4",Haute
+BTP-2024-0194,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle CVC - A89 - Lot 1",Haute
+BTP-2024-0196,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Stade - Lot 4",Haute
+BTP-2024-0197,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Viaduc - Lot 4",Haute
+BTP-2024-0200,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Plomberie - Grand - Lot 4",Haute
+BTP-2024-0201,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP CVC - Viaduc - Lot 3",Haute
+BTP-2024-0203,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP CVC - Grand - Lot 1",Haute
+BTP-2024-0207,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Génie civil - A89 - Lot 4",Haute
+BTP-2024-0209,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Génie civil - A89 - Lot 4",Haute
+BTP-2024-0210,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Grand - Lot 1",Haute
+BTP-2024-0211,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - Viaduc - Lot 2",Haute
+BTP-2024-0214,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Grand - Lot 2",Haute
+BTP-2024-0215,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception CVC - Stade - Lot 1",Haute
+BTP-2024-0216,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Structure - Grand - Lot 4",Haute
+BTP-2024-0220,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Façade - Viaduc - Lot 3",Haute
+BTP-2024-0223,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Grand - Lot 2",Haute
+BTP-2024-0228,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE CVC - Grand - Lot 1",Haute
+BTP-2024-0230,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception CVC - Viaduc - Lot 4",Haute
+BTP-2024-0231,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP CVC - A89 - Lot 3",Haute
+BTP-2024-0233,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Plomberie - A89 - Lot 1",Haute
+BTP-2024-0236,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - A89 - Lot 5",Haute
+BTP-2024-0237,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul VRD - Stade - Lot 2",Haute
+BTP-2024-0240,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Électricité - A89 - Lot 2",Haute
+BTP-2024-0241,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Viaduc - Lot 5",Haute
+BTP-2024-0244,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Structure - Stade - Lot 2",Haute
+BTP-2024-0245,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Structure - Grand - Lot 1",Haute
+BTP-2024-0246,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Façade - A89 - Lot 4",Haute
+BTP-2024-0247,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Viaduc - Lot 1",Haute
+BTP-2024-0248,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Plomberie - Viaduc - Lot 5",Haute
+BTP-2024-0249,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Façade - Viaduc - Lot 4",Haute
+BTP-2024-0252,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception CVC - Stade - Lot 4",Haute
+BTP-2024-0253,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - A89 - Lot 2",Haute
+BTP-2024-0255,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - A89 - Lot 2",Haute
+BTP-2024-0256,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Façade - Viaduc - Lot 4",Haute
+BTP-2024-0258,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Plomberie - A89 - Lot 1",Haute
+BTP-2024-0259,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Stade - Lot 4",Haute
+BTP-2024-0261,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception VRD - A89 - Lot 4",Haute
+BTP-2024-0264,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Façade - Viaduc - Lot 4",Haute
+BTP-2024-0269,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - Stade - Lot 5",Haute
+BTP-2024-0271,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - Stade - Lot 5",Haute
+BTP-2024-0273,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Façade - A89 - Lot 4",Haute
+BTP-2024-0274,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - Grand - Lot 2",Haute
+BTP-2024-0275,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Plomberie - Viaduc - Lot 1",Haute
+BTP-2024-0276,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Stade - Lot 4",Haute
+BTP-2024-0278,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Façade - Grand - Lot 2",Haute
+BTP-2024-0286,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception CVC - Viaduc - Lot 4",Haute
+BTP-2024-0288,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Grand - Lot 3",Haute
+BTP-2024-0289,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - Grand - Lot 5",Haute
+BTP-2024-0292,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP CVC - Grand - Lot 1",Haute
+BTP-2024-0297,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE VRD - Grand - Lot 3",Haute
+BTP-2024-0298,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Électricité - A89 - Lot 5",Haute
+BTP-2024-0300,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - A89 - Lot 4",Haute
+BTP-2024-0303,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Viaduc - Lot 4",Haute
+BTP-2024-0305,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Structure - Viaduc - Lot 1",Haute
+BTP-2024-0307,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Stade - Lot 3",Haute
+BTP-2024-0310,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - A89 - Lot 2",Haute
+BTP-2024-0311,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Plomberie - Stade - Lot 3",Haute
+BTP-2024-0312,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - Stade - Lot 3",Haute
+BTP-2024-0313,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Plomberie - Grand - Lot 4",Haute
+BTP-2024-0314,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - A89 - Lot 3",Haute
+BTP-2024-0316,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Viaduc - Lot 3",Haute
+BTP-2024-0317,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Structure - Stade - Lot 5",Haute
+BTP-2024-0318,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - Grand - Lot 4",Haute
+BTP-2024-0320,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Électricité - Stade - Lot 4",Haute
+BTP-2024-0327,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Électricité - A89 - Lot 5",Haute
+BTP-2024-0329,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - Stade - Lot 1",Haute
+BTP-2024-0332,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Génie civil - Viaduc - Lot 3",Haute
+BTP-2024-0334,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception VRD - Grand - Lot 1",Haute
+BTP-2024-0335,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Grand - Lot 5",Haute
+BTP-2024-0338,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Viaduc - Lot 1",Haute
+BTP-2024-0343,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Plomberie - A89 - Lot 1",Haute
+BTP-2024-0345,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Génie civil - Viaduc - Lot 4",Haute
+BTP-2024-0346,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - Viaduc - Lot 2",Haute
+BTP-2024-0352,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Plomberie - Viaduc - Lot 5",Haute
+BTP-2024-0354,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Plomberie - Viaduc - Lot 5",Haute
+BTP-2024-0356,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Électricité - Grand - Lot 5",Haute
+BTP-2024-0357,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Grand - Lot 5",Haute
+BTP-2024-0358,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception VRD - A89 - Lot 5",Haute
+BTP-2024-0359,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Viaduc - Lot 2",Haute
+BTP-2024-0360,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Viaduc - Lot 4",Haute
+BTP-2024-0361,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Structure - Grand - Lot 2",Haute
+BTP-2024-0363,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - A89 - Lot 5",Haute
+BTP-2024-0364,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Génie civil - Grand - Lot 2",Haute
+BTP-2024-0367,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - Grand - Lot 4",Haute
+BTP-2024-0368,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Façade - Grand - Lot 4",Haute
+BTP-2024-0369,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP CVC - A89 - Lot 3",Haute
+BTP-2024-0370,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP VRD - Stade - Lot 3",Haute
+BTP-2024-0371,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Électricité - Viaduc - Lot 4",Haute
+BTP-2024-0373,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Plomberie - Viaduc - Lot 1",Haute
+BTP-2024-0374,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - A89 - Lot 1",Haute
+BTP-2024-0375,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Structure - Viaduc - Lot 1",Haute
+BTP-2024-0376,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Viaduc - Lot 2",Haute
+BTP-2024-0377,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Viaduc - Lot 4",Haute
+BTP-2024-0378,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Électricité - Grand - Lot 4",Haute
+BTP-2024-0380,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Viaduc - Lot 3",Haute
+BTP-2024-0381,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Viaduc - Lot 5",Haute
+BTP-2024-0391,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul CVC - Viaduc - Lot 1",Haute
+BTP-2024-0392,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - Grand - Lot 5",Haute
+BTP-2024-0394,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Structure - Viaduc - Lot 1",Haute
+BTP-2024-0395,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Façade - Viaduc - Lot 5",Haute
+BTP-2024-0396,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Structure - A89 - Lot 2",Haute
+BTP-2024-0397,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Plomberie - Grand - Lot 4",Haute
+BTP-2024-0398,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Façade - Viaduc - Lot 3",Haute
+BTP-2024-0401,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - A89 - Lot 2",Haute
+BTP-2024-0402,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Électricité - Grand - Lot 4",Haute
+BTP-2024-0403,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Plomberie - Stade - Lot 4",Haute
+BTP-2024-0404,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Stade - Lot 1",Haute
+BTP-2024-0406,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - Grand - Lot 4",Haute
+BTP-2024-0408,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Structure - Viaduc - Lot 3",Haute
+BTP-2024-0409,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul CVC - Viaduc - Lot 1",Haute
+BTP-2024-0410,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Génie civil - Grand - Lot 2",Haute
+BTP-2024-0415,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Génie civil - Stade - Lot 4",Haute
+BTP-2024-0418,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Plomberie - Grand - Lot 4",Haute
+BTP-2024-0420,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Plomberie - Stade - Lot 4",Haute
+BTP-2024-0422,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Plomberie - Viaduc - Lot 5",Haute
+BTP-2024-0423,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE CVC - A89 - Lot 1",Haute
+BTP-2024-0424,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE CVC - A89 - Lot 1",Haute
+BTP-2024-0425,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - Viaduc - Lot 1",Haute
+BTP-2024-0434,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP VRD - Stade - Lot 5",Haute
+BTP-2024-0437,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - A89 - Lot 4",Haute
+BTP-2024-0438,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - Stade - Lot 5",Haute
+BTP-2024-0439,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Génie civil - Stade - Lot 4",Haute
+BTP-2024-0440,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Façade - Viaduc - Lot 2",Haute
+BTP-2024-0441,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Grand - Lot 1",Haute
+BTP-2024-0442,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul CVC - Grand - Lot 5",Haute
+BTP-2024-0444,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - A89 - Lot 2",Haute
+BTP-2024-0445,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP VRD - Stade - Lot 5",Haute
+BTP-2024-0448,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception CVC - Stade - Lot 4",Haute
+BTP-2024-0451,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Électricité - A89 - Lot 2",Haute
+BTP-2024-0452,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Électricité - A89 - Lot 1",Haute
+BTP-2024-0453,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Structure - Viaduc - Lot 5",Haute
+BTP-2024-0454,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - A89 - Lot 3",Haute
+BTP-2024-0455,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Génie civil - Stade - Lot 5",Haute
+BTP-2024-0458,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Viaduc - Lot 4",Haute
+BTP-2024-0464,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Structure - Viaduc - Lot 1",Haute
+BTP-2024-0465,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul VRD - Stade - Lot 2",Haute
+BTP-2024-0468,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Plomberie - Grand - Lot 4",Haute
+BTP-2024-0469,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE CVC - A89 - Lot 1",Haute
+BTP-2024-0476,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Façade - A89 - Lot 4",Haute
+BTP-2024-0478,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception VRD - Stade - Lot 3",Haute
+BTP-2024-0480,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Plomberie - Grand - Lot 3",Haute
+BTP-2024-0481,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Façade - A89 - Lot 4",Haute
+BTP-2024-0483,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Grand - Lot 1",Haute
+BTP-2024-0486,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution CVC - Grand - Lot 1",Haute
+BTP-2024-0487,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Stade - Lot 4",Haute
+BTP-2024-0490,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Électricité - Grand - Lot 4",Haute
+BTP-2024-0494,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul VRD - Stade - Lot 2",Haute
+BTP-2024-0497,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - A89 - Lot 1",Haute
+BTP-2024-0499,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Génie civil - Viaduc - Lot 3",Haute
+BTP-2024-0501,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception Façade - Stade - Lot 1",Haute
+BTP-2024-0502,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle VRD - Grand - Lot 4",Haute
+BTP-2024-0503,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Plomberie - Viaduc - Lot 4",Haute
+BTP-2024-0504,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Façade - Viaduc - Lot 4",Haute
+BTP-2024-0505,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Génie civil - Stade - Lot 5",Haute
+BTP-2024-0506,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Façade - A89 - Lot 3",Haute
+BTP-2024-0507,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution VRD - A89 - Lot 2",Haute
+BTP-2024-0508,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE Structure - Stade - Lot 5",Haute
+BTP-2024-0509,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution VRD - A89 - Lot 2",Haute
+BTP-2024-0510,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Structure - Stade - Lot 5",Haute
+BTP-2024-0511,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Structure - Grand - Lot 2",Haute
+BTP-2024-0512,Doublon,"Document en doublon sur (nom, discipline, projet) : Plan d'exécution Électricité - Grand - Lot 3",Haute
+BTP-2024-0513,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - A89 - Lot 2",Haute
+BTP-2024-0514,Doublon,"Document en doublon sur (nom, discipline, projet) : Note de calcul Structure - Grand - Lot 1",Haute
+BTP-2024-0515,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Façade - Viaduc - Lot 3",Haute
+BTP-2024-0516,Doublon,"Document en doublon sur (nom, discipline, projet) : PV de réception CVC - Stade - Lot 1",Haute
+BTP-2024-0517,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP Façade - Stade - Lot 1",Haute
+BTP-2024-0518,Doublon,"Document en doublon sur (nom, discipline, projet) : Fiche de contrôle Génie civil - Grand - Lot 2",Haute
+BTP-2024-0519,Doublon,"Document en doublon sur (nom, discipline, projet) : CCTP VRD - Stade - Lot 5",Haute
+BTP-2024-0520,Doublon,"Document en doublon sur (nom, discipline, projet) : DOE VRD - Grand - Lot 2",Haute
+BTP-2024-0023,Version incohérente,"Plusieurs versions actives pour 'CCTP CVC - A89 - Lot 2' (CVC) : ['B', 'C']",Haute
+BTP-2024-0059,Version incohérente,"Plusieurs versions actives pour 'CCTP CVC - A89 - Lot 2' (CVC) : ['B', 'C']",Haute
+BTP-2024-0231,Version incohérente,"Plusieurs versions actives pour 'CCTP CVC - A89 - Lot 3' (CVC) : ['A', 'B']",Haute
+BTP-2024-0369,Version incohérente,"Plusieurs versions actives pour 'CCTP CVC - A89 - Lot 3' (CVC) : ['A', 'B']",Haute
+BTP-2024-0203,Version incohérente,"Plusieurs versions actives pour 'CCTP CVC - Grand - Lot 1' (CVC) : ['A', 'E']",Haute
+BTP-2024-0292,Version incohérente,"Plusieurs versions actives pour 'CCTP CVC - Grand - Lot 1' (CVC) : ['A', 'E']",Haute
+BTP-2024-0051,Version incohérente,"Plusieurs versions actives pour 'CCTP CVC - Viaduc - Lot 3' (CVC) : ['B', 'C']",Haute
+BTP-2024-0181,Version incohérente,"Plusieurs versions actives pour 'CCTP CVC - Viaduc - Lot 3' (CVC) : ['B', 'C']",Haute
+BTP-2024-0201,Version incohérente,"Plusieurs versions actives pour 'CCTP CVC - Viaduc - Lot 3' (CVC) : ['B', 'C']",Haute
+BTP-2024-0088,Version incohérente,"Plusieurs versions actives pour 'CCTP Façade - Grand - Lot 5' (Façade) : ['B', 'C', 'E']",Haute
+BTP-2024-0166,Version incohérente,"Plusieurs versions actives pour 'CCTP Façade - Grand - Lot 5' (Façade) : ['B', 'C', 'E']",Haute
+BTP-2024-0289,Version incohérente,"Plusieurs versions actives pour 'CCTP Façade - Grand - Lot 5' (Façade) : ['B', 'C', 'E']",Haute
+BTP-2024-0392,Version incohérente,"Plusieurs versions actives pour 'CCTP Façade - Grand - Lot 5' (Façade) : ['B', 'C', 'E']",Haute
+BTP-2024-0418,Version incohérente,"Plusieurs versions actives pour 'CCTP Plomberie - Grand - Lot 4' (Plomberie) : ['A', 'D']",Haute
+BTP-2024-0468,Version incohérente,"Plusieurs versions actives pour 'CCTP Plomberie - Grand - Lot 4' (Plomberie) : ['A', 'D']",Haute
+BTP-2024-0275,Version incohérente,"Plusieurs versions actives pour 'CCTP Plomberie - Viaduc - Lot 1' (Plomberie) : ['A', 'E']",Haute
+BTP-2024-0373,Version incohérente,"Plusieurs versions actives pour 'CCTP Plomberie - Viaduc - Lot 1' (Plomberie) : ['A', 'E']",Haute
+BTP-2024-0361,Version incohérente,"Plusieurs versions actives pour 'CCTP Structure - Grand - Lot 2' (Structure) : ['A', 'E']",Haute
+BTP-2024-0511,Version incohérente,"Plusieurs versions actives pour 'CCTP Structure - Grand - Lot 2' (Structure) : ['A', 'E']",Haute
+BTP-2024-0058,Version incohérente,"Plusieurs versions actives pour 'CCTP Structure - Viaduc - Lot 5' (Structure) : ['B', 'D']",Haute
+BTP-2024-0453,Version incohérente,"Plusieurs versions actives pour 'CCTP Structure - Viaduc - Lot 5' (Structure) : ['B', 'D']",Haute
+BTP-2024-0096,Version incohérente,"Plusieurs versions actives pour 'CCTP VRD - Stade - Lot 5' (VRD) : ['B', 'C']",Haute
+BTP-2024-0445,Version incohérente,"Plusieurs versions actives pour 'CCTP VRD - Stade - Lot 5' (VRD) : ['B', 'C']",Haute
+BTP-2024-0165,Version incohérente,"Plusieurs versions actives pour 'CCTP Électricité - Grand - Lot 5' (Électricité) : ['A', 'E']",Haute
+BTP-2024-0356,Version incohérente,"Plusieurs versions actives pour 'CCTP Électricité - Grand - Lot 5' (Électricité) : ['A', 'E']",Haute
+BTP-2024-0093,Version incohérente,"Plusieurs versions actives pour 'CCTP Électricité - Stade - Lot 4' (Électricité) : ['A', 'E']",Haute
+BTP-2024-0320,Version incohérente,"Plusieurs versions actives pour 'CCTP Électricité - Stade - Lot 4' (Électricité) : ['A', 'E']",Haute
+BTP-2024-0423,Version incohérente,"Plusieurs versions actives pour 'DOE CVC - A89 - Lot 1' (CVC) : ['A', 'C']",Haute
+BTP-2024-0424,Version incohérente,"Plusieurs versions actives pour 'DOE CVC - A89 - Lot 1' (CVC) : ['A', 'C']",Haute
+BTP-2024-0469,Version incohérente,"Plusieurs versions actives pour 'DOE CVC - A89 - Lot 1' (CVC) : ['A', 'C']",Haute
+BTP-2024-0006,Version incohérente,"Plusieurs versions actives pour 'DOE CVC - Grand - Lot 1' (CVC) : ['A', 'D']",Haute
+BTP-2024-0228,Version incohérente,"Plusieurs versions actives pour 'DOE CVC - Grand - Lot 1' (CVC) : ['A', 'D']",Haute
+BTP-2024-0029,Version incohérente,"Plusieurs versions actives pour 'DOE Façade - Grand - Lot 4' (Façade) : ['A', 'D']",Haute
+BTP-2024-0368,Version incohérente,"Plusieurs versions actives pour 'DOE Façade - Grand - Lot 4' (Façade) : ['A', 'D']",Haute
+BTP-2024-0116,Version incohérente,"Plusieurs versions actives pour 'DOE Façade - Viaduc - Lot 4' (Façade) : ['B', 'C', 'D', 'E']",Haute
+BTP-2024-0256,Version incohérente,"Plusieurs versions actives pour 'DOE Façade - Viaduc - Lot 4' (Façade) : ['B', 'C', 'D', 'E']",Haute
+BTP-2024-0264,Version incohérente,"Plusieurs versions actives pour 'DOE Façade - Viaduc - Lot 4' (Façade) : ['B', 'C', 'D', 'E']",Haute
+BTP-2024-0504,Version incohérente,"Plusieurs versions actives pour 'DOE Façade - Viaduc - Lot 4' (Façade) : ['B', 'C', 'D', 'E']",Haute
+BTP-2024-0210,Version incohérente,"Plusieurs versions actives pour 'DOE Plomberie - Grand - Lot 1' (Plomberie) : ['B', 'C']",Haute
+BTP-2024-0483,Version incohérente,"Plusieurs versions actives pour 'DOE Plomberie - Grand - Lot 1' (Plomberie) : ['B', 'C']",Haute
+BTP-2024-0303,Version incohérente,"Plusieurs versions actives pour 'DOE Plomberie - Viaduc - Lot 4' (Plomberie) : ['A', 'C', 'E']",Haute
+BTP-2024-0377,Version incohérente,"Plusieurs versions actives pour 'DOE Plomberie - Viaduc - Lot 4' (Plomberie) : ['A', 'C', 'E']",Haute
+BTP-2024-0503,Version incohérente,"Plusieurs versions actives pour 'DOE Plomberie - Viaduc - Lot 4' (Plomberie) : ['A', 'C', 'E']",Haute
+BTP-2024-0020,Version incohérente,"Plusieurs versions actives pour 'DOE Structure - Stade - Lot 2' (Structure) : ['A', 'E']",Haute
+BTP-2024-0244,Version incohérente,"Plusieurs versions actives pour 'DOE Structure - Stade - Lot 2' (Structure) : ['A', 'E']",Haute
+BTP-2024-0317,Version incohérente,"Plusieurs versions actives pour 'DOE Structure - Stade - Lot 5' (Structure) : ['A', 'D']",Haute
+BTP-2024-0508,Version incohérente,"Plusieurs versions actives pour 'DOE Structure - Stade - Lot 5' (Structure) : ['A', 'D']",Haute
+BTP-2024-0079,Version incohérente,"Plusieurs versions actives pour 'DOE Structure - Viaduc - Lot 3' (Structure) : ['A', 'C']",Haute
+BTP-2024-0408,Version incohérente,"Plusieurs versions actives pour 'DOE Structure - Viaduc - Lot 3' (Structure) : ['A', 'C']",Haute
+BTP-2024-0061,Version incohérente,"Plusieurs versions actives pour 'DOE VRD - Grand - Lot 3' (VRD) : ['B', 'C']",Haute
+BTP-2024-0297,Version incohérente,"Plusieurs versions actives pour 'DOE VRD - Grand - Lot 3' (VRD) : ['B', 'C']",Haute
+BTP-2024-0240,Version incohérente,"Plusieurs versions actives pour 'DOE Électricité - A89 - Lot 2' (Électricité) : ['C', 'D']",Haute
+BTP-2024-0451,Version incohérente,"Plusieurs versions actives pour 'DOE Électricité - A89 - Lot 2' (Électricité) : ['C', 'D']",Haute
+BTP-2024-0298,Version incohérente,"Plusieurs versions actives pour 'DOE Électricité - A89 - Lot 5' (Électricité) : ['A', 'E']",Haute
+BTP-2024-0327,Version incohérente,"Plusieurs versions actives pour 'DOE Électricité - A89 - Lot 5' (Électricité) : ['A', 'E']",Haute
+BTP-2024-0014,Version incohérente,"Plusieurs versions actives pour 'DOE Électricité - Stade - Lot 2' (Électricité) : ['A', 'B']",Haute
+BTP-2024-0140,Version incohérente,"Plusieurs versions actives pour 'DOE Électricité - Stade - Lot 2' (Électricité) : ['A', 'B']",Haute
+BTP-2024-0167,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle CVC - A89 - Lot 1' (CVC) : ['A', 'D']",Haute
+BTP-2024-0194,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle CVC - A89 - Lot 1' (CVC) : ['A', 'D']",Haute
+BTP-2024-0122,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Façade - A89 - Lot 4' (Façade) : ['A', 'B']",Haute
+BTP-2024-0481,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Façade - A89 - Lot 4' (Façade) : ['A', 'B']",Haute
+BTP-2024-0142,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Génie civil - A89 - Lot 2' (Génie civil) : ['A', 'B', 'C']",Haute
+BTP-2024-0253,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Génie civil - A89 - Lot 2' (Génie civil) : ['A', 'B', 'C']",Haute
+BTP-2024-0513,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Génie civil - A89 - Lot 2' (Génie civil) : ['A', 'B', 'C']",Haute
+BTP-2024-0016,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Génie civil - Viaduc - Lot 1' (Génie civil) : ['B', 'D']",Haute
+BTP-2024-0425,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Génie civil - Viaduc - Lot 1' (Génie civil) : ['B', 'D']",Haute
+BTP-2024-0211,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Génie civil - Viaduc - Lot 2' (Génie civil) : ['D', 'E']",Haute
+BTP-2024-0346,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Génie civil - Viaduc - Lot 2' (Génie civil) : ['D', 'E']",Haute
+BTP-2024-0133,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Plomberie - Grand - Lot 3' (Plomberie) : ['D', 'E']",Haute
+BTP-2024-0480,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Plomberie - Grand - Lot 3' (Plomberie) : ['D', 'E']",Haute
+BTP-2024-0081,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Plomberie - Grand - Lot 4' (Plomberie) : ['B', 'C']",Haute
+BTP-2024-0200,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Plomberie - Grand - Lot 4' (Plomberie) : ['B', 'C']",Haute
+BTP-2024-0314,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle VRD - A89 - Lot 3' (VRD) : ['B', 'E']",Haute
+BTP-2024-0454,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle VRD - A89 - Lot 3' (VRD) : ['B', 'E']",Haute
+BTP-2024-0367,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle VRD - Grand - Lot 4' (VRD) : ['B', 'E']",Haute
+BTP-2024-0406,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle VRD - Grand - Lot 4' (VRD) : ['B', 'E']",Haute
+BTP-2024-0094,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Électricité - A89 - Lot 1' (Électricité) : ['B', 'C', 'E']",Haute
+BTP-2024-0109,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Électricité - A89 - Lot 1' (Électricité) : ['B', 'C', 'E']",Haute
+BTP-2024-0452,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Électricité - A89 - Lot 1' (Électricité) : ['B', 'C', 'E']",Haute
+BTP-2024-0037,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Électricité - Grand - Lot 5' (Électricité) : ['A', 'C']",Haute
+BTP-2024-0141,Version incohérente,"Plusieurs versions actives pour 'Fiche de contrôle Électricité - Grand - Lot 5' (Électricité) : ['A', 'C']",Haute
+BTP-2024-0391,Version incohérente,"Plusieurs versions actives pour 'Note de calcul CVC - Viaduc - Lot 1' (CVC) : ['B', 'C']",Haute
+BTP-2024-0409,Version incohérente,"Plusieurs versions actives pour 'Note de calcul CVC - Viaduc - Lot 1' (CVC) : ['B', 'C']",Haute
+BTP-2024-0089,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Façade - Grand - Lot 2' (Façade) : ['A', 'D']",Haute
+BTP-2024-0278,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Façade - Grand - Lot 2' (Façade) : ['A', 'D']",Haute
+BTP-2024-0137,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Façade - Viaduc - Lot 2' (Façade) : ['A', 'C']",Haute
+BTP-2024-0440,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Façade - Viaduc - Lot 2' (Façade) : ['A', 'C']",Haute
+BTP-2024-0220,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Façade - Viaduc - Lot 3' (Façade) : ['D', 'E']",Haute
+BTP-2024-0398,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Façade - Viaduc - Lot 3' (Façade) : ['D', 'E']",Haute
+BTP-2024-0455,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Génie civil - Stade - Lot 5' (Génie civil) : ['A', 'C']",Haute
+BTP-2024-0505,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Génie civil - Stade - Lot 5' (Génie civil) : ['A', 'C']",Haute
+BTP-2024-0121,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Génie civil - Viaduc - Lot 4' (Génie civil) : ['B', 'C']",Haute
+BTP-2024-0345,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Génie civil - Viaduc - Lot 4' (Génie civil) : ['B', 'C']",Haute
+BTP-2024-0313,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Plomberie - Grand - Lot 4' (Plomberie) : ['A', 'C']",Haute
+BTP-2024-0397,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Plomberie - Grand - Lot 4' (Plomberie) : ['A', 'C']",Haute
+BTP-2024-0021,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Plomberie - Viaduc - Lot 5' (Plomberie) : ['A', 'B']",Haute
+BTP-2024-0352,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Plomberie - Viaduc - Lot 5' (Plomberie) : ['A', 'B']",Haute
+BTP-2024-0245,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Structure - Grand - Lot 1' (Structure) : ['A', 'E']",Haute
+BTP-2024-0514,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Structure - Grand - Lot 1' (Structure) : ['A', 'E']",Haute
+BTP-2024-0237,Version incohérente,"Plusieurs versions actives pour 'Note de calcul VRD - Stade - Lot 2' (VRD) : ['A', 'E']",Haute
+BTP-2024-0465,Version incohérente,"Plusieurs versions actives pour 'Note de calcul VRD - Stade - Lot 2' (VRD) : ['A', 'E']",Haute
+BTP-2024-0494,Version incohérente,"Plusieurs versions actives pour 'Note de calcul VRD - Stade - Lot 2' (VRD) : ['A', 'E']",Haute
+BTP-2024-0169,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Électricité - Grand - Lot 4' (Électricité) : ['C', 'D']",Haute
+BTP-2024-0490,Version incohérente,"Plusieurs versions actives pour 'Note de calcul Électricité - Grand - Lot 4' (Électricité) : ['C', 'D']",Haute
+BTP-2024-0215,Version incohérente,"Plusieurs versions actives pour 'PV de réception CVC - Stade - Lot 1' (CVC) : ['B', 'C']",Haute
+BTP-2024-0516,Version incohérente,"Plusieurs versions actives pour 'PV de réception CVC - Stade - Lot 1' (CVC) : ['B', 'C']",Haute
+BTP-2024-0230,Version incohérente,"Plusieurs versions actives pour 'PV de réception CVC - Viaduc - Lot 4' (CVC) : ['A', 'B']",Haute
+BTP-2024-0286,Version incohérente,"Plusieurs versions actives pour 'PV de réception CVC - Viaduc - Lot 4' (CVC) : ['A', 'B']",Haute
+BTP-2024-0026,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - A89 - Lot 2' (Façade) : ['C', 'D']",Haute
+BTP-2024-0191,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - A89 - Lot 2' (Façade) : ['C', 'D']",Haute
+BTP-2024-0255,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - A89 - Lot 2' (Façade) : ['C', 'D']",Haute
+BTP-2024-0401,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - A89 - Lot 2' (Façade) : ['C', 'D']",Haute
+BTP-2024-0359,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - Viaduc - Lot 2' (Façade) : ['A', 'C']",Haute
+BTP-2024-0376,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - Viaduc - Lot 2' (Façade) : ['A', 'C']",Haute
+BTP-2024-0007,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - Viaduc - Lot 4' (Façade) : ['B', 'E']",Haute
+BTP-2024-0197,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - Viaduc - Lot 4' (Façade) : ['B', 'E']",Haute
+BTP-2024-0458,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - Viaduc - Lot 4' (Façade) : ['B', 'E']",Haute
+BTP-2024-0241,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - Viaduc - Lot 5' (Façade) : ['B', 'C']",Haute
+BTP-2024-0381,Version incohérente,"Plusieurs versions actives pour 'PV de réception Façade - Viaduc - Lot 5' (Façade) : ['B', 'C']",Haute
+BTP-2024-0082,Version incohérente,"Plusieurs versions actives pour 'PV de réception Plomberie - A89 - Lot 3' (Plomberie) : ['A', 'B']",Haute
+BTP-2024-0101,Version incohérente,"Plusieurs versions actives pour 'PV de réception Plomberie - A89 - Lot 3' (Plomberie) : ['A', 'B']",Haute
+BTP-2024-0145,Version incohérente,"Plusieurs versions actives pour 'PV de réception Plomberie - Viaduc - Lot 5' (Plomberie) : ['A', 'E']",Haute
+BTP-2024-0248,Version incohérente,"Plusieurs versions actives pour 'PV de réception Plomberie - Viaduc - Lot 5' (Plomberie) : ['A', 'E']",Haute
+BTP-2024-0031,Version incohérente,"Plusieurs versions actives pour 'PV de réception Structure - Grand - Lot 4' (Structure) : ['A', 'B']",Haute
+BTP-2024-0216,Version incohérente,"Plusieurs versions actives pour 'PV de réception Structure - Grand - Lot 4' (Structure) : ['A', 'B']",Haute
+BTP-2024-0174,Version incohérente,"Plusieurs versions actives pour 'PV de réception VRD - A89 - Lot 4' (VRD) : ['B', 'D']",Haute
+BTP-2024-0261,Version incohérente,"Plusieurs versions actives pour 'PV de réception VRD - A89 - Lot 4' (VRD) : ['B', 'D']",Haute
+BTP-2024-0022,Version incohérente,"Plusieurs versions actives pour 'PV de réception VRD - Grand - Lot 1' (VRD) : ['C', 'D']",Haute
+BTP-2024-0334,Version incohérente,"Plusieurs versions actives pour 'PV de réception VRD - Grand - Lot 1' (VRD) : ['C', 'D']",Haute
+BTP-2024-0054,Version incohérente,"Plusieurs versions actives pour 'PV de réception VRD - Stade - Lot 3' (VRD) : ['A', 'C']",Haute
+BTP-2024-0478,Version incohérente,"Plusieurs versions actives pour 'PV de réception VRD - Stade - Lot 3' (VRD) : ['A', 'C']",Haute
+BTP-2024-0378,Version incohérente,"Plusieurs versions actives pour 'PV de réception Électricité - Grand - Lot 4' (Électricité) : ['B', 'E']",Haute
+BTP-2024-0402,Version incohérente,"Plusieurs versions actives pour 'PV de réception Électricité - Grand - Lot 4' (Électricité) : ['B', 'E']",Haute
+BTP-2024-0052,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution CVC - Grand - Lot 1' (CVC) : ['D', 'E']",Haute
+BTP-2024-0486,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution CVC - Grand - Lot 1' (CVC) : ['D', 'E']",Haute
+BTP-2024-0010,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Façade - A89 - Lot 1' (Façade) : ['B', 'C']",Haute
+BTP-2024-0183,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Façade - A89 - Lot 1' (Façade) : ['B', 'C']",Haute
+BTP-2024-0009,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Façade - Grand - Lot 5' (Façade) : ['D', 'E']",Haute
+BTP-2024-0173,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Façade - Grand - Lot 5' (Façade) : ['D', 'E']",Haute
+BTP-2024-0033,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Plomberie - Stade - Lot 4' (Plomberie) : ['B', 'C', 'E']",Haute
+BTP-2024-0164,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Plomberie - Stade - Lot 4' (Plomberie) : ['B', 'C', 'E']",Haute
+BTP-2024-0403,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Plomberie - Stade - Lot 4' (Plomberie) : ['B', 'C', 'E']",Haute
+BTP-2024-0420,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Plomberie - Stade - Lot 4' (Plomberie) : ['B', 'C', 'E']",Haute
+BTP-2024-0188,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution VRD - A89 - Lot 2' (VRD) : ['C', 'D', 'E']",Haute
+BTP-2024-0507,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution VRD - A89 - Lot 2' (VRD) : ['C', 'D', 'E']",Haute
+BTP-2024-0509,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution VRD - A89 - Lot 2' (VRD) : ['C', 'D', 'E']",Haute
+BTP-2024-0070,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution VRD - Stade - Lot 3' (VRD) : ['B', 'E']",Haute
+BTP-2024-0086,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution VRD - Stade - Lot 3' (VRD) : ['B', 'E']",Haute
+BTP-2024-0075,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - A89 - Lot 2' (Électricité) : ['A', 'E']",Haute
+BTP-2024-0310,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - A89 - Lot 2' (Électricité) : ['A', 'E']",Haute
+BTP-2024-0214,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Grand - Lot 2' (Électricité) : ['A', 'C']",Haute
+BTP-2024-0223,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Grand - Lot 2' (Électricité) : ['A', 'C']",Haute
+BTP-2024-0288,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Grand - Lot 3' (Électricité) : ['B', 'D']",Haute
+BTP-2024-0512,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Grand - Lot 3' (Électricité) : ['B', 'D']",Haute
+BTP-2024-0042,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Stade - Lot 4' (Électricité) : ['C', 'D']",Haute
+BTP-2024-0104,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Stade - Lot 4' (Électricité) : ['C', 'D']",Haute
+BTP-2024-0196,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Stade - Lot 4' (Électricité) : ['C', 'D']",Haute
+BTP-2024-0259,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Stade - Lot 4' (Électricité) : ['C', 'D']",Haute
+BTP-2024-0276,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Stade - Lot 4' (Électricité) : ['C', 'D']",Haute
+BTP-2024-0019,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Viaduc - Lot 1' (Électricité) : ['B', 'D']",Haute
+BTP-2024-0247,Version incohérente,"Plusieurs versions actives pour 'Plan d'exécution Électricité - Viaduc - Lot 1' (Électricité) : ['B', 'D']",Haute
+BTP-2024-0012,Document manquant,Document absent du registre documentaire : Plan d'exécution Électricité - A89 - Lot 1 (projet : A89 Tunnel Est),Moyenne
+BTP-2024-0018,Document manquant,Document absent du registre documentaire : Plan d'exécution Structure - A89 - Lot 4 (projet : A89 Tunnel Est),Moyenne
+BTP-2024-0028,Document manquant,Document absent du registre documentaire : Fiche de contrôle Façade - Grand - Lot 3 (projet : Grand Paris Ligne 16),Haute
+BTP-2024-0045,Document manquant,Document absent du registre documentaire : Plan d'exécution Électricité - A89 - Lot 2 (projet : A89 Tunnel Est),Haute
+BTP-2024-0068,Document manquant,Document absent du registre documentaire : Plan d'exécution Façade - Viaduc - Lot 4 (projet : Viaduc Saône),Moyenne
+BTP-2024-0072,Document manquant,Document absent du registre documentaire : Fiche de contrôle Plomberie - Viaduc - Lot 5 (projet : Viaduc Saône),Moyenne
+BTP-2024-0087,Document manquant,Document absent du registre documentaire : Note de calcul VRD - A89 - Lot 3 (projet : A89 Tunnel Est),Moyenne
+BTP-2024-0098,Document manquant,Document absent du registre documentaire : DOE VRD - Stade - Lot 1 (projet : Stade Bordeaux),Moyenne
+BTP-2024-0117,Document manquant,Document absent du registre documentaire : Fiche de contrôle Façade - Viaduc - Lot 3 (projet : Viaduc Saône),Moyenne
+BTP-2024-0123,Document manquant,Document absent du registre documentaire : PV de réception CVC - A89 - Lot 1 (projet : A89 Tunnel Est),Moyenne
+BTP-2024-0125,Document manquant,Document absent du registre documentaire : DOE Façade - Viaduc - Lot 4 (projet : Viaduc Saône),Moyenne
+BTP-2024-0130,Document manquant,Document absent du registre documentaire : CCTP VRD - Grand - Lot 2 (projet : Grand Paris Ligne 16),Haute
+BTP-2024-0152,Document manquant,Document absent du registre documentaire : Note de calcul CVC - Stade - Lot 3 (projet : Stade Bordeaux),Moyenne
+BTP-2024-0155,Document manquant,Document absent du registre documentaire : Plan d'exécution VRD - Stade - Lot 5 (projet : Stade Bordeaux),Critique
+BTP-2024-0159,Document manquant,Document absent du registre documentaire : Fiche de contrôle Façade - Grand - Lot 5 (projet : Grand Paris Ligne 16),Moyenne
+BTP-2024-0176,Document manquant,Document absent du registre documentaire : CCTP Structure - Viaduc - Lot 1 (projet : Viaduc Saône),Moyenne
+BTP-2024-0178,Document manquant,Document absent du registre documentaire : PV de réception Génie civil - Stade - Lot 5 (projet : Stade Bordeaux),Critique
+BTP-2024-0186,Document manquant,Document absent du registre documentaire : Fiche de contrôle Électricité - Grand - Lot 4 (projet : Grand Paris Ligne 16),Haute
+BTP-2024-0189,Document manquant,Document absent du registre documentaire : DOE Façade - Viaduc - Lot 5 (projet : Viaduc Saône),Haute
+BTP-2024-0193,Document manquant,Document absent du registre documentaire : Plan d'exécution Structure - A89 - Lot 4 (projet : A89 Tunnel Est),Moyenne
+BTP-2024-0202,Document manquant,Document absent du registre documentaire : DOE CVC - Viaduc - Lot 5 (projet : Viaduc Saône),Haute
+BTP-2024-0236,Document manquant,Document absent du registre documentaire : CCTP Façade - A89 - Lot 5 (projet : A89 Tunnel Est),Critique
+BTP-2024-0257,Document manquant,Document absent du registre documentaire : Note de calcul Génie civil - A89 - Lot 3 (projet : A89 Tunnel Est),Moyenne
+BTP-2024-0258,Document manquant,Document absent du registre documentaire : CCTP Plomberie - A89 - Lot 1 (projet : A89 Tunnel Est),Haute
+BTP-2024-0267,Document manquant,Document absent du registre documentaire : CCTP Façade - Viaduc - Lot 4 (projet : Viaduc Saône),Moyenne
+BTP-2024-0273,Document manquant,Document absent du registre documentaire : Fiche de contrôle Façade - A89 - Lot 4 (projet : A89 Tunnel Est),Haute
+BTP-2024-0290,Document manquant,Document absent du registre documentaire : Plan d'exécution Structure - Stade - Lot 2 (projet : Stade Bordeaux),Moyenne
+BTP-2024-0291,Document manquant,Document absent du registre documentaire : Note de calcul VRD - Grand - Lot 2 (projet : Grand Paris Ligne 16),Moyenne
+BTP-2024-0300,Document manquant,Document absent du registre documentaire : DOE Plomberie - A89 - Lot 4 (projet : A89 Tunnel Est),Moyenne
+BTP-2024-0302,Document manquant,Document absent du registre documentaire : DOE Structure - Grand - Lot 2 (projet : Grand Paris Ligne 16),Moyenne
+BTP-2024-0318,Document manquant,Document absent du registre documentaire : Fiche de contrôle VRD - Grand - Lot 4 (projet : Grand Paris Ligne 16),Critique
+BTP-2024-0324,Document manquant,Document absent du registre documentaire : Plan d'exécution Structure - Grand - Lot 2 (projet : Grand Paris Ligne 16),Moyenne
+BTP-2024-0329,Document manquant,Document absent du registre documentaire : CCTP Façade - Stade - Lot 1 (projet : Stade Bordeaux),Haute
+BTP-2024-0332,Document manquant,Document absent du registre documentaire : DOE Génie civil - Viaduc - Lot 3 (projet : Viaduc Saône),Moyenne
+BTP-2024-0338,Document manquant,Document absent du registre documentaire : DOE Plomberie - Viaduc - Lot 1 (projet : Viaduc Saône),Critique
+BTP-2024-0360,Document manquant,Document absent du registre documentaire : PV de réception Façade - Viaduc - Lot 4 (projet : Viaduc Saône),Moyenne
+BTP-2024-0388,Document manquant,Document absent du registre documentaire : CCTP Plomberie - Stade - Lot 1 (projet : Stade Bordeaux),Moyenne
+BTP-2024-0431,Document manquant,Document absent du registre documentaire : Plan d'exécution Structure - Viaduc - Lot 5 (projet : Viaduc Saône),Haute
+BTP-2024-0434,Document manquant,Document absent du registre documentaire : CCTP VRD - Stade - Lot 5 (projet : Stade Bordeaux),Moyenne
+BTP-2024-0473,Document manquant,Document absent du registre documentaire : Plan d'exécution Plomberie - Viaduc - Lot 1 (projet : Viaduc Saône),Haute
+BTP-2024-0474,Document manquant,Document absent du registre documentaire : Fiche de contrôle Électricité - Stade - Lot 2 (projet : Stade Bordeaux),Haute
+BTP-2024-0479,Document manquant,Document absent du registre documentaire : CCTP Génie civil - A89 - Lot 3 (projet : A89 Tunnel Est),Moyenne
+BTP-2024-0482,Document manquant,Document absent du registre documentaire : DOE Génie civil - Grand - Lot 5 (projet : Grand Paris Ligne 16),Critique
+BTP-2024-0497,Document manquant,Document absent du registre documentaire : Plan d'exécution Électricité - A89 - Lot 1 (projet : A89 Tunnel Est),Moyenne
+BTP-2024-0502,Document manquant,Document absent du registre documentaire : Fiche de contrôle VRD - Grand - Lot 4 (projet : Grand Paris Ligne 16),Critique
+BTP-2024-0515,Document manquant,Document absent du registre documentaire : Fiche de contrôle Façade - Viaduc - Lot 3 (projet : Viaduc Saône),Moyenne
+BTP-2024-0517,Document manquant,Document absent du registre documentaire : CCTP Façade - Stade - Lot 1 (projet : Stade Bordeaux),Haute
+BTP-2024-0519,Document manquant,Document absent du registre documentaire : CCTP VRD - Stade - Lot 5 (projet : Stade Bordeaux),Moyenne
+BTP-2024-0006,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-11-07,Haute
+BTP-2024-0007,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-15,Haute
+BTP-2024-0013,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-03-17,Moyenne
+BTP-2024-0021,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-05-25,Moyenne
+BTP-2024-0023,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-03-15,Haute
+BTP-2024-0038,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-07-04,Moyenne
+BTP-2024-0041,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-04-21,Moyenne
+BTP-2024-0044,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-09,Moyenne
+BTP-2024-0046,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-30,Moyenne
+BTP-2024-0047,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-04-13,Critique
+BTP-2024-0050,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-11,Moyenne
+BTP-2024-0052,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-11-22,Moyenne
+BTP-2024-0066,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-13,Haute
+BTP-2024-0076,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-01-01,Critique
+BTP-2024-0079,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-14,Moyenne
+BTP-2024-0081,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-12,Moyenne
+BTP-2024-0085,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-12-17,Moyenne
+BTP-2024-0086,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-02-12,Moyenne
+BTP-2024-0096,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-22,Moyenne
+BTP-2024-0099,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-02-27,Haute
+BTP-2024-0101,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-07-20,Moyenne
+BTP-2024-0108,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-30,Moyenne
+BTP-2024-0114,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-06-22,Moyenne
+BTP-2024-0118,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-06,Moyenne
+BTP-2024-0127,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-02-29,Moyenne
+BTP-2024-0133,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-08-10,Moyenne
+BTP-2024-0142,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-04-26,Haute
+BTP-2024-0146,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-03,Critique
+BTP-2024-0147,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-08-04,Haute
+BTP-2024-0150,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-09-12,Moyenne
+BTP-2024-0151,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-01-28,Haute
+BTP-2024-0154,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-05-01,Haute
+BTP-2024-0157,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-25,Moyenne
+BTP-2024-0168,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-03-24,Critique
+BTP-2024-0197,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-23,Moyenne
+BTP-2024-0208,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-07-24,Haute
+BTP-2024-0210,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-15,Moyenne
+BTP-2024-0213,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-07-24,Moyenne
+BTP-2024-0214,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-08-18,Moyenne
+BTP-2024-0215,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-08-24,Haute
+BTP-2024-0217,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-05,Moyenne
+BTP-2024-0223,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-05-13,Moyenne
+BTP-2024-0227,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-05-20,Moyenne
+BTP-2024-0238,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-05-15,Moyenne
+BTP-2024-0245,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-09-01,Moyenne
+BTP-2024-0250,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-27,Moyenne
+BTP-2024-0266,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-03-27,Moyenne
+BTP-2024-0270,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-02-11,Haute
+BTP-2024-0275,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-11-08,Moyenne
+BTP-2024-0286,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-03-31,Moyenne
+BTP-2024-0299,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-09-09,Moyenne
+BTP-2024-0310,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-08,Moyenne
+BTP-2024-0315,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-08-06,Moyenne
+BTP-2024-0322,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-11-21,Haute
+BTP-2024-0327,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-05-30,Moyenne
+BTP-2024-0339,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-11,Moyenne
+BTP-2024-0346,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-10,Critique
+BTP-2024-0351,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-19,Moyenne
+BTP-2024-0369,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-11-15,Moyenne
+BTP-2024-0370,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-11-27,Moyenne
+BTP-2024-0372,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-27,Haute
+BTP-2024-0373,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-09-09,Haute
+BTP-2024-0376,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-01-06,Moyenne
+BTP-2024-0386,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-10-13,Moyenne
+BTP-2024-0390,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-08-16,Haute
+BTP-2024-0393,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-11-23,Moyenne
+BTP-2024-0397,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-06-03,Moyenne
+BTP-2024-0398,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-05-29,Moyenne
+BTP-2024-0405,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-09-05,Moyenne
+BTP-2024-0408,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-05-25,Haute
+BTP-2024-0409,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-09-15,Moyenne
+BTP-2024-0413,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-01-14,Moyenne
+BTP-2024-0414,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-07-18,Moyenne
+BTP-2024-0418,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-14,Moyenne
+BTP-2024-0429,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-08-11,Moyenne
+BTP-2024-0441,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-10-30,Haute
+BTP-2024-0442,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-10-09,Moyenne
+BTP-2024-0443,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-07-10,Moyenne
+BTP-2024-0444,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-06-03,Moyenne
+BTP-2024-0455,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-06-06,Moyenne
+BTP-2024-0486,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-05-08,Moyenne
+BTP-2024-0492,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-03-28,Haute
+BTP-2024-0494,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2025-01-31,Moyenne
+BTP-2024-0505,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-06-06,Moyenne
+BTP-2024-0513,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-04-26,Haute
+BTP-2024-0514,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-09-01,Moyenne
+BTP-2024-0516,Document obsolète,Non mis à jour depuis plus de 180 jours. Dernière MAJ : 2024-08-24,Haute
+BTP-2024-0001,Statut invalide,"Statut hors référentiel : 'Archivé'. Valeurs autorisées : ['En révision', 'Manquant', 'Obsolète', 'Validé']",Moyenne
+BTP-2024-0002,Statut invalide,"Statut hors référentiel : 'Archivé'. Valeurs autorisées : ['En révision', 'Manquant', 'Obsolète', 'Validé']",Moyenne
+BTP-2024-0003,Statut invalide,"Statut hors référentiel : 'Archivé'. Valeurs autorisées : ['En révision', 'Manquant', 'Obsolète', 'Validé']",Moyenne
+BTP-2024-0004,Statut invalide,"Statut hors référentiel : 'Archivé'. Valeurs autorisées : ['En révision', 'Manquant', 'Obsolète', 'Validé']",Moyenne
+BTP-2024-0005,Statut invalide,"Statut hors référentiel : 'Draft'. Valeurs autorisées : ['En révision', 'Manquant', 'Obsolète', 'Validé']",Moyenne
+BTP-2024-0028,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : UNKNOWN,Critique
+BTP-2024-0045,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : UNKNOWN,Critique
+BTP-2024-0078,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Durand K.,Critique
+BTP-2024-0102,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Lefebvre M.,Critique
+BTP-2024-0130,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : UNKNOWN,Critique
+BTP-2024-0136,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Petit A.,Critique
+BTP-2024-0140,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Bernard C.,Critique
+BTP-2024-0155,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Durand K.,Critique
+BTP-2024-0173,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Martin T.,Critique
+BTP-2024-0178,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Petit A.,Critique
+BTP-2024-0186,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Rousseau S.,Critique
+BTP-2024-0189,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Durand K.,Critique
+BTP-2024-0202,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Petit A.,Critique
+BTP-2024-0206,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Petit A.,Critique
+BTP-2024-0216,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Martin T.,Critique
+BTP-2024-0224,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : UNKNOWN,Critique
+BTP-2024-0236,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Bernard C.,Critique
+BTP-2024-0253,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : UNKNOWN,Critique
+BTP-2024-0258,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : UNKNOWN,Critique
+BTP-2024-0261,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Petit A.,Critique
+BTP-2024-0271,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Rousseau S.,Critique
+BTP-2024-0273,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Rousseau S.,Critique
+BTP-2024-0309,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Rousseau S.,Critique
+BTP-2024-0318,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Durand K.,Critique
+BTP-2024-0328,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Petit A.,Critique
+BTP-2024-0329,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Rousseau S.,Critique
+BTP-2024-0334,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Martin T.,Critique
+BTP-2024-0335,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Rousseau S.,Critique
+BTP-2024-0338,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Petit A.,Critique
+BTP-2024-0357,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Lefebvre M.,Critique
+BTP-2024-0396,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Martin T.,Critique
+BTP-2024-0399,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Durand K.,Critique
+BTP-2024-0431,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Durand K.,Critique
+BTP-2024-0437,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Martin T.,Critique
+BTP-2024-0472,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Durand K.,Critique
+BTP-2024-0473,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Durand K.,Critique
+BTP-2024-0474,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Rousseau S.,Critique
+BTP-2024-0482,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Lefebvre M.,Critique
+BTP-2024-0490,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Lefebvre M.,Critique
+BTP-2024-0493,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Petit A.,Critique
+BTP-2024-0502,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Durand K.,Critique
+BTP-2024-0517,Anomalie critique,Document critique non conforme — action immédiate requise. Responsable : Rousseau S.,Critique
