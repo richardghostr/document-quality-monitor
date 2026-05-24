@@ -28,8 +28,8 @@ class AlertingSystem:
         self.smtp_config = config.get("smtp", {})
         self.smtp_host = self.smtp_config.get("host", "smtp.gmail.com")
         self.smtp_port = self.smtp_config.get("port", 587)
-        self.sender_email = self.smtp_config.get("user")
-        self.sender_password = self.smtp_config.get("password")
+        self.sender_email = self.smtp_config.get("projetpython12345@gmail.com")
+        self.sender_password = self.smtp_config.get("esjk jtgz syvw lbmq")
         self.destinataires_defaut = self.smtp_config.get("destinataires_defaut", [])
         self.sujet_prefixe = self.smtp_config.get("sujet_prefixe", "[DQM]")
 
